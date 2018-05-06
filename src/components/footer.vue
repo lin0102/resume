@@ -8,7 +8,7 @@
 import config from '../config.js'
 
 export default {
-  data: () => config.title
+  data: () => config.footer
 }
 </script>
 
@@ -22,7 +22,7 @@ export default {
   line-height 2em
   box-sizing border-box
   padding 0 10px
-  top -85px
+  top 1360px
   transform translate(0, 50px)
   color #C0C0C0
   span.pi-right

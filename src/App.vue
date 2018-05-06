@@ -1,17 +1,27 @@
 <template lang="pug">
   div#content
+    Print
     Title
+    Footer
+    Header
+    About
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Print from './components/print.vue'
+import Header from './components/header.vue'
 import Title from './components/title.vue'
+import Footer from './components/footer.vue'
+import About from './components/about.vue'
 
 export default {
   name: 'app',
   components: {
-    HelloWorld,
-    Title
+    Print,
+    Header,
+    Title,
+    Footer,
+    About,
   }
 }
 </script>
@@ -47,11 +57,12 @@ a
   color inherit
 
 #content
+  position relative
   background white
-  size 1024px 1447px
+  size 1024px 1400px
   margin 55px auto 100px
   border-radius 5px
-  overflow hidden
+  // overflow hidden
   box-shadow 0 0 15px silver
   transition all .2s ease-out
 
@@ -59,6 +70,7 @@ a
   #content
     border-radius 0
     margin 0
+    height 1447px
 
 @media screen and (max-width 1024px)
   body
