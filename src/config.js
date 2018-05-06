@@ -13,14 +13,14 @@ const config = {
    * @param {[String]} 需要显示的内容
    */
   footer: {
-    left: '最后更新时间：2018年5月',
+    left: '',
     right: '网页版简历：coderming.com/resume'
   },
   // 顶部栏
   // 用法和footer一样
   title: {
     left: '最后更新时间：2018年5月',
-    right: '网页版简历：coderming.com/resume'
+    right: ''
   },
 
   /**
@@ -76,8 +76,15 @@ const config = {
      * 注意是png格式，长宽比应为1:1
      */
     weChatQrCode: true,
-  }
-  
+  },
+
+
+  /**
+   * 是否展示界面最下方 “模版 by CoderMing” 字样
+   * 如果你认为在个人的页面上显示此条消息不合适，可以通过此方法快速消除
+   * 什么？你 star 没给也好意思注释这一条？？？ :(
+   */
+  showAboutInfo: true
 }
 
 export default config

@@ -1,5 +1,6 @@
 <template lang="pug">
-  a#about(href="https://github.com/coderming")
+  a#about(v-if="showAboutInfo"
+          href="https://github.com/coderming")
     span.iconfont.icon-share_link
     span 模版 by CoderMing
 </template>

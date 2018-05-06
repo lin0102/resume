@@ -1,5 +1,5 @@
 <template lang="pug">
-  header#title
+  header
     .qrcode(v-if="weChatQrCode")
       img(src="../static/wechat.png")
     .tit-top
@@ -53,7 +53,7 @@ export default {
 <style scoped lang="stylus">
 @import '../styles/config.styl'
 
-#title
+header
   size 100% 250px
   color white
   background $mainColor
@@ -123,6 +123,10 @@ export default {
         display none
         padding 0 15px
 
+@media print
+  header
+    border-radius 0
+
 
 @media screen and (max-width 1024px)
   .qrcode
@@ -131,7 +135,7 @@ export default {
 // 原谅我 就不再嵌套调用了
 // 所以这儿会出现很多的!important， emmm...
 @media screen and (max-width 720px)
-  #title
+  header
     height auto
     padding 20px 30px
   
