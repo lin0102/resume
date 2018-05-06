@@ -1,5 +1,5 @@
 <template lang="pug">
-  #padi
+  #title
     span.pi-left {{left}}
     span.pi-right {{right}}
 </template>
@@ -15,21 +15,26 @@ export default {
 <style scoped lang="stylus">
 @import '../styles/config.styl'
 
-#padi
+#title
   position absolute
-  size 1024px auto
+  size 100vw auto
+  max-width 1024px
+  overflow hidden
   font-size 14px
   line-height 2em
   box-sizing border-box
   padding 0 10px
-  top -85px
-  transform translate(0, 50px)
+  top -35px
   color #C0C0C0
   span.pi-right
     float right
 
 @media print
-  #padi
-    top 1350px
+  #title
     padding 0 30px
+
+
+@media screen and (max-width 1024px)
+  #title
+    display none
 </style>

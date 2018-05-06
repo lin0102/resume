@@ -17,19 +17,31 @@ export default {
 
 #padi
   position absolute
-  size 1024px auto
+  overflow hidden
+  size 100vw auto
+  max-width 1024px
   font-size 14px
   line-height 2em
   box-sizing border-box
   padding 0 10px
-  top 1360px
-  transform translate(0, 50px)
+  top 1410px
   color #C0C0C0
   span.pi-right
     float right
 
 @media print
   #padi
-    top 1350px
+    top 1400px
     padding 0 30px
+    width 1024px
+
+@media screen and (max-width 1024px)
+  #padi
+    position relative
+    span
+      display block
+      float none !important
+      text-align center
+      clear both
+      width 100%
 </style>

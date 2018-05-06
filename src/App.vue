@@ -1,9 +1,9 @@
 <template lang="pug">
   div#content
+    Header
     Print
     Title
     Footer
-    Header
     About
 </template>
 

@@ -34,4 +34,16 @@ export default {
 @media print
   #about
     display none
+
+@media screen and (max-width 1024px)
+  #about
+    left 0
+    margin 0 auto
+    text-align center
+    box-sizing border-box
+    size 100% auto
+    display block
+    padding 0 0 10px
+    margin-top -30px
+    position relative
 </style>

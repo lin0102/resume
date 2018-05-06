@@ -8,19 +8,22 @@ const config = {
    * 脚标栏
    * 网页显示的时候 将会显示在页面下方（非页面上）
    * 打印时会显示在页面最下面
-   * 若为空，则不显示
+   * 若为空，则不显示   
    * 建议每边不超过15字
    * @param {[String]} 需要显示的内容
    */
   footer: {
-    left: '',
+    left: '网页版简历：coderming.com/resume',
     right: '网页版简历：coderming.com/resume'
   },
-  // 顶部栏
-  // 用法和footer一样
+  /**
+   * 顶部栏
+   * 用法和footer一样
+   * 不同的是，顶部栏不会出现在打印页面以及pad和手机端
+   */
   title: {
     left: '最后更新时间：2018年5月',
-    right: ''
+    right: '网页版简历：coderming.com/resume'
   },
 
   /**
