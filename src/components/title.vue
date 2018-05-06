@@ -10,7 +10,9 @@
       .tb-left
         h3.tbl-item(v-for="item in profiles") {{item}}
       .tb-right
-        a(class="tbr-item" v-for="item in contacts") {{item.address}}
+        a(class="tbr-item"
+          v-for="item in contacts"
+          :href="judjeLink(item) && judjeLink(item) + '://' + item.address") {{item.address}}
           span(:class="'iconfont ' + judjeIcon(item)")
         span(:class="'iconfont tbr-item-mobile ' + judjeIcon(item)" 
            v-for="item in contacts")
@@ -32,6 +34,16 @@ export default {
         case 'qq': return 'icon-qq-a'
         default: return ''
       }
+    },
+    judjeLink(item) {
+      switch (item.type) {
+        case 'github': return `https`
+        case 'mail': return 'mailto'
+        case 'blog': return 'http'
+        case 'wechat': return ''
+        case 'qq': return ''
+        default: return ''
+      }
     }
   }
 }
@@ -45,15 +57,16 @@ export default {
   color white
   background $mainColor
   box-sizing border-box
-  padding 35px 60px 20px
+  padding 30px 60px 20px
   overflow hidden
 
   .qrcode
     float left
     size 180px
-    margin 0 25px 0 -25px
+    margin 8px 25px 0 -25px
     img
       size 100%
+
   .tit-top
     overflow hidden
     padding-bottom 6px
@@ -99,6 +112,9 @@ export default {
         font-size 15px
         line-height 1.8em
         text-align right
+        transition opacity .2s ease
+        &:hover
+          opacity .7
       span.tbr-item-mobile
         display none
         padding 0 15px
@@ -130,11 +146,12 @@ export default {
     text-align center !important
 
   h1
-    font-size 36px !important
+    font-size 40px !important
   h2
-    font-size 24px !important
+    font-size 28px !important
+    line-height 2em
   h3
-    font-size 15px !important
+    font-size 16px !important
 
   .tb-right
     margin-top -10px !important

@@ -34,13 +34,17 @@ export default {
     font-family: "Lucida Grande", "Hiragino Sans GB", "Hiragino Sans GB W3", $font-family
   }
 }
-html, body, h1, h2, h3, h4, h5, h6, hr, p
+html, body, h1, h2, h3, h4, h5, h6, hr, p, a
   margin 0
   padding 0
   font-family $fontFamily
 
 body
   background $bgColor
+
+a
+  text-decoration none
+  color inherit
 
 #content
   background white
@@ -59,7 +63,7 @@ body
 @media screen and (max-width 1024px)
   body
     background white
-    
+
   #content
     size 100% auto
     margin 0
