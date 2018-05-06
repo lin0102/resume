@@ -1,4 +1,7 @@
 const config = {
+  changeInfo: {
+    article: '最后更新时间：2018年5月'
+  },
   /**
    * 顶部的参数
    */

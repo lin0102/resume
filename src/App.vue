@@ -49,9 +49,20 @@ body
   border-radius 5px
   overflow hidden
   box-shadow 0 0 15px silver
+  transition all .2s ease-out
 
 @media print
   #content
-    border-radius none
+    border-radius 0
     margin 0
+
+@media screen and (max-width 1024px)
+  body
+    background white
+    
+  #content
+    size 100% auto
+    margin 0
+    border-radius 0
+    min-width 320px
 </style>

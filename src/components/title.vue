@@ -4,14 +4,16 @@
       img(src="../static/wechat.png")
     .tit-top
       h1.name {{name}}
-        small(v-if="nickName") {{nickName}}
+      small.nick(v-if="nickName") {{nickName}}
       h2.job {{job}}
     .tit-bottom
       .tb-left
         h3.tbl-item(v-for="item in profiles") {{item}}
       .tb-right
-        h4(class="tbr-item" v-for="item in contacts") {{item.address}}
+        a(class="tbr-item" v-for="item in contacts") {{item.address}}
           span(:class="'iconfont ' + judjeIcon(item)")
+        span(:class="'iconfont tbr-item-mobile ' + judjeIcon(item)" 
+           v-for="item in contacts")
 </template>
 
 <script>
@@ -44,6 +46,7 @@ export default {
   background $mainColor
   box-sizing border-box
   padding 35px 60px 20px
+  overflow hidden
 
   .qrcode
     float left
@@ -59,10 +62,10 @@ export default {
       font-size 50px
       font-weight 500
       float left
-      small
-        padding-left 20px
-        font-size 24px
-        font-weight 400
+    small
+      padding-left 20px
+      font-size 24px
+      font-weight 400
     h2
       float right
       font-weight 300
@@ -89,10 +92,55 @@ export default {
     .tb-right
       float right
       margin-top -2px
-      h4.tbr-item
+      text-align center
+      a.tbr-item
+        display block
         font-weight 400
         font-size 15px
         line-height 1.8em
         text-align right
+      span.tbr-item-mobile
+        display none
+        padding 0 15px
+
+
+@media screen and (max-width 1024px)
+  .qrcode
+    display none
+
+// 原谅我 就不再嵌套调用了
+// 所以这儿会出现很多的!important， emmm...
+@media screen and (max-width 720px)
+  #title
+    height auto
+    padding 20px 30px
+  
+  .nick, .tbr-item
+    display none !important
+    
+
+  h1, small, h2, h3, .tb-left
+    display block
+    clear both
+    float none !important
+    margin 0 auto !important
+    text-align center !important
+    
+  .tbl-item
+    text-align center !important
+
+  h1
+    font-size 36px !important
+  h2
+    font-size 24px !important
+  h3
+    font-size 15px !important
+
+  .tb-right
+    margin-top -10px !important
+    size 100% auto
+    .tbr-item-mobile
+      display inline !important
+  
 
 </style>
