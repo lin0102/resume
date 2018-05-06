@@ -1,27 +1,57 @@
-<template>
-  <div id="app">
-    <img src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+<template lang="pug">
+  div#content
+    Title
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
+import Title from './components/title.vue'
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    HelloWorld,
+    Title
   }
 }
 </script>
 
 <style lang="stylus">
-#app
-  font-family 'Avenir', Helvetica, Arial, sans-serif
-  -webkit-font-smoothing antialiased
-  -moz-osx-font-smoothing grayscale
-  text-align center
-  color #2c3e50
-  margin-top 60px
+@import './styles/config.styl'
+@import './styles/iconfont/iconfont.css'
+
+@css {
+  html, body, h1, h2, h3, h4, h5, h6, hr, p {
+    font-size: 50px;
+    font-family: -apple-system, BlinkMacSystemFont,
+      "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell",
+      "Fira Sans", "Droid Sans", "Helvetica Neue",
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: none;
+  }
+  h1 {
+    font-family: "Lucida Grande", "Hiragino Sans GB", "Hiragino Sans GB W3", $font-family
+  }
+}
+html, body, h1, h2, h3, h4, h5, h6, hr, p
+  margin 0
+  padding 0
+  font-family $fontFamily
+
+body
+  background $bgColor
+
+#content
+  background white
+  size 1024px 1447px
+  margin 55px auto 100px
+  border-radius 5px
+  overflow hidden
+  box-shadow 0 0 15px silver
+
+@media print
+  #content
+    border-radius none
+    margin 0
 </style>
