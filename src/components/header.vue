@@ -33,6 +33,7 @@ export default {
         case 'blog': return 'icon-zhuye'
         case 'wechat': return 'icon-weixin'
         case 'qq': return 'icon-qq'
+        case 'tell': return 'icon-dianhua'
         default: return ''
       }
     },

@@ -62,7 +62,7 @@ const config = {
      * address： 渲染出来的文本信息
      * 注意：请勿添加协议名，若添加，将会导致链接出错
      * type（可选）：icon的名称
-     * icon目前有以下五种： blog, github, mail, qq, wechat
+     * icon目前有以下五种： tell, blog, github, mail, qq, wechat
      * 如果有更多的icon需求
      * 请提issue
      */
@@ -70,7 +70,7 @@ const config = {
       {address: 'coderming.com', type: 'blog'},
       {address: 'github.com/coderming', type: 'github'},
       {address: 'coderming@foxmail.com', type: 'mail'},
-      {address: '363781303', type: 'qq'},
+      {address: '17323410086', type: 'tell'},
     ],
     /**
      * @param {[Boolean]} 是否显示微信二维码
