@@ -60,7 +60,7 @@ header
   background $mainColor
   border-radius 5px 5px 0 0
   box-sizing border-box
-  padding 30px 60px 20px
+  padding 25px 60px 25px
   overflow hidden
 
   .qrcode

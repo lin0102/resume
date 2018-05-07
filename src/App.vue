@@ -1,24 +1,33 @@
 <template lang="pug">
   div#content
     Header
+    SectionLeft
+    SectionRight
     Print
     Title
     Footer
-    About
+    About(v-if="showAboutInfo")
 </template>
 
 <script>
 import Print from './components/print.vue'
 import Header from './components/header.vue'
+import SectionLeft from './components/section-left.vue'
+import SectionRight from './components/section-right.vue'
 import Title from './components/title.vue'
 import Footer from './components/footer.vue'
 import About from './components/about.vue'
 
+import config from './config.js'
+
 export default {
-  name: 'app',
+  name: 'resume',
+  data: () => config,
   components: {
     Print,
     Header,
+    SectionLeft,
+    SectionRight,
     Title,
     Footer,
     About,

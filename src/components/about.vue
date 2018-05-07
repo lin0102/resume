@@ -1,6 +1,5 @@
 <template lang="pug">
-  a#about(v-if="showAboutInfo"
-          href="https://github.com/coderming")
+  a#about(href="https://github.com/coderming")
     span.iconfont.icon-share_link
     span 模版 by CoderMing
 </template>
@@ -46,4 +45,5 @@ export default {
     padding 0 0 10px
     margin-top -30px
     position relative
+    top 115px
 </style>

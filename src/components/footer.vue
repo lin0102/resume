@@ -1,14 +1,21 @@
 <template lang="pug">
   #padi
-    span.pi-left {{left}}
-    span.pi-right {{right}}
+    span.pi-left(v-html="left")
+    span.pi-right(v-html="right")
 </template>
 
 <script>
 import config from '../config.js'
 
 export default {
-  data: () => config.footer
+  data: () => {
+    let data = config.footer
+    
+    config.footer.left = config.footer.left.replace(/\ /g, '&nbsp')
+    config.footer.right = config.footer.right.replace(/\ /g, '&nbsp')
+
+    return data
+  }
 }
 </script>
 
@@ -38,6 +45,7 @@ export default {
 @media screen and (max-width 1024px)
   #padi
     position relative
+    top 80px
     span
       display block
       float none !important

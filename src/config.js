@@ -13,7 +13,7 @@ const config = {
    * @param {[String]} 需要显示的内容
    */
   footer: {
-    left: '网页版简历：coderming.com/resume',
+    left: '网页版简历：coderming.com/                   resume ',
     right: '网页版简历：coderming.com/resume'
   },
   /**
@@ -81,6 +81,36 @@ const config = {
     weChatQrCode: true,
   },
 
+  /**
+   * 正文部分
+   * 说明：本模版采用两栏式显示
+   * 分别呢 sectionLeft 和 sectionRight
+   * 两栏的东西不会合并显示
+   * 请自己判断并适应页面尺寸
+   */
+  sectionLeft: [
+    /**
+     * 每一个小模块，都有以下几个配置项：
+     * title： 顶部名称栏
+     * content: 里面的内容，需要注意的是每一条内容都会换行
+     */
+    {
+      title: '教育经历',
+      content: [
+        /**
+         * 有以下几种情况：
+         * 当type === 'article' 时：
+         *   article：需要显示的文字
+         *   showDot：是否展示该段文字左边的小点
+         *   smallArticle：article 之后的小文字
+         * 当type === 'twoBlock'时：
+         *   left：左侧要显示的文字
+         *   right：右侧要显示的文字
+         */
+        {article: ''}
+      ]
+    }
+  ],
 
   /**
    * 是否展示界面最下方 “模版 by CoderMing” 字样

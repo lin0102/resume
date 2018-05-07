@@ -1,14 +1,21 @@
 <template lang="pug">
   #title
-    span.pi-left {{left}}
-    span.pi-right {{right}}
+    span.pi-left(v-html="left")
+    span.pi-right(v-html="right")
 </template>
 
 <script>
 import config from '../config.js'
 
 export default {
-  data: () => config.title
+  data: () => {
+    let data = config.title
+    
+    config.title.left = config.title.left.replace(/\ /g, '&nbsp')
+    config.title.right = config.title.right.replace(/\ /g, '&nbsp')
+
+    return data
+  }
 }
 </script>
 
