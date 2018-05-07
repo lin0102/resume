@@ -15,9 +15,22 @@
 
 ### 使用方式
 
-进入`src`目录，修改`config.json`里的参数即可。无需修改其他。
+- 启动vue/cli自带的热更新开发server：
 
-若想进行更大的修改的话，请进入`src/components`里修改代码。
+```
+$ npm run serve
+```
+
+- 进入`src`目录，修改`config.json`里的参数即可。无需修改其他。若想进行更大的修改的话，请进入`src/components`里修改代码。
+- 修改完成后，使用npm命令输出成品：
+
+```
+$npm run build
+```
+
+成品会放在dist文件夹内。
+
+
 
 
 
