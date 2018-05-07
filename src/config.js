@@ -70,7 +70,7 @@ const config = {
       {address: 'coderming.com', type: 'blog'},
       {address: 'github.com/coderming', type: 'github'},
       {address: 'coderming@foxmail.com', type: 'mail'},
-      {address: '17323410086', type: 'tell'},
+      {address: '1732341****', type: 'tell'},
     ],
     /**
      * @param {[Boolean]} 是否显示微信二维码
@@ -99,7 +99,7 @@ const config = {
       content: [
         /**
          * 文章正文部分
-         * article：需要显示的文字，支持 b, i, a 等一切html标签，请自由配置
+         * left, right: 需要显示的文字，支持 b, i, a 等一切html标签，请自由配置
          * 同时提供以下几种样式配置方法
          * showDot：是否展示该段文字左边的小点。如果显示的话，这段文字将会往右缩进一丢丢
          * blod: 该段文字是否加粗。注意，加粗后会有一点点上边距（一般情况下blod的行用于小标题）
