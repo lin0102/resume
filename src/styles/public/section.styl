@@ -1,0 +1,75 @@
+@import '../config.styl'
+
+.s-item
+  size 100% auto 
+  overflow hidden
+  color $mainFontColor
+  padding-bottom 30px
+  .need-blod
+    font-weight 700
+    font-size $articleSize + 1px !important
+    line-height 1.7em
+    padding-top .3em
+  h3
+    font-size 24px
+    size 100% auto 
+    background #EEE
+    color #222
+    line-height 1.6em
+    padding-left 10px
+    box-sizing border-box
+    border-left 5px solid $mainColor
+    margin-bottom 5px
+  .si-p
+    font-size $articleSize
+    color #4A4A4A      
+    line-height 1.6em
+    position relative
+    padding-top .4em
+    &.have-dot
+      padding-left 10px
+    span.sip-dot
+      position absolute 
+      color $mainColor
+      padding 0 3px
+      left -4px
+      font-size 20px
+      line-height $articleSize * 1.8
+      top 0
+      font-weight 900
+    .sip-right
+      float right
+    a
+      font-size $articleSize
+      padding 0 6px 1px
+      margin-top 1px
+      border 1px solid $mainColor
+      border-radius 3px
+      font-weight 600
+      color $mainColor
+      transition all .2s ease
+      &:hover
+        color white
+        background $mainColor
+    em
+      padding 0 2px
+      margin 0 2px
+      font-size $articleSize
+      background #F5F5F5
+      border 1px solid #F0F0F0
+      border-radius 2px
+      font-style normal
+      color #333
+    strong, b
+      font-weight 700
+      padding 0 2px
+      em
+        color inherit
+    strong 
+      color $mainColor
+
+@media screen and (max-width 1024px)
+  .sip-right
+    float none !important
+    margin-right 5px
+

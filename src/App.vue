@@ -65,6 +65,7 @@ a
   text-decoration none
   color inherit
 
+
 #content
   position relative
   background white

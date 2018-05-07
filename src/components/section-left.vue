@@ -1,6 +1,12 @@
 <template lang="pug">
   section.s-left
-    p {{123414}}
+    .s-item(v-for="item in sectionLeft")
+      h3 {{item.title}}
+      div(:class="'si-p ' + (para.blod ? 'need-blod ' : '') + (para.showDot ? 'have-dot' : '')"
+          v-for="para in item.content")
+        span.sip-dot(v-if="para.showDot")  · 
+        span.sip-right(v-if="para.right" v-html="para.right")
+        span.sip-left(v-html="para.left")
 </template>
 
 <script>
@@ -11,8 +17,9 @@ export default {
 }
 </script>
 
-<style scoped lang="stylus">
+<style lang="stylus">
 @import '../styles/config.styl'
+@import '../styles/public/section.styl'
 
 .s-left
   float left
@@ -20,7 +27,7 @@ export default {
   width 50%
   height 1100px
   box-sizing border-box
-  padding 0 30px
+  padding 0 20px 0 40px
   border-right 1px solid #EEEEEE
 
 
@@ -30,5 +37,7 @@ export default {
     float none
     clear both
     border none
+    padding 0 20px
+
 
 </style>
