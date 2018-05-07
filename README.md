@@ -21,7 +21,7 @@
 $ npm run serve
 ```
 
-- 进入`src`目录，修改`config.json`里的参数即可。无需修改其他。若想进行更大的修改的话，请进入`src/components`里修改代码。
+- 进入`src`目录，修改`config.js`里的参数即可。无需修改其他。若想进行更大的修改的话，请进入`src/components`里修改代码。
 - 修改完成后，使用npm命令输出成品：
 
 ```
