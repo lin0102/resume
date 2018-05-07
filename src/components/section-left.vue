@@ -18,7 +18,7 @@ export default {
   float left
   margin-top 30px
   width 50%
-  height 1080px
+  height 1100px
   box-sizing border-box
   padding 0 30px
   border-right 1px solid #EEEEEE
@@ -26,7 +26,7 @@ export default {
 
 @media screen and (max-width 1024px)
   .s-left
-    width: 100%
+    size 100% auto
     float none
     clear both
     border none

@@ -90,4 +90,5 @@ a
     margin 0
     border-radius 0
     min-width 320px
+    box-shadow none
 </style>

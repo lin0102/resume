@@ -17,13 +17,14 @@ export default {
   float right
   margin-top 30px
   width 50%
-  height 1080px
+  height 1100px
   box-sizing border-box
+  padding 0 30px
 
 
 @media screen and (max-width 1024px)
   .s-right
-    width: 100%
+    size 100% auto
     float none
     clear both
 

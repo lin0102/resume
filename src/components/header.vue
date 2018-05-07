@@ -130,8 +130,10 @@ header
 
 
 @media screen and (max-width 1024px)
-  .qrcode
-    display none
+  header
+    border-radius 0 !important
+    .qrcode
+      display none
 
 // 原谅我 就不再嵌套调用了
 // 所以这儿会出现很多的!important， emmm...
