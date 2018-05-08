@@ -17,7 +17,7 @@ export default {
 }
 </script>
 
-<style scoped lang="stylus">
+<style lang="stylus">
 @import '../styles/config.styl'
 @import '../styles/public/section.styl'
 

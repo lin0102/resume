@@ -25,7 +25,7 @@ $ npm run serve
 - 修改完成后，使用npm命令输出成品：
 
 ```
-$npm run build
+$ npm run build
 ```
 
 成品会放在dist文件夹内。
@@ -51,8 +51,8 @@ $npm run build
 |  ├── config.js   //本简历的配置参数
 |  ├── main.js  //打包入口
 |  ├── static //微信二维码存放地
-|  └── styles  //央视文件
-└── vue.config.js
+|  └── styles  //样式文件
+└── vue.config.js   //vue-cli配置文件
 ```
 
 
