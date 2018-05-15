@@ -2,7 +2,8 @@
   section.s-left
     .s-item(v-for="item in sectionLeft")
       h3 {{item.title}}
-      div(:class="'si-p ' + (para.blod ? 'need-blod ' : '') + (para.showDot ? 'have-dot' : '')"
+      div(:class="{'need-blod': para.blod, 'have-dot': para.showDot}"
+          class="si-p"
           v-for="para in item.content")
         span.sip-dot(v-if="para.showDot")  · 
         span.sip-right(v-if="para.right" v-html="para.right")

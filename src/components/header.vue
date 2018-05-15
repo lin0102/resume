@@ -13,8 +13,8 @@
         a(class="tbr-item"
           v-for="item in contacts"
           :href="judjeLink(item) && judjeLink(item) + '://' + item.address") {{item.address}}
-          span(:class="'iconfont ' + judjeIcon(item)")
-        a(:class="'iconfont tbr-item-mobile ' + judjeIcon(item)" 
+          span(:class="judjeIcon(item)" class="iconfont")
+        a(:class="judjeIcon(item)" class="iconfont tbr-item-mobile" 
              v-for="item in contacts"
              :href="judjeLink(item) && judjeLink(item) + '://' + item.address")
 </template>
