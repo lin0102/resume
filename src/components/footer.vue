@@ -46,6 +46,7 @@ export default {
   #padi
     position relative
     top 80px
+    box-sizing border-box
     span
       display block
       float none !important
