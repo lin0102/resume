@@ -149,7 +149,7 @@ const config = {
         },
         {
           type: 'normal', 
-          left: '16年12月起，开始以<em>coderming.com</em>作为个人域名，搭建并维护<em>Wordpress</em>、<em>Ghost</em>的个人技术博客。' + 
+          left: '16年12月起，开始以<em>coderming.com</em>作为个人域名，搭建并维护<em>Ghost</em>引擎的个人技术博客。' + 
                 '利用<em>Nginx</em>反向代理实现了<em>https</em>站点。', 
           right: '', 
           showDot: true,
@@ -163,8 +163,9 @@ const config = {
         },
         {
           type: 'normal', 
-          left: '基于<em>Canvas</em>开发的微信小游戏。纯原生开发，完全<em>OOP</em>的编程方法。同时在开发过程中同步更新踩坑文章，' + 
-                '截止2018年5月1日，<strong>在github上收获了40+ star， 15+ watch。</strong>', 
+          left: '基于<em>Canvas</em>开发的微信小游戏。使用原生Canvas API开发，完全<em>OOP</em>的编程思想，' + 
+                '尝试着做性能优化和长宽比适配，同时在开发过程中同步更新踩坑文章。' + 
+                '截止2018年6月，<strong>在github上收获了50+ star， 15+ watch。</strong>', 
           right: '', 
           showDot: true,
         },
@@ -178,8 +179,8 @@ const config = {
       content: [
         {
           type: 'normal', 
-          left: '2018.4 &nbsp&nbsp - &nbsp 蓝桥杯竞赛重庆赛区C/C++ B组 · 一等奖', 
-          right: '省部级', 
+          left: '2018.5 &nbsp&nbsp - &nbsp 蓝桥杯竞赛全国决赛C/C++ B组 · 优秀奖', 
+          right: '国家级', 
           showDot: false,
           blod: true,
         },
@@ -249,7 +250,7 @@ const config = {
           type: 'normal', 
           left: '使用<em>HTML(5)</em>、<em>Less</em>、<em>jQuery</em>等各种技术实现的拥有完整开发流程的大型桌面端页面。' + 
                 '使用<em>Less</em>作为CSS预处理器,<em>Gulp</em>实现开发流程自动化。前端开发周期15天，设计了基于<em>iframe</em>的主-子页面结构实现免刷新，便于开发。' + 
-                '大量利用<em>CSS3</em>的特性，动画实现采用<em>keyframes</em>GPU渲染，保证了页面的流畅度。开发过程与产品视觉进行沟通，对界面进行了精细的优化。' + 
+                '大量利用<em>CSS3</em>的特性，动画实现采用<em>keyframes</em>强制GPU渲染，保证了页面的流畅度。开发过程与产品视觉进行沟通，对界面进行了精细的优化。' + 
                 '<strong>上线一个月UV<em>6k+</em>，PV<em>2W+</em>。', 
           right: '', 
           showDot: true,
@@ -263,7 +264,7 @@ const config = {
         },
         {
           type: 'normal', 
-          left: '基于<em>Vue.js(2.x)</em>开发的SPA。使用<em>Vue-cli</em>提供的基于<em>Webpack</em>的全尺寸开发脚手架、<em>Stylus</em>进行开发。' + 
+          left: '基于<em>Vue.js(2.x)</em>开发的SPA。使用<em>Vue-cli</em>提供的基于<em>WebPack</em>的全尺寸开发脚手架、<em>Stylus</em>进行开发。' + 
                 '采用模块化开发方式，实现了良好的<em>关注点分离</em>。', 
           right: '', 
           showDot: true,
