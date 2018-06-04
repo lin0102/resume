@@ -114,8 +114,8 @@ const config = {
         },
         {
           type: 'normal', 
-          left: '成立于2000年的互联网团队，共有成员70余人(Web研发部20+)，拥有PRD-UI-前后端开发-运营-迭代的完整开发流程。' + 
-                '参与开发3个完整项目。同时参与上线维护，以及重构代码、增加可维护性。', 
+          left: '<strong>Web 研发部干事</strong> 工作站成立于2000年，共有成员70余人( Web 研发部20+)，拥有PRD-UI-前后端开发-运营-迭代的完整开发流程。' + 
+                '曾参与开发3个完整项目，同时参与上线维护，以及重构代码、增加可维护性等任务。', 
           right: '', 
           showDot: true,
         },
@@ -128,7 +128,7 @@ const config = {
         },
         {
           type: 'normal', 
-          left: '参与开发实验室的项目（前端4人后端10人）。使用实验室自建的<em>Git</em>仓库进行版本控制，注重<em>代码可读性</em>，了解了多人合作项目的开发流程与规范。', 
+          left: '<strong>实验室成员</strong> 参与开发实验室的项目（前端4人后端10人）。使用实验室自建的<em>Git</em>仓库进行版本控制，注重<em>代码可读性</em>，了解了多人合作项目的开发流程与规范。', 
           right: '', 
           showDot: true,
         },
@@ -156,7 +156,7 @@ const config = {
         },
         {
           type: 'normal', 
-          left: 'StrongBox-微信小游戏（开发中）', 
+          left: 'StrongBox-微信小游戏<small>（开发中）</small>', 
           right: '<a href="https://github.com/RedrockTeam/xyx" target="_blank">Source</a>', 
           showDot: false,
           blod: true,
