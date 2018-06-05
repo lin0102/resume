@@ -31,6 +31,9 @@ export default {
   padding 0 20px 0 40px
   border-right 1px solid #EEEEEE
 
+// @media print
+//   .s-left
+//     padding-top 5px
 
 @media screen and (max-width 1024px)
   .s-left

@@ -30,6 +30,9 @@ export default {
   box-sizing border-box
   padding 0 40px 0 20px
 
+// @media print
+//   .s-right
+//     padding-top 5px
 
 @media screen and (max-width 1024px)
   .s-right
