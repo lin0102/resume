@@ -179,21 +179,21 @@ const config = {
       content: [
         {
           type: 'normal', 
-          left: '2018.5 &nbsp&nbsp - &nbsp 蓝桥杯竞赛全国决赛C/C++ B组 · 优秀奖', 
+          left: '2018.5 &nbsp -&nbsp 蓝桥杯全国决赛C/C++ B组 · 优秀奖', 
           right: '国家级', 
           showDot: false,
           blod: true,
         },
         {
           type: 'normal', 
-          left: '2017.10 &nbsp - &nbsp 重庆邮电大学ACM校赛 · 二等奖', 
+          left: '2017.10 &nbsp-&nbsp 重庆邮电大学ACM校赛 · 二等奖', 
           right: '校级', 
           showDot: false,
           blod: true,
         },
         {
           type: 'normal', 
-          left: '2017.12 &nbsp - &nbsp 重庆邮电大学薪火杯科技竞赛 · 优秀奖', 
+          left: '2017.12 &nbsp-&nbsp 重庆邮电大学薪火杯科技竞赛 · 优秀奖', 
           right: '校级', 
           showDot: false,
           blod: true,
