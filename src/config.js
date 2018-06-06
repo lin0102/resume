@@ -70,7 +70,7 @@ const config = {
       {address: 'coderming.com', type: 'blog'},
       {address: 'github.com/coderming', type: 'github'},
       {address: 'coderming@foxmail.com', type: 'mail'},
-      {address: '1732341****', type: 'tell'},
+      {address: '17323410086', type: 'tell'},
     ],
     /**
      * @param {[Boolean]} 是否显示微信二维码

@@ -12,19 +12,31 @@
       .tb-right
         a(class="tbr-item"
           v-for="item in contacts"
-          :href="judjeLink(item) && judjeLink(item) + '://' + item.address") {{item.address}}
+          :href="judjeLink(item) && judjeLink(item) + item.address")
+          span(v-html="item.showAddr")
           span(:class="judjeIcon(item)" class="iconfont")
         a(:class="judjeIcon(item)" class="iconfont tbr-item-mobile" 
              v-for="item in contacts"
-             :href="judjeLink(item) && judjeLink(item) + '://' + item.address")
+             :href="judjeLink(item) && judjeLink(item) + item.address")
 </template>
 
 <script>
 import config from '../config.js'
-import path from 'path'
 
 export default {
-  data: () => config.header,
+  data: () => {
+    let reData = config.header
+    reData.contacts.forEach(item => {
+      if (item.type === 'tell')
+        return item.showAddr = 
+        `${item.address.slice(0, 3)}
+         ${item.address.slice(3, -4)}
+         <span class="print-hide">****</span>
+         <span class="print-show">${item.address.slice(-4)}</span>`
+      item.showAddr = item.address
+    })
+    return reData
+  },
   methods: {
     judjeIcon(item) {
       switch (item.type) {
@@ -39,12 +51,11 @@ export default {
     },
     judjeLink(item) {
       switch (item.type) {
-        case 'github': return `https`
-        case 'mail': return 'mailto'
-        case 'blog': return 'http'
-        case 'wechat': return ''
-        case 'qq': return ''
-        default: return ''
+        case 'github': return 'https://'
+        case 'mail': return 'mailto:'
+        case 'blog': return 'http://'
+        case 'tell': return 'tel:'
+        default: return '##'
       }
     }
   }
@@ -111,6 +122,7 @@ header
       text-align center
       a.tbr-item
         display block
+        white-space nowrap
         font-weight 400
         font-size 15px
         line-height 1.8em

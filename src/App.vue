@@ -65,6 +65,10 @@ a
   text-decoration none
   color inherit
 
+.print-show
+  display none
+.print-hide
+  display inherit
 
 #content
   position relative
@@ -81,6 +85,10 @@ a
     border-radius 0
     margin 0
     height 1447px
+  .print-hide
+    display none
+  .print-show
+    display inherit
 
 @media screen and (max-width 1024px)
   body
