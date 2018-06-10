@@ -22,7 +22,7 @@ const config = {
    * 不同的是，顶部栏不会出现在打印页面以及pad和手机端
    */
   title: {
-    left: '最后更新时间：2018年5月',
+    left: '最后更新时间：2018年6月',
     right: ''
   },
 
@@ -106,28 +106,24 @@ const config = {
          * 由于HTML的解析特性，如果想同时显示多个空格，请使用&nbsp
          */
         {
-          type: 'normal', 
           left: '重庆邮电大学 · 红岩网校工作站', 
           right: '2017.6 至今', 
           showDot: false,
           blod: true,
         },
         {
-          type: 'normal', 
           left: '<strong>Web 研发部干事</strong> 工作站成立于2000年，共有成员70余人( Web 研发部20+)，拥有PRD-UI-前后端开发-运营-迭代的完整开发流程。' + 
-                '曾参与开发3个完整项目，同时参与上线维护，以及重构代码、增加可维护性等任务。', 
+                '曾参与开发3个完整项目，同时参与上线维护、重构代码、增加可维护性等任务。', 
           right: '', 
           showDot: true,
         },
         {
-          type: 'normal', 
           left: '重庆邮电大学 · 计算机通信重点实验室', 
           right: '2017.1 - 2017.6', 
           showDot: false,
           blod: true,
         },
         {
-          type: 'normal', 
           left: '<strong>实验室成员</strong> 参与开发实验室的项目（前端4人后端10人）。使用实验室自建的<em>Git</em>仓库进行版本控制，注重<em>代码可读性</em>，了解了多人合作项目的开发流程与规范。', 
           right: '', 
           showDot: true,
@@ -141,31 +137,40 @@ const config = {
       title: '个人作品',
       content: [
         {
-          type: 'normal', 
           left: '个人技术博客', 
           right: '<a href="https://coderming.com" target="_blank">Link</a>', 
           showDot: false,
           blod: true,
         },
         {
-          type: 'normal', 
           left: '16年12月起，开始以<em>coderming.com</em>作为个人域名，搭建并维护<em>Ghost</em>引擎的个人技术博客。' + 
                 '利用<em>Nginx</em>反向代理实现了<em>https</em>站点。', 
           right: '', 
           showDot: true,
         },
         {
-          type: 'normal', 
-          left: 'StrongBox-微信小游戏<small>（开发中）</small>', 
+          left: 'StrongBox-微信小游戏', 
           right: '<a href="https://github.com/RedrockTeam/xyx" target="_blank">Source</a>', 
           showDot: false,
           blod: true,
         },
         {
-          type: 'normal', 
-          left: '基于<em>Canvas</em>开发的微信小游戏。使用原生Canvas API开发，完全<em>OOP</em>的编程思想，' + 
+          left: '基于<em>Canvas</em>开发的微信小游戏。使用原生Canvas API开发、完全<em>OOP</em>的编程思想，' + 
                 '尝试着做性能优化和长宽比适配，同时在开发过程中同步更新踩坑文章。' + 
-                '截止2018年6月，<strong>在github上收获了50+ star， 15+ watch。</strong>', 
+                '截止2018年6月，<strong>在github上收获了50+ star、15+ watch。</strong>', 
+          right: '', 
+          showDot: true,
+        },
+        {
+          left: '重邮课表-Übersicht插件', 
+          right: '<a href="https://github.com/CoderMing/cqupt-class.widget" target="_blank">Source</a> ' +
+                 '<a href="http://tracesof.net/uebersicht-widgets/#cqupt-class_widget" target="_blank">Link</a>', 
+          showDot: false,
+          blod: true,
+        },
+        {
+          left: '使用<em>CoffeeScript</em>编写、<em>NodeJS</em>获取数据制作的Übersicht插件。' + 
+                '实现了课表显示、定时预报明日课表、缓存数据离线使用等功能。',
           right: '', 
           showDot: true,
         },
@@ -178,21 +183,18 @@ const config = {
       title: '奖项证书',
       content: [
         {
-          type: 'normal', 
           left: '2018.5 &nbsp -&nbsp 蓝桥杯全国决赛C/C++ B组 · 优秀奖', 
           right: '国家级', 
           showDot: false,
           blod: true,
         },
         {
-          type: 'normal', 
           left: '2017.10 &nbsp-&nbsp 重庆邮电大学ACM校赛 · 二等奖', 
           right: '校级', 
           showDot: false,
           blod: true,
         },
         {
-          type: 'normal', 
           left: '2017.12 &nbsp-&nbsp 重庆邮电大学薪火杯科技竞赛 · 优秀奖', 
           right: '校级', 
           showDot: false,
@@ -224,14 +226,12 @@ const config = {
          * 由于HTML的解析特性，如果想同时显示多个空格，请使用&nbsp
          */
         {
-          type: 'normal', 
           left: '重庆邮电大学招生办公室 · 微信小程序', 
           right: '2017.6', 
           showDot: false,
           blod: true,
         },
         {
-          type: 'normal', 
           left: '基于微信小程序<em>MINA框架</em>的<em>WXML</em>、<em>WXSS</em>、JS为代码语言进行开发，视图层采用<em>Flex弹性布局</em>，' + 
                 '逻辑层采用模块化模式开发，减少耦合度。与后端配合采用<em>Restful API</em>进行开发，同时将配置参数抽取成单个模块文件便于修改。' + 
                 '上线后进行后期维护及版本迭代。<strong>截止17年9月份共有<em>3.2w</em>用户，小程序打开次数<em>135w+</em>次，并成为“腾讯微校－高校微信排行榜西部明星”之一</strong>', 
@@ -239,7 +239,6 @@ const config = {
           showDot: true,
         },
         {
-          type: 'normal', 
           left: '重邮新生专题网 · 桌面端页面', 
           right: '<a href="https://github.com/CoderMing/Welcome2017" target="_blank">Source</a> ' +
                  '<a href="http://hongyan.cqupt.edu.cn/welcome/2017" target="_blank">Link</a> 2017.8', 
@@ -247,7 +246,6 @@ const config = {
           blod: true,
         },
         {
-          type: 'normal', 
           left: '使用<em>HTML(5)</em>、<em>Less</em>、<em>jQuery</em>等各种技术实现的拥有完整开发流程的大型桌面端页面。' + 
                 '使用<em>Less</em>作为CSS预处理器,<em>Gulp</em>实现开发流程自动化。前端开发周期15天，设计了基于<em>iframe</em>的主-子页面结构实现免刷新，便于开发。' + 
                 '大量利用<em>CSS3</em>的特性，动画实现采用<em>keyframes</em>强制GPU渲染，保证了页面的流畅度。开发过程与产品视觉进行沟通，对界面进行了精细的优化。' + 
@@ -256,14 +254,12 @@ const config = {
           showDot: true,
         },
         {
-          type: 'normal', 
           left: 'hi,朋友! · SPA', 
           right: '<a href="//github.com/CoderMing/hi-friends" target="_blank">Source</a> 2017.11', 
           showDot: false,
           blod: true
         },
         {
-          type: 'normal', 
           left: '基于<em>Vue.js(2.x)</em>开发的SPA。使用<em>Vue-cli</em>提供的基于<em>WebPack</em>的全尺寸开发脚手架、<em>Stylus</em>进行开发。' + 
                 '采用模块化开发方式，实现了良好的<em>关注点分离</em>。', 
           right: '', 
@@ -278,33 +274,28 @@ const config = {
       title: '专业技能',
       content: [
         {
-          type: 'normal', 
           left: '掌握Web前端开发的基本技能，熟悉<em>页面布局架构</em>、<em>前端语义化</em>、<em>代码可维护性</em>等，略懂<em>浏览器兼容性</em>，有<em>1年+</em>的前端开发经验。', 
           right: '', 
           showDot: true,
         },
         {
-          type: 'normal', 
           left: '对<em>jQuery</em>、<em>HTML5</em>、<em>CSS3</em>、<em>CSS预处理器</em>、<em>响应式布局</em>等有一定的理解，对<em>MV*框架</em>有简单的认知。', 
           right: '', 
           showDot: true,
         },
         {
-          type: 'normal', 
           left: '对<em>性能优化</em>、<em>前端安全</em>、<em>ES6+</em>等有一定的了解，对<em>NodeJS</em>、<em>前端调试</em>有简单的认知。', 
           right: '', 
           showDot: true,
         },
         {
-          type: 'normal', 
-          left: '熟练使用<em>Git</em>进行版本控制和协作开发、<em>Markdown</em>进行文档编写，并以<em>Mac OS / Windows</em>、' + 
+          left: '熟练使用<em>Git</em>进行版本控制和协作开发、<em>Markdown</em>进行文档编写，并以<em>macOS</em>、' + 
                 '<em>Linux</em>、<em>VS Code</em>作为日常开发环境进行工作，了解项目开发流程，有多人协同开发的项目经验。', 
           right: '', 
           showDot: true,
         },
         {
-          type: 'normal', 
-          left: '熟悉<em>科学上网</em>，默认<em>Google</em>，能够看懂基本的英文文档。', 
+          left: '熟悉<em>科学上网</em>、默认<em>Google</em>，能够看懂基本的英文文档。', 
           right: '', 
           showDot: true,
         },
