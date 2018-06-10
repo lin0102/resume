@@ -157,7 +157,7 @@ const config = {
         {
           left: '基于<em>Canvas</em>开发的微信小游戏。使用原生Canvas API开发、完全<em>OOP</em>的编程思想，' + 
                 '尝试着做性能优化和长宽比适配，同时在开发过程中同步更新踩坑文章。' + 
-                '截止2018年6月，<strong>在github上收获了50+ star、15+ watch。</strong>', 
+                '截止2018年6月，<strong>在 GitHub 上收获了50+ star、15+ watch。</strong>', 
           right: '', 
           showDot: true,
         },
