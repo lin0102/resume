@@ -149,7 +149,7 @@ const config = {
           showDot: true,
         },
         {
-          left: 'StrongBox-微信小游戏', 
+          left: 'StrongBox - 微信小游戏', 
           right: '<a href="https://github.com/RedrockTeam/xyx" target="_blank">Source</a>', 
           showDot: false,
           blod: true,
@@ -162,7 +162,7 @@ const config = {
           showDot: true,
         },
         {
-          left: '重邮课表-Übersicht插件', 
+          left: '重邮课表 - Übersicht插件', 
           right: '<a href="https://github.com/CoderMing/cqupt-class.widget" target="_blank">Source</a> ' +
                  '<a href="http://tracesof.net/uebersicht-widgets/#cqupt-class_widget" target="_blank">Link</a>', 
           showDot: false,
