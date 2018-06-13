@@ -141,16 +141,15 @@ header
     border-radius 0
     background white
     color $mainHeaderColor
-    // margin-bottom -10px
-    padding-top 35px
+    margin-bottom -10px
+    padding-top 45px
     .tit-top
-      padding-top 10px
       border-bottom-color $mainColor
 
 
 @media screen and (max-width 1024px)
   header
-    border-radius 0 !important
+    border-radius 0 !importan
     .qrcode
       display none
 
