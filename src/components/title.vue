@@ -4,7 +4,7 @@
     span.pi-right(v-html="right")
 </template>
 
-<script lang="ts">
+<script>
 import config from '../config.js'
 
 export default {
