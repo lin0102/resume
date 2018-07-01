@@ -112,7 +112,7 @@ const config = {
           blod: true,
         },
         {
-          left: '<strong>Web 研发部“技术总监”<small>（2018-6至今）</small></strong> 工作站成立于2000年，共有成员80余人( Web 研发部20+)，拥有PRD-UI-前后端开发-运营-迭代的完整开发流程。' + 
+          left: '<strong>Web 研发部“技术总监”<small>（2018.6至今）</small></strong> 工作站成立于2000年，共有成员80余人( Web 研发部20+)，拥有PRD-UI-前后端开发-运营-迭代的完整开发流程。' + 
                 '曾参与开发3个完整项目，同时参与上线维护、重构代码、增加可维护性等任务。', 
           right: '', 
           showDot: true,
@@ -157,12 +157,12 @@ const config = {
         {
           left: '基于<em>Canvas</em>开发的微信小游戏。使用<em>原生 Canvas API</em>开发、完全<em>OOP</em>的编程思想，' + 
                 '尝试着做性能优化和长宽比适配，同时在开发过程中同步更新踩坑文章。' + 
-                '截止2018年6月，<strong>在 GitHub 上收获了50+ star、15+ watch。</strong>', 
+                '<strong>GitHub 上 50+ star、15+ watch，拥有软件著作权。</strong>', 
           right: '', 
           showDot: true,
         },
         {
-          left: '重邮课表 - Übersicht插件', 
+          left: '重邮课表 - Übersicht插件',
           right: '<a href="https://github.com/CoderMing/cqupt-class.widget" target="_blank">Source</a> ' +
                  '<a href="http://tracesof.net/uebersicht-widgets/#cqupt-class_widget" target="_blank">Link</a>', 
           showDot: false,
@@ -172,6 +172,18 @@ const config = {
           left: '使用<em>CoffeeScript</em>编写、<em>NodeJS</em>获取数据制作的 Übersicht 插件。' + 
                 '实现了课表显示、定时预报明日课表、缓存数据离线使用等功能。' +
                 '<strong>上线1个月后，在 Übersicht 官方插件库中拥有了120+次下载量</strong>',
+          right: '', 
+          showDot: true,
+        },
+        {
+          left: '短链接生成API工具<small> (完善中)</small>', 
+          right: '<a href="https://github.com/CoderMing/short-url-qrcode" target="_blank">Source</a> ',
+          showDot: false,
+          blod: true,
+        },
+        {
+          left: '使用<em>TypeScript</em>、<em>Koa</em>制作的短链接生成器。' + 
+                '实现了短链接及其二维码的生成、二维码图片缓存等功能。',
           right: '', 
           showDot: true,
         },
@@ -259,19 +271,7 @@ const config = {
                 '<strong>上线一个月UV<em>6k+</em>，PV<em>2W+</em>。', 
           right: '', 
           showDot: true,
-        },
-        {
-          left: 'hi,朋友! · SPA', 
-          right: '<a href="//github.com/CoderMing/hi-friends" target="_blank">Source</a> 2017.11', 
-          showDot: false,
-          blod: true
-        },
-        {
-          left: '基于<em>Vue.js(2.x)</em>开发的SPA。使用<em>Vue-cli</em>提供的基于<em>WebPack</em>的全尺寸开发脚手架、<em>Stylus</em>进行开发。' + 
-                '采用模块化开发方式，实现了良好的<em>关注点分离</em>。', 
-          right: '', 
-          showDot: true,
-        },
+        }
       ]
     },
 
