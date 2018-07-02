@@ -196,29 +196,41 @@ const config = {
       title: '奖项证书',
       content: [
         {
-          left: '2018.5 &nbsp -&nbsp 蓝桥杯全国决赛C/C++ B组 · 优秀奖', 
-          right: '国家级', 
+          left: '奖项', 
+          right: '', 
           showDot: false,
           blod: true,
+        },
+        {
+          left: '2018.5 &nbsp -&nbsp 蓝桥杯全国决赛C/C++ B组 · 优秀奖', 
+          right: '国家级', 
+          showDot: true,
+          blod: false,
         },
         {
           left: '2017.10 &nbsp-&nbsp 重庆邮电大学ACM校赛 · 二等奖', 
           right: '校级', 
+          showDot: true,
+          blod: false,
+        },
+        {
+          left: '2017.10 &nbsp-&nbsp 重庆邮电大学单项奖学金 · 获得一次', 
+          right: '校级', 
+          showDot: true,
+          blod: false,
+        },
+        {
+          left: '证书', 
+          right: '', 
           showDot: false,
           blod: true,
         },
         {
-          left: '2017.12 &nbsp-&nbsp 重庆邮电大学薪火杯科技竞赛 · 优秀奖', 
-          right: '校级', 
-          showDot: false,
-          blod: true,
+          left: '国家软件著作权证书', 
+          right: '一份', 
+          showDot: true,
+          blod: false,
         },
-        // {
-        //   left: '2017年度校级单项奖学金 · 获得两次', 
-        //   right: '校级', 
-        //   showDot: false,
-        //   blod: true,
-        // },
       ]
     },
   ],

@@ -31,14 +31,14 @@ export default {
   line-height 2em
   box-sizing border-box
   padding 0 10px
-  top 1410px
+  top 1440px
   color #C0C0C0
   span.pi-right
     float right
 
 @media print
   #padi
-    top 1400px
+    top 1405px
     padding 0 30px
     width 1024px
 
