@@ -22,7 +22,7 @@ export default {
   line-height 2em
   box-sizing border-box
   padding 0 10px
-  top 1450px
+  top 1476px
   left 50%
   margin-left -100px
   color #DDDDDD
