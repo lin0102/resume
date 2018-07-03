@@ -171,7 +171,7 @@ const config = {
         {
           left: '使用<em>CoffeeScript</em>编写、<em>NodeJS</em>获取数据制作的 Übersicht 插件。' + 
                 '实现了课表显示、定时预报明日课表、缓存数据离线使用等功能。' +
-                '<strong>上线1个月后，在 Übersicht 官方插件库中拥有了120+次下载量</strong>',
+                '<strong>上线1个月后，在 Übersicht 官方插件库中拥有了120+次下载量。</strong>',
           right: '', 
           showDot: true,
         },
@@ -182,7 +182,7 @@ const config = {
           blod: true,
         },
         {
-          left: '使用<em>TypeScript</em>、<em>Koa</em>制作的短链接生成器。' + 
+          left: '使用<em>TypeScript</em>、<em>Koa2</em>制作的短链接生成器。' + 
                 '实现了短链接及其二维码的生成、二维码图片缓存等功能。',
           right: '', 
           showDot: true,
@@ -265,7 +265,7 @@ const config = {
         {
           left: '基于微信小程序<em>MINA框架</em>的<em>WXML</em>、<em>WXSS</em>、JS为代码语言进行开发，视图层采用<em>Flex弹性布局</em>，' + 
                 '逻辑层采用模块化模式开发，减少耦合度。与后端配合采用<em>Restful API</em>进行开发，同时将配置参数抽取成单个模块文件便于修改。' + 
-                '上线后进行后期维护及版本迭代。<strong>截止18年6月份共有<em>3.8w</em>用户，小程序打开次数<em>182w+</em>次，并成为“腾讯微校－高校微信排行榜西部明星”之一</strong>', 
+                '上线后进行后期维护及版本迭代。<strong>至今共有<em>4.4w</em>用户、录取工作期间DAU<em>3.1k+</em>、总PV<em>220w+</em>，并成为“腾讯微校－高校微信排行榜西部明星”之一</strong>。', 
           right: '', 
           showDot: true,
         },
@@ -315,6 +315,11 @@ const config = {
         },
         {
           left: '熟悉<em>科学上网</em>、默认<em>Google</em>，能够看懂基本的英文文档。', 
+          right: '', 
+          showDot: true,
+        },
+        {
+          left: '喜欢尝试新事物、关注各种新知识，有较强的学习能力。', 
           right: '', 
           showDot: true,
         },
