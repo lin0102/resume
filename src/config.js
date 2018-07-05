@@ -214,7 +214,7 @@ const config = {
           blod: false,
         },
         {
-          left: '2017.10 &nbsp-&nbsp 重庆邮电大学单项奖学金 · 获得一次', 
+          left: '重庆邮电大学单项奖学金 · 获得一次', 
           right: '校级', 
           showDot: true,
           blod: false,
