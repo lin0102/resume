@@ -57,8 +57,11 @@ export default {
     left inherit
     right 5px
     margin-left 0
+    #tips
+      display none
 
 @media print
   #print
     display none
+  
 </style>
