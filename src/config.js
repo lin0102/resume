@@ -157,7 +157,7 @@ const config = {
         {
           left: '基于<em>Canvas</em>开发的微信小游戏。使用<em>原生 Canvas API</em>开发、完全<em>OOP</em>的编程思想，' + 
                 '尝试着做性能优化和长宽比适配，同时在开发过程中同步更新踩坑文章。' + 
-                '<strong>GitHub 上 50+ star、15+ watch，拥有软件著作权。</strong>', 
+                '<strong>GitHub 上 60+ star、15+ watch，拥有软件著作权。</strong>', 
           right: '', 
           showDot: true,
         },
@@ -182,8 +182,8 @@ const config = {
           blod: true,
         },
         {
-          left: '使用<em>TypeScript</em>、<em>Koa2</em>制作的短链接生成器。' + 
-                '实现了短链接及其二维码的生成、二维码图片缓存等功能。',
+          left: '使用<em>NodeJS</em>制作的短链接生成API。' + 
+                '实现了短链接及其二维码的生成、缓存等功能。',
           right: '', 
           showDot: true,
         },
@@ -263,9 +263,9 @@ const config = {
           blod: true,
         },
         {
-          left: '基于微信小程序<em>MINA框架</em>的<em>WXML</em>、<em>WXSS</em>、JS为代码语言进行开发，视图层采用<em>Flex弹性布局</em>，' + 
+          left: '使用微信小程序原生框架进行开发。视图层采用<em>Flex弹性布局</em>，' + 
                 '逻辑层采用模块化模式开发，减少耦合度。与后端配合采用<em>Restful API</em>进行开发，同时将配置参数抽取成单个模块文件便于修改。' + 
-                '上线后进行后期维护及版本迭代。<strong>至今共有<em>4.4w</em>用户、录取工作期间DAU<em>3.1k+</em>、总PV<em>220w+</em>，并成为“腾讯微校－高校微信排行榜西部明星”之一</strong>。', 
+                '上线后进行后期维护及版本迭代。<strong>至今共有<em>4.6w</em>用户、录取工作期间DAU<em>3.1k+</em>、总PV<em>220w+</em>，并成为“腾讯微校－高校微信排行榜西部明星”之一</strong>。', 
           right: '', 
           showDot: true,
         },
@@ -277,9 +277,9 @@ const config = {
           blod: true,
         },
         {
-          left: '使用<em>HTML(5)</em>、<em>Less</em>、<em>jQuery</em>等各种技术实现的拥有完整开发流程的桌面端页面。' + 
-                '使用<em>Less</em>作为CSS预处理器,<em>Gulp</em>实现开发流程自动化。前端开发周期15天，设计了基于<em>iframe</em>的主-子页面结构实现免刷新，便于开发。' + 
-                '大量利用<em>CSS3</em>的特性，动画实现采用<em>keyframes</em>强制GPU渲染，保证了页面的流畅度。开发过程与产品视觉进行沟通，对界面进行了精细的优化。' + 
+          left: '拥有完整开发流程的桌面端页面。' + 
+                '使用<em>Less</em>作为CSS预处理器,<em>Gulp</em>实现开发流程自动化。前端开发周期15天，' + 
+                '大量使用了<em>CSS3</em>的特性，动画实现采用<em>keyframes</em>强制GPU渲染，保证了页面的流畅度。开发过程与产品视觉进行沟通，对界面进行了精细的优化。' + 
                 '<strong>上线一个月UV<em>6k+</em>，PV<em>2W+</em>。', 
           right: '', 
           showDot: true,
