@@ -110,11 +110,9 @@ header
         font-weight 400
         font-size 16px
         opacity .9
-        line-height 2em
+        line-height 2.25em
         &:first-child
           font-size 18px
-        &:last-child
-          font-size 15px
 
     .tb-right
       float right
