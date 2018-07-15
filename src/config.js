@@ -169,7 +169,7 @@ const config = {
           blod: true,
         },
         {
-          left: '使用<em>CoffeeScript</em>编写、<em>NodeJS</em>获取数据制作的 Übersicht 插件。' + 
+          left: '使用<em>NodeJS</em>获取数据制作的 Übersicht 插件。' + 
                 '实现了课表显示、定时预报明日课表、缓存数据离线使用等功能。' +
                 '<strong>上线1个月后，在 Übersicht 官方插件库中拥有了120+次下载量。</strong>',
           right: '', 
