@@ -11,8 +11,8 @@ export default {
   data: () => {
     let data = config.footer
     
-    config.footer.left = config.footer.left.replace(/\ /g, '&nbsp')
-    config.footer.right = config.footer.right.replace(/\ /g, '&nbsp')
+    // config.footer.left = config.footer.left.replace(/\ /g, '&nbsp')
+    // config.footer.right = config.footer.right.replace(/\ /g, '&nbsp')
 
     return data
   }

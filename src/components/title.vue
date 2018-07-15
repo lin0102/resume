@@ -11,8 +11,8 @@ export default {
   data: () => {
     let data = config.title
     
-    config.title.left = config.title.left.replace(/\ /g, '&nbsp')
-    config.title.right = config.title.right.replace(/\ /g, '&nbsp')
+    // config.title.left = config.title.left.replace(/\ /g, '&nbsp')
+    // config.title.right = config.title.right.replace(/\ /g, '&nbsp')
 
     return data
   }

@@ -14,7 +14,7 @@ const config = {
    */
   footer: {
     left: '',
-    right: '网页版简历：coderming.com/resume'
+    right: '网页版简历：<a href="https://coderming.com/resume" target="_blank">coderming.com/resume</a>'
   },
   /**
    * 顶部栏
@@ -278,7 +278,7 @@ const config = {
         },
         {
           left: '拥有完整开发流程的桌面端页面。' + 
-                '使用<em>Less</em>作为CSS预处理器,<em>Gulp</em>实现开发流程自动化。前端开发周期15天，' + 
+                '使用<em>LESS</em>作为CSS预处理器,<em>Gulp</em>实现开发流程自动化。前端开发周期15天，' + 
                 '大量使用了<em>CSS3</em>的特性，动画实现采用<em>keyframes</em>强制GPU渲染，保证了页面的流畅度。开发过程与产品视觉进行沟通，对界面进行了精细的优化。' + 
                 '<strong>上线一个月UV<em>6k+</em>，PV<em>2W+</em>。', 
           right: '', 
@@ -298,7 +298,7 @@ const config = {
           showDot: true,
         },
         {
-          left: '对<em>jQuery</em>、<em>HTML5</em>、<em>CSS3</em>、<em>CSS预处理器</em>、<em>响应式布局</em>等有一定的理解，对<em>MV*框架</em>有简单的认知。', 
+          left: '对<em>Canvas</em>、<em>HTML5</em>、<em>CSS3</em>、<em>CSS预处理器</em>、<em>响应式布局</em>等有一定的理解，对<em>MV*框架</em>有简单的认知。', 
           right: '', 
           showDot: true,
         },
@@ -319,7 +319,7 @@ const config = {
           showDot: true,
         },
         {
-          left: '喜欢尝试新事物、关注各种新知识，有较强的学习能力。', 
+          left: '喜欢尝试新事物、关注各种新知识，有较强的学习能力及动手能力。', 
           right: '', 
           showDot: true,
         },
