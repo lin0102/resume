@@ -270,7 +270,7 @@ const config = {
           showDot: true,
         },
         {
-          left: '重邮新生专题网 · 桌面端页面', 
+          left: '重邮新生专题网 · PC端网页', 
           right: '<a href="https://github.com/CoderMing/Welcome2017" target="_blank">Source</a> ' +
                  '<a href="http://hongyan.cqupt.edu.cn/welcome/2017" target="_blank">Link</a> 2017.8', 
           showDot: false,
