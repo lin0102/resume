@@ -108,11 +108,13 @@ header
       float left
       h3.tbl-item
         font-weight 400
-        font-size 16px
+        font-size 17px
         opacity .9
-        line-height 2.25em
+        line-height 2.15em
         &:first-child
           font-size 18px
+        &:last-child
+          font-size 16px
 
     .tb-right
       float right
