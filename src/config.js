@@ -14,7 +14,7 @@ const config = {
    */
   footer: {
     left: '',
-    right: '网页版简历：<a href="https://coderming.com/resume" target="_blank">coderming.com/resume</a>'
+    right: '网页版简历（带作品链接）：<a href="https://coderming.com/resume" target="_blank">coderming.com/resume</a>'
   },
   /**
    * 顶部栏
@@ -22,7 +22,7 @@ const config = {
    * 不同的是，顶部栏不会出现在打印页面以及pad和手机端
    */
   title: {
-    left: '最后更新时间：2018年6月',
+    left: '最后更新时间：2018年7月',
     right: ''
   },
 
