@@ -14,7 +14,7 @@ const config = {
    */
   footer: {
     left: '',
-    right: '网页版简历（带作品链接）：<a href="https://coderming.com/resume" target="_blank">coderming.com/resume</a>'
+    right: '<a href="https://coderming.com/resume" target="_blank">网页版简历（带作品链接）：coderming.com/resume</a>'
   },
   /**
    * 顶部栏
