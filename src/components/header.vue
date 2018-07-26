@@ -16,8 +16,8 @@
           span(v-html="item.showAddr")
           span(:class="judjeIcon(item)" class="iconfont")
         a(:class="judjeIcon(item)" class="iconfont tbr-item-mobile" 
-             v-for="item in contacts"
-             :href="judjeLink(item) && judjeLink(item) + item.address")
+          v-for="item in contacts"
+          :href="judjeLink(item) && judjeLink(item) + item.address")
 </template>
 
 <script>
