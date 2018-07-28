@@ -44,7 +44,7 @@ $ docker build -t 镜像名 .
 $ docker run --name 容器名 -d -p 主机的端口名:3000 镜像名
 ```
 
-tips: 默认采用 `node v8.x` 的底包。
+tips: 默认采用 `node:slim` 底包。
 
 
 ### 目录说明
