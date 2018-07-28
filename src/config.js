@@ -187,52 +187,23 @@ const config = {
           right: '', 
           showDot: true,
         },
-      ]
-    },
-
-
-
-    {
-      title: '奖项证书',
-      content: [
         {
-          left: '奖项', 
-          right: '', 
+          left: 'HTML简历生成模版', 
+          right: '<a href="https://github.com/CoderMing/resume" target="_blank">Source</a> ',
           showDot: false,
           blod: true,
         },
         {
-          left: '2018.5 &nbsp -&nbsp 蓝桥杯全国决赛C/C++ B组 · 优秀奖', 
-          right: '国家级', 
-          showDot: true,
-          blod: false,
-        },
-        {
-          left: '2017.10 &nbsp-&nbsp 重庆邮电大学ACM校赛 · 二等奖', 
-          right: '校级', 
-          showDot: true,
-          blod: false,
-        },
-        {
-          left: '重庆邮电大学单项奖学金 · 获得一次', 
-          right: '校级', 
-          showDot: true,
-          blod: false,
-        },
-        {
-          left: '证书', 
+          left: '傻瓜式简历生成模版。将所有简历所需数据抽取至一个配置文件中，填写配置文件即可生成对应简历。' + 
+                '尝试使用<em>Docker</em>进行自动构建，' +
+                '同时进行了移动端适配、打印样式适配、配色自定义、代码语义化等操作。',
           right: '', 
-          showDot: false,
-          blod: true,
-        },
-        {
-          left: '国家软件著作权证书', 
-          right: '一份', 
           showDot: true,
-          blod: false,
         },
       ]
     },
+
+
   ],
 
 
@@ -288,7 +259,6 @@ const config = {
     },
 
 
-
     {
       title: '专业技能',
       content: [
@@ -322,6 +292,49 @@ const config = {
           left: '喜欢尝试新事物、关注各种新知识，有较强的学习能力及动手能力。', 
           right: '', 
           showDot: true,
+        },
+      ]
+    },
+
+
+    {
+      title: '奖项证书',
+      content: [
+        {
+          left: '奖项', 
+          right: '', 
+          showDot: false,
+          blod: true,
+        },
+        {
+          left: '2018.5 &nbsp -&nbsp 蓝桥杯全国决赛C/C++ B组 · 优秀奖', 
+          right: '国家级', 
+          showDot: true,
+          blod: false,
+        },
+        {
+          left: '2017.10 &nbsp-&nbsp 重庆邮电大学ACM校赛 · 二等奖', 
+          right: '校级', 
+          showDot: true,
+          blod: false,
+        },
+        {
+          left: '重庆邮电大学单项奖学金 · 获得一次', 
+          right: '校级', 
+          showDot: true,
+          blod: false,
+        },
+        {
+          left: '证书', 
+          right: '', 
+          showDot: false,
+          blod: true,
+        },
+        {
+          left: '国家软件著作权证书', 
+          right: '一份', 
+          showDot: true,
+          blod: false,
         },
       ]
     },
