@@ -9,6 +9,6 @@ RUN    rm -rf node_modules \
     && npm config set registry "https://registry.npm.taobao.org/" \
     && npm install
 
-EXPOSE 8080
+EXPOSE 3000
 
-CMD    npm run serve
+CMD    npm run production-serve

@@ -4,9 +4,11 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve --open",
-    "build": "vue-cli-service build"
+    "build": "vue-cli-service build",
+    "production-serve": "vue-cli-service build && node prod-serve.js"
   },
   "dependencies": {
+    "express": "^4.16.3",
     "vue": "^2.5.16"
   },
   "devDependencies": {
