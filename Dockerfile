@@ -11,4 +11,4 @@ RUN    rm -rf node_modules \
 
 EXPOSE 8080
 
-CMD ["npm", "run", "serve"]
+CMD    npm run serve
