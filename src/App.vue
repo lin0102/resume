@@ -20,6 +20,10 @@ import About from './components/about.vue'
 
 import config from './config.js'
 
+// 引入用户自定义网页标题
+if (config.title)
+  window.document.title = config.docName
+
 export default {
   name: 'resume',
   data: () => config,
