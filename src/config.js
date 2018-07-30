@@ -5,8 +5,9 @@
  */
 const config = {
   /**
-   * HTML 文档的title
-   * 默认为 “我的简历"
+   * HTML页面的title
+   * 同时也是生成PDF的默认文件名
+   * 默认为 “简历"
    * @param {[String]}
    */
   docName: '张德明_前端_20届',
