@@ -86,6 +86,10 @@ const config = {
      * 注意是png格式，长宽比应为1:1
      */
     weChatQrCode: true,
+    /**
+     * 是否在HTML文档页面显示二维码
+     */
+    showWeChatQrCodeInHTML: false
   },
 
   /**
