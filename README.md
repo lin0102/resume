@@ -46,6 +46,16 @@ $ docker run --name 容器名 -d -p 主机的端口名:3000 镜像名
 
 tips: 默认采用 `node:slim` 底包。
 
+### 自动更新
+
+可以使用`crontab`来进行自动更新。更新地址为你的GitHub仓库。首先运行`crontab -e`然后加入下面一行：
+
+```shell
+0 * * * * cd `项目所在目录` && git pull && npm run build
+```
+
+注意：若想在docker内使用，请使用带有git的docker底包，同时请修改Dockerfile的CMD字段。
+
 
 ### 目录说明
 
