@@ -291,7 +291,7 @@ const config = {
           showDot: true,
         },
         {
-          left: '<b>会使用各类工具，简单了解前端工程化。</b>写过<em>Webpack</em>、<em>Gulp</em>的插件/Loader。经常使用<em>CSS预处理器</em>、<em>babel</em>，尝试使用过<em>模版引擎</em>、<em>Lint</em>、<em>TypeScript</em>、<em>Docker</em>、<em>CI工具</em>。', 
+          left: '<b>会使用各类工具，简单了解前端工程化。</b>写过<em>Webpack</em>、<em>Gulp</em>的插件/Loader。写过前端自动化脚本。经常使用<em>CSS预处理器</em>、<em>babel</em>，尝试使用过<em>模版引擎</em>、<em>Lint</em>、<em>TypeScript</em>、<em>Docker</em>、<em>CI工具</em>。', 
           right: '', 
           showDot: true,
         },
@@ -311,7 +311,7 @@ const config = {
           showDot: true,
         },
         {
-          left: '<b>喜欢探索新事物、新知识。</b>写过<em>PWA</em>、<em>WebAssembly</em>、<em>Threejs</em>的demo。默认<em>Google</em>，能够看懂基本的英文文档。', 
+          left: '喜欢探索新事物。默认<em>Google</em>，能够看懂基本的英文文档。', 
           right: '', 
           showDot: true,
         },
