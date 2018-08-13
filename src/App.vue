@@ -8,6 +8,7 @@
     Title
     Footer
     About(v-if="showAboutInfo")
+    Github
 </template>
 
 <script>
@@ -18,6 +19,7 @@ import SectionRight from './components/section-right.vue'
 import Title from './components/title.vue'
 import Footer from './components/footer.vue'
 import About from './components/about.vue'
+import Github from './components/github.vue'
 
 import config from './config.js'
 
@@ -36,6 +38,7 @@ export default {
     Title,
     Footer,
     About,
+    Github
   }
 }
 </script>

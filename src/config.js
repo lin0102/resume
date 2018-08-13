@@ -1,7 +1,8 @@
 /**
- * 简历配置文件
+ * 简历内容配置文件
  * @author CoderMing 
  * https://github.com/coderming
+ * 若想修改样式的配置参数，请修改同目录下的 config.styl 文件
  */
 const config = {
   /**
