@@ -131,7 +131,7 @@ const config = {
         },
         {
           left: '<strong>Web 研发部“技术总监”<small>（2018.6至今）</small></strong> 工作站成立于2000年，共有成员80余人( Web 研发部20+)，拥有PRD-UI-前后端开发-运营-迭代的完整开发流程。' + 
-                '曾参与开发4个完整项目，同时参与上线维护、重构代码、项目迁移等任务。', 
+                '我曾主持或参与开发4个完整项目，同时参与上线维护、重构代码、项目迁移等任务。', 
           right: '', 
           showDot: true,
         },
@@ -142,13 +142,13 @@ const config = {
           blod: true,
         },
         {
-          left: '<strong>实验室成员</strong> 参与开发实验室的项目（前端4人后端10人）。使用<em>Git</em>进行版本控制，注重<em>代码可读性</em>，了解了多人合作项目的开发流程与规范。', 
+          left: '<strong>实验室成员</strong> 大一上求老师好几次才让我加入的实验室。进入后参与开发前端4人后端10人的项目。使用<em>Git</em>进行版本控制，注重<em>代码可读性</em>。' + 
+                '当时资历尚浅况且任务大多是修bug，技术层面长进并不多，主要收获是对前端有了个更全面的认识，确定了自己的学习的路径，也简单了解了多人合作项目的开发流程与规范。', 
           right: '', 
           showDot: true,
         },
       ]
     },
-
 
 
     {
@@ -252,9 +252,9 @@ const config = {
           blod: true,
         },
         {
-          left: '使用微信小程序原生框架进行开发。视图层采用<em>Flex弹性布局</em>，' + 
-                '逻辑层采用模块化，与后端配合采用<em>Restful API</em>进行开发。' + 
-                '上线后进行后期维护及版本迭代。<strong>至今共有<em>5w+</em>用户、录取工作期间DAU<em>3.1k+</em>、总PV<em>410w+</em>，并成为“腾讯微校－高校微信排行榜西部明星”之一</strong>。', 
+          left: '我的第一个真正的作品。使用原生框架，<em>Flex弹性布局</em>，' + 
+                '代码模块化，接口为<em>Restful API</em>，上线后进行后期维护及版本迭代。' + 
+                '<strong>至今共有<em>5w+</em>用户、录取工作期间DAU<em>3.3k+</em>、总PV<em>410w+</em>，并成为“腾讯微校－高校微信排行榜西部明星”之一</strong>。这个项目让我了解了完整项目的流程，更让我踏入了实践的大门。', 
           right: '', 
           showDot: true,
         },
@@ -266,10 +266,10 @@ const config = {
           blod: true,
         },
         {
-          left: '拥有完整开发流程的桌面端页面。' + 
-                '使用<em>LESS</em>作为CSS预处理器,<em>Gulp</em>实现开发流程自动化。前端开发周期15天，' + 
-                '大量使用了<em>CSS3</em>的特性，动画实现采用<em>keyframes</em>强制GPU渲染。开发过程与产品视觉进行沟通，对界面进行了精细的优化。' + 
-                '<strong>上线一个月UV<em>6k+</em>，PV<em>2W+</em>。', 
+          left: '此项目是一年一版，拥有完整开发流程的桌面端页面。' + 
+                '我为2017版主要负责人，负责技术选型和大体逻辑搭建。前端开发周期15天，为提高效率我使用了<em>LESS</em>+<em>Gulp</em>+<em>jQuery</em>。' + 
+                '为了达到炫酷的效果并保证性能，我首先大量使用了<em>CSS3</em>的特性并强制GPU渲染，其次在开发过程与产品视觉进行沟通，对界面进行了精细的优化。' + 
+                '<strong>最终上线一个月UV<em>6k+</em>，PV<em>2W+</em>。', 
           right: '', 
           showDot: true,
         }
@@ -296,7 +296,7 @@ const config = {
           showDot: true,
         },
         {
-          left: '<b>了解基本的代码调试 && 优化。</b>使用过性能监测工具、打断点、查看调用栈等功能，进行过代码优化。了解常见的前端安全隐患及简单地防备措施。', 
+          left: '<b>了解基本的代码调试、优化、前端安全。</b>使用过性能监测工具、打断点、查看调用栈等功能，进行过代码优化。了解常见的前端安全隐患及简单地防备措施。', 
           right: '', 
           showDot: true,
         },
@@ -311,12 +311,12 @@ const config = {
           showDot: true,
         },
         {
-          left: '<b>喜欢探索新事物 && 新知识。</b>写过<em>PWA</em>、<em>WebAssembly</em>、<em>Threejs</em>的demo。熟悉<em>科学上网</em>、默认<em>Google</em>，能够看懂基本的英文文档。', 
+          left: '<b>喜欢探索新事物、新知识。</b>写过<em>PWA</em>、<em>WebAssembly</em>、<em>Threejs</em>的demo。熟悉<em>科学上网</em>、默认<em>Google</em>，能够看懂基本的英文文档。', 
           right: '', 
           showDot: true,
         },
         {
-          left: '日常开发环境为<em>macOS</em>、<em>VS Code</em>，使用<em>Linux</em>、<em>Git</em>、<em>Markdown</em>，简单使用过<em>WorkFlow</em>类工具，了解项目开发流程，有多人协同开发的项目经验。', 
+          left: '日常开发环境为<em>macOS</em>、<em>VS Code</em>，使用<em>Linux</em>、<em>Git</em>、<em>Markdown</em>，简单使用过<em>WorkFlow</em>类工具。', 
           right: '', 
           showDot: true,
         },
