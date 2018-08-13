@@ -1,8 +1,9 @@
 <template lang="pug">
   div#content
     Header
-    SectionLeft
-    SectionRight
+    //- 处理只想显示单列的情况
+    SectionLeft(:class="sectionRight ? '' : 'one-section'") 
+    SectionRight(v-if="sectionRight")
     Print
     Title
     Footer
@@ -40,7 +41,7 @@ export default {
 </script>
 
 <style lang="stylus">
-@import './styles/config.styl'
+@import './config.styl'
 @import './styles/iconfont/iconfont.css'
 
 @css {
@@ -83,6 +84,7 @@ a
   // overflow hidden
   box-shadow 0 0 15px silver
   transition all .2s ease-out
+
 
 @media print
   #content

@@ -65,7 +65,7 @@ export default {
 </script>
 
 <style scoped lang="stylus">
-@import '../styles/config.styl'
+@import '../config.styl'
 
 header
   size 100% 250px

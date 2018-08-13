@@ -19,7 +19,7 @@ export default {
 </script>
 
 <style lang="stylus">
-@import '../styles/config.styl'
+@import '../config.styl'
 @import '../styles/public/section.styl'
 
 .s-left

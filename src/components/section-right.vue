@@ -19,7 +19,7 @@ export default {
 </script>
 
 <style lang="stylus">
-@import '../styles/config.styl'
+@import '../config.styl'
 @import '../styles/public/section.styl'
 
 .s-right
@@ -29,6 +29,10 @@ export default {
   height 1130px
   box-sizing border-box
   padding 0 40px 0 20px
+
+.one-section
+  width 100%
+  padding 0 40px
 
 // @media print
 //   .s-right

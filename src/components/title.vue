@@ -20,7 +20,7 @@ export default {
 </script>
 
 <style scoped lang="stylus">
-@import '../styles/config.styl'
+@import '../config.styl'
 
 #title
   position absolute
