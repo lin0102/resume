@@ -15,7 +15,10 @@ export default {
   data: () => config,
   methods: {
     printPage() {
+      let prevTitle = window.document.title
+      window.document.title = config.printName || prevTitle.replace(/\ *\|\ */g, '-')
       window.print()
+      window.document.title = prevTitle
     }
   }
 }

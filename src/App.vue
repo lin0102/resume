@@ -69,6 +69,9 @@ html, body, h1, h2, h3, h4, h5, h6, hr, p, a
 body
   background $bgColor
 
+*::selection
+  background $selectionColor
+
 a
   text-decoration none
   color inherit

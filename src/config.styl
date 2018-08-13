@@ -6,7 +6,10 @@
 @import './styles/util.styl'
 
 // 主色，包括header颜色，strong标签文字颜色等
-$mainColor = #4682B4
+$mainColor = #4682b4
+// 选择后文字的背景色，默认就会计算好与主色搭配的配色
+// 建议不要更改此项配置参数
+$selectionColor = $mainColor + rgba(48, 48, 48, 0) - rgba(0, 0, 0, .6)
 
 // 背景颜色，指的是PC端大背景的颜色
 $bgColor = #F2F2F2
@@ -17,6 +20,7 @@ $mainFontColor = #444
 // 标题主色，注意是在打印页面会生效
 // 在浏览器页面永远为白色
 $mainHeaderColor = #222
+
 
 // 主要文字大小
 // 适用于主题内容中的文字

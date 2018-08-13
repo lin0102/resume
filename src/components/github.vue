@@ -20,7 +20,7 @@ export default {
   left calc(50vw - 650px)
   bottom -25px
   transition all .3s
-  opacity .4
+  opacity .6
   &:hover
     bottom -13px
     opacity 1
