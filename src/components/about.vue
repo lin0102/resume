@@ -20,6 +20,7 @@ export default {
   font-size 14px
   line-height 2em
   box-sizing border-box
+  text-align center
   padding 0 10px
   top 1476px
   left 50%

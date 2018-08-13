@@ -5,7 +5,8 @@
   "scripts": {
     "serve": "vue-cli-service serve --open",
     "build": "vue-cli-service build",
-    "production-serve": "vue-cli-service build && node prod-serve.js"
+    "production-serve": "vue-cli-service build && node prod-serve.js",
+    "sync": "git pull && npm run build"
   },
   "dependencies": {
     "express": "^4.16.3"
