@@ -1,7 +1,6 @@
 <template lang="pug">
-  a#about(href="https://github.com/coderming")
-    span.iconfont.icon-share_link
-    span 模版 by CoderMing
+  a#about(href="https://github.com/coderming" target="_blank")
+    span @ CoderMing
 </template>
 
 <script>
@@ -25,7 +24,11 @@ export default {
   top 1476px
   left 50%
   margin-left -100px
-  color #DDDDDD
+  color #C8C8C8
+  opacity .5
+  transition all .3s
+  &:hover
+    opacity 1
 
   span.pi-right
     float right

@@ -8,7 +8,7 @@
     Title
     Footer
     About(v-if="showAboutInfo")
-    Github
+    Github(v-if="githubLogoLocation")
 </template>
 
 <script>

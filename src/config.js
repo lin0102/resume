@@ -353,12 +353,21 @@ const config = {
     },
 
   ],
+
   /**
-   * 是否展示界面最下方 “模版 by CoderMing” 字样
+   * 设定 Github Logo 地址
+   * 若为空，则不显示
+   * 此logo会在页面大小大于1440px时显示
+   */
+  githubLogoLocation: 'https://github.com/coderming/resume',
+
+
+  /**
+   * 是否展示界面最下方 “@ CoderMing” 字样
    * 如果你认为在个人的页面上显示此条消息不合适，可以通过此方法快速消除
    * 什么？你 star 没给也好意思注释这一条？？？ :(
    */
-  showAboutInfo: true
+  showAboutInfo: true,
 }
 
 export default config

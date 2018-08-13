@@ -1,5 +1,5 @@
 <template lang="pug">
-  a#github(href="https://github.com/coderming")
+  a#github(:href="githubLogoLocation" target="_blank")
     span fork me on Github
     img(src="../static/github.svg")
 </template>
@@ -22,10 +22,12 @@ export default {
   transition all .3s
   opacity .4
   &:hover
-    bottom -8px
+    bottom -13px
     opacity 1
     span 
       opacity 1
+    img
+      filter drop-shadow(0px 0px 1px #dddddd)
   img 
     size 50px
   span
