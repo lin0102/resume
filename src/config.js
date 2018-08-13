@@ -131,7 +131,7 @@ const config = {
         },
         {
           left: '<strong>Web 研发部“技术总监”<small>（2018.6至今）</small></strong> 工作站成立于2000年，共有成员80余人( Web 研发部20+)，拥有PRD-UI-前后端开发-运营-迭代的完整开发流程。' + 
-                '曾参与开发3个完整项目，同时参与上线维护、重构代码、增加可维护性等任务。', 
+                '曾参与开发4个完整项目，同时参与上线维护、重构代码、项目迁移等任务。', 
           right: '', 
           showDot: true,
         },
@@ -161,7 +161,7 @@ const config = {
           blod: true,
         },
         {
-          left: '16年12月起，开始以<em>coderming.com</em>作为个人域名，搭建并维护<em>Ghost</em>引擎的个人技术博客。' + 
+          left: '16年12月起，开始以<em>coderming.com</em>搭建并维护个人技术博客（已转战至Github）。' + 
                 '利用<em>Nginx</em>反向代理实现了<em>https</em>站点。', 
           right: '', 
           showDot: true,
@@ -173,8 +173,8 @@ const config = {
           blod: true,
         },
         {
-          left: '基于<em>Canvas</em>开发的微信小游戏。使用<em>原生 Canvas API</em>开发、完全<em>OOP</em>的编程思想，' + 
-                '尝试着做性能优化和长宽比适配，同时在开发过程中同步更新踩坑文章。' + 
+          left: '一个叠箱子的游戏。基于<em>原生 Canvas API</em>开发，自行设计了运行逻辑，实现了低耦合和可拓展。' + 
+                '尝试着做<em>性能优化</em>、长宽比适配，中途针对性能和展示效果和产品视觉进行了很多沟通协调。在开发过程中同步更新踩坑文章。' + 
                 '<strong>GitHub 上 60+ star、15+ watch，拥有软件著作权。</strong>', 
           right: '', 
           showDot: true,
@@ -187,8 +187,8 @@ const config = {
           blod: true,
         },
         {
-          left: '使用<em>NodeJS</em>获取数据制作的 Übersicht 插件。' + 
-                '实现了课表显示、定时预报明日课表、缓存数据离线使用等功能。' +
+          left: '为了方便地在电脑上查课表，我开发出了一个桌面插件。' + 
+                '和使用的朋友进行沟通交流后逐步地完善，实现了课表显示、定时预报明日课表、缓存数据离线使用等功能。' +
                 '<strong>上线1个月后，在 Übersicht 官方插件库中拥有了120+次下载量。</strong>',
           right: '', 
           showDot: true,
@@ -200,8 +200,8 @@ const config = {
           blod: true,
         },
         {
-          left: '使用<em>NodeJS</em>制作的短链接生成API。' + 
-                '实现了短链接及其二维码的生成、缓存等功能。',
+          left: '为了学习<em>NodeJS</em>，制作了这个短链接生成API。' + 
+                '实现了短链接及其二维码的生成、缓存等功能。期间踩了很多坑，学习到了一个简单的API后台是怎么运行的。',
           right: '', 
           showDot: true,
         },
@@ -212,9 +212,9 @@ const config = {
           blod: true,
         },
         {
-          left: '傻瓜式简历生成模版。将所有简历所需数据抽取至一个配置文件中，填写配置文件即可生成对应简历。' + 
-                '尝试使用自动构建工具，' +
-                '同时进行了移动端适配、打印样式适配、配色自定义、代码语义化等操作。',
+          left: '为了让没学过前端的朋友也能做出自己的HTML简历，我开发出了这个模版。实现了填写配置文件即可生成对应简历。考虑到简历的多变性，我采用了基于<em>Vue</em>的组件化开发方式。' + 
+                '各个步骤都有详细的注释，尝试使用<em>Docker</em>自动构建，' +
+                '同时进行了移动端适配、打印样式适配、配色自定义、代码语义化。',
           right: '', 
           showDot: true,
         },
@@ -253,8 +253,8 @@ const config = {
         },
         {
           left: '使用微信小程序原生框架进行开发。视图层采用<em>Flex弹性布局</em>，' + 
-                '逻辑层采用模块化模式开发，减少耦合度。同时与后端配合采用<em>Restful API</em>进行开发。' + 
-                '上线后进行后期维护及版本迭代。<strong>至今共有<em>5w+</em>用户、录取工作期间DAU<em>3.1k+</em>、总PV<em>220w+</em>，并成为“腾讯微校－高校微信排行榜西部明星”之一</strong>。', 
+                '逻辑层采用模块化，与后端配合采用<em>Restful API</em>进行开发。' + 
+                '上线后进行后期维护及版本迭代。<strong>至今共有<em>5w+</em>用户、录取工作期间DAU<em>3.1k+</em>、总PV<em>410w+</em>，并成为“腾讯微校－高校微信排行榜西部明星”之一</strong>。', 
           right: '', 
           showDot: true,
         },
@@ -268,7 +268,7 @@ const config = {
         {
           left: '拥有完整开发流程的桌面端页面。' + 
                 '使用<em>LESS</em>作为CSS预处理器,<em>Gulp</em>实现开发流程自动化。前端开发周期15天，' + 
-                '大量使用了<em>CSS3</em>的特性，动画实现采用<em>keyframes</em>强制GPU渲染，保证了页面的流畅度。开发过程与产品视觉进行沟通，对界面进行了精细的优化。' + 
+                '大量使用了<em>CSS3</em>的特性，动画实现采用<em>keyframes</em>强制GPU渲染。开发过程与产品视觉进行沟通，对界面进行了精细的优化。' + 
                 '<strong>上线一个月UV<em>6k+</em>，PV<em>2W+</em>。', 
           right: '', 
           showDot: true,
@@ -280,34 +280,43 @@ const config = {
     {
       title: '专业技能',
       content: [
+        // {
+        //   left: '<b>良好的计算机基础</b>，了解<em>计算机网络</em>、<em>简单的算法</em>、<em>数据结构</em>、<em>操作系统</em>、<em>数据库</em>等。', 
+        //   right: '', 
+        //   showDot: true,
+        // },
         {
-          left: '掌握Web前端开发的基本技能，熟悉<em>页面布局架构</em>、<em>前端语义化</em>、<em>代码可维护性</em>等，略懂<em>浏览器兼容性</em>，有<em>1年+</em>的前端开发经验。', 
+          left: '<b>熟练掌握基本技能</b>，熟悉<em>HTML5</em>、<em>CSS3</em>、<em>JS</em>、<em>正则</em>、<em>页面布局结构</em>、<em>前端语义化</em>、<em>响应式布局</em>等，略懂<em>浏览器兼容性</em>。', 
           right: '', 
           showDot: true,
         },
         {
-          left: '对<em>Canvas</em>、<em>HTML5</em>、<em>CSS3</em>、<em>CSS预处理器</em>、<em>响应式布局</em>等有一定的理解，对<em>MV*框架</em>有简单的认知。', 
+          left: '<b>会使用各类工具，简单了解前端工程化。</b>写过<em>Webpack</em>、<em>Gulp</em>的插件/Loader。经常使用<em>CSS预处理器</em>、<em>babel</em>，尝试使用过<em>模版引擎</em>、<em>Lint</em>、<em>TypeScript</em>、<em>Docker</em>、<em>CI工具</em>。', 
           right: '', 
           showDot: true,
         },
         {
-          left: '对<em>性能优化</em>、<em>前端安全</em>、<em>ES6+</em>等有一定的了解，对<em>NodeJS</em>、<em>前端调试</em>有简单的认知。', 
+          left: '<b>了解基本的代码调试 && 优化。</b>使用过性能监测工具、打断点、查看调用栈等功能，进行过代码优化。了解常见的前端安全隐患及简单地防备措施。', 
           right: '', 
           showDot: true,
         },
         {
-          left: '熟练使用<em>Git</em>进行版本控制和协作开发、<em>Markdown</em>进行文档编写，并以<em>macOS</em>、' + 
-                '<em>Linux</em>、<em>VS Code</em>作为日常开发环境进行工作，了解项目开发流程，有多人协同开发的项目经验。', 
+          left: '<b>了解后端的基础知识。</b><em>HTTP(S)协议</em>、<em>DNS解析</em>、写过入门级的<em>Shell脚本</em>、配置过简单的<em>Nginx服务器</em>。使用过<em>NodeJS</em>。',
           right: '', 
           showDot: true,
         },
         {
-          left: '熟悉<em>科学上网</em>、默认<em>Google</em>，能够看懂基本的英文文档。', 
+          left: '<b>了解当下热门的框架。</b>看过<em>Underscore</em>的源码，简单了解<em>MV*</em>框架，使用过<em>Vue</em>（仅会使用），知道前端组件化的的概念及用法，写过<em>SPA</em>的demo。（最近在学习<em>React</em>）', 
           right: '', 
           showDot: true,
         },
         {
-          left: '喜欢尝试新事物、关注各种新知识，有较强的学习能力及动手能力。', 
+          left: '<b>喜欢探索新事物 && 新知识。</b>写过<em>PWA</em>、<em>WebAssembly</em>、<em>Threejs</em>的demo。熟悉<em>科学上网</em>、默认<em>Google</em>，能够看懂基本的英文文档。', 
+          right: '', 
+          showDot: true,
+        },
+        {
+          left: '日常开发环境为<em>macOS</em>、<em>VS Code</em>，使用<em>Linux</em>、<em>Git</em>、<em>Markdown</em>，简单使用过<em>WorkFlow</em>类工具，了解项目开发流程，有多人协同开发的项目经验。', 
           right: '', 
           showDot: true,
         },
@@ -318,12 +327,12 @@ const config = {
     {
       title: '奖项证书',
       content: [
-        {
-          left: '奖项', 
-          right: '', 
-          showDot: false,
-          blod: true,
-        },
+        // {
+        //   left: '奖项', 
+        //   right: '', 
+        //   showDot: false,
+        //   blod: true,
+        // },
         {
           left: '2018.5 &nbsp -&nbsp 蓝桥杯全国决赛C/C++ B组 · 优秀奖', 
           right: '国家级', 
@@ -342,12 +351,12 @@ const config = {
           showDot: true,
           blod: false,
         },
-        {
-          left: '证书', 
-          right: '', 
-          showDot: false,
-          blod: true,
-        },
+        // {
+        //   left: '证书', 
+        //   right: '', 
+        //   showDot: false,
+        //   blod: true,
+        // },
         {
           left: '国家软件著作权证书', 
           right: '一份', 
