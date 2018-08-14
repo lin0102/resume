@@ -286,12 +286,12 @@ const config = {
         //   showDot: true,
         // },
         {
-          left: '<b>熟练掌握基本技能</b>，熟悉<em>HTML5</em>、<em>CSS3</em>、<em>JS</em>、<em>正则</em>、<em>页面布局结构</em>、<em>前端语义化</em>、<em>响应式布局</em>等，略懂<em>浏览器兼容性</em>。', 
+          left: '<b>熟练掌握基本技能</b>，熟悉<em>HTML5</em>、<em>CSS3</em>、<em>JS</em>、<em>正则</em>、<em>页面布局结构</em>、<em>前端语义化</em>、<em>响应式布局</em>等，略懂<em>Canvas</em>。', 
           right: '', 
           showDot: true,
         },
         {
-          left: '<b>会使用各类工具，简单了解前端工程化。</b>写过<em>Webpack</em>、<em>Gulp</em>的插件。写过前端自动化脚本。经常使用<em>CSS预处理器</em>、<em>babel</em>，尝试使用过<em>模版引擎</em>、<em>Lint</em>、<em>TypeScript</em>、<em>Docker</em>、<em>CI工具</em>。', 
+          left: '<b>会使用各类工具，简单了解前端工程化。</b>写过<em>Webpack</em>、<em>Gulp</em>的插件。写过前端自动化脚本。经常使用<em>CSS预处理器</em>、<em>babel</em>，尝试使用（仅使用）过<em>模版引擎</em>、<em>Lint</em>、<em>TypeScript</em>、<em>Docker</em>、<em>CI工具</em>。', 
           right: '', 
           showDot: true,
         },
@@ -306,7 +306,7 @@ const config = {
           showDot: true,
         },
         {
-          left: '<b>了解当下热门的框架。</b>看过<em>Underscore</em>的源码，简单了解<em>MV*</em>框架，使用过<em>Vue</em>（仅会使用），知道前端组件化的的概念及用法，写过<em>SPA</em>的demo。（最近在学习<em>React</em>）', 
+          left: '<b>简单了解当下热门的框架。</b>看过<em>Underscore</em>的源码，简单了解<em>MV*</em>框架，简单地使用过<em>Vue</em>，知道前端组件化的的概念及用法，写过<em>SPA</em>的demo。（最近在学习<em>React</em>）', 
           right: '', 
           showDot: true,
         },
