@@ -286,22 +286,22 @@ const config = {
         //   showDot: true,
         // },
         {
-          left: '<b>熟练掌握基本技能</b>，熟悉<em>HTML5</em>、<em>CSS3</em>、<em>JS</em>、<em>正则</em>、<em>页面布局结构</em>、<em>前端语义化</em>、<em>响应式布局</em>等，略懂<em>Canvas</em>。', 
+          left: '<b>熟练掌握基本技能。</b>熟悉<em>HTML5</em>、<em>CSS3</em>、<em>ES6+</em>、<em>正则</em>、<em>响应式布局</em>等，略懂<em>Canvas</em>。', 
           right: '', 
           showDot: true,
         },
         {
-          left: '<b>会使用各类工具，简单了解前端工程化。</b>写过<em>Webpack</em>、<em>Gulp</em>的插件。写过前端自动化脚本。经常使用<em>CSS预处理器</em>、<em>babel</em>，尝试使用（仅使用）过<em>模版引擎</em>、<em>Lint</em>、<em>TypeScript</em>、<em>Docker</em>、<em>CI工具</em>。', 
+          left: '<b>会使用各类工具，简单了解前端工程化。</b>写过<em>Webpack</em>、<em>Gulp</em>的插件。写过简单的前端自动化脚本。经常使用<em>CSS预处理器</em>、<em>babel</em>，尝试使用（仅使用）过<em>模版引擎</em>、<em>Lint</em>、<em>TypeScript</em>、<em>Docker</em>、<em>CI工具</em>。', 
           right: '', 
           showDot: true,
         },
         {
-          left: '<b>了解基本的代码调试、优化、前端安全。</b>使用过性能监测工具、打断点、查看调用栈等功能，进行过代码优化。了解常见的前端安全隐患及简单地防备措施。', 
+          left: '<b>了解基本的代码调试、优化、前端安全。</b>使用过性能监测工具、打断点、查看调用栈等功能，进行过代码优化。了解常见的前端安全隐患及简单的防备措施。', 
           right: '', 
           showDot: true,
         },
         {
-          left: '<b>了解后端的基础知识。</b><em>HTTP(S)协议</em>、<em>DNS解析</em>、写过入门级的<em>Shell脚本</em>、配置过简单的<em>Nginx服务器</em>。使用过<em>NodeJS</em>。',
+          left: '<b>简单了解后端的基础知识。</b><em>HTTP(S)协议</em>、<em>DNS解析</em>，使用过<em>CDN</em>服务、写过入门级的<em>Shell脚本</em>、配置过简单的<em>Nginx服务器</em>，使用过<em>NodeJS</em>。',
           right: '', 
           showDot: true,
         },
