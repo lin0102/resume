@@ -26,7 +26,14 @@ import config from './config.js'
 // 引入用户自定义网页标题
 if (config.title)
   window.document.title = config.docName
-
+// 引入rel描述meta
+document.head.innerHTML += 
+`<meta \
+  name="description" \
+  content="${config.description
+            || (config.header.name + (config.header.nickName ? `（${config.header.nickName}）` : '') + 
+            `的个人简历 - ${config.header.job}`)}">`
+console.log(config)
 export default {
   name: 'resume',
   data: () => config,
