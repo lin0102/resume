@@ -7,7 +7,8 @@
 const config = {
   /**
    * HTML页面的title
-   * 默认为 “简历"
+   * 默认为 “简历 | 张xx"
+   * 即会引用 header.name 的值
    * @param {[String]}
    */
   docName: '简历 | 张德明',
@@ -45,23 +46,19 @@ const config = {
     left: '最后更新时间：2018年8月',
     right: ''
   },
-
   /**
    * 顶部栏的配置参数
    */
   header: {
     // 姓名
     name: '张德明',
-    
     // 昵称
     // 会显示在姓名的右方
     // 在pad和手机上不会显示
     nickName: '',
-
     // 意向的工作
     // 建议不超过8个字
     job: 'Web前端开发工程师',
-
     /**
      * 简介栏
      * 最多可以有三个
@@ -75,7 +72,7 @@ const config = {
       "一年+ 前端学习经验"
     ],
     /**
-     * 练习信息栏
+     * 信息栏
      * @param {[Object]} 需要显示的信息
      * 最多可显示4条
      * 在pad和手机上只会显示logo
