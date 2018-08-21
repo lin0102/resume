@@ -7,8 +7,6 @@
 const config = {
   /**
    * HTML页面的title
-   * 默认为 “简历 | 张xx"
-   * 即会引用 header.name 的值
    * @param {[String]}
    */
   docName: '简历 | 张德明',

@@ -33,7 +33,7 @@ document.head.innerHTML +=
   content="${config.description
             || (config.header.name + (config.header.nickName ? `（${config.header.nickName}）` : '') + 
             `的个人简历 - ${config.header.job}`)}">`
-console.log(config)
+
 export default {
   name: 'resume',
   data: () => config,
