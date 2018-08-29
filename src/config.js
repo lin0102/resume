@@ -196,14 +196,14 @@ const config = {
           showDot: true,
         },
         {
-          left: '短链接生成API工具<small> (完善中)</small>', 
+          left: '短链接生成API工具', 
           right: '<a href="https://github.com/CoderMing/short-url-qrcode" target="_blank">Source</a> ',
           showDot: false,
           blod: true,
         },
         {
           left: '为了学习<em>NodeJS</em>，制作了这个短链接生成API。' + 
-                '实现了短链接及其二维码的生成、缓存等功能。期间踩了很多坑 (例如<em>CORS</em>)，学习到了一个简单的API后台是怎么运行的。',
+                '实现了短链接及其二维码的生成功能。期间踩了很多坑 (例如<em>CORS</em>)，学习到了一个简单的API后台是怎么运行的。',
           right: '', 
           showDot: true,
         },
@@ -216,7 +216,7 @@ const config = {
         {
           left: '为了让没学过前端的朋友也能做出自己的HTML简历，我开发出了这个模版。实现了填写配置文件即可生成对应简历。考虑到简历的多变性，我采用了基于<em>Vue</em>的组件化开发方式。' + 
                 '开发方面我尝试使用<em>Docker</em>自动构建，' +
-                '同时进行了移动端适配、打印样式适配、配色自定义、代码语义化。最终实现了一行代码即可部署。',
+                '同时进行了移动端适配、打印样式适配、配色自定义、代码语义化。最终实现了两行代码即可部署。',
           right: '', 
           showDot: true,
         },
@@ -353,12 +353,6 @@ const config = {
           showDot: true,
           blod: false,
         },
-        // {
-        //   left: '证书', 
-        //   right: '', 
-        //   showDot: false,
-        //   blod: true,
-        // },
         {
           left: '国家软件著作权证书', 
           right: '一份', 
@@ -376,7 +370,6 @@ const config = {
    * 此logo会在页面大小大于1440px时显示
    */
   githubLogoLocation: 'https://github.com/coderming/resume',
-
 
   /**
    * 是否展示界面最下方 “@ CoderMing” 字样
