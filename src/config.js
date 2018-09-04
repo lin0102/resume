@@ -157,14 +157,15 @@ const config = {
       title: '个人作品',
       content: [
         {
-          left: '个人技术博客', 
-          right: '<a href="https://coderming.com" target="_blank">Link</a>', 
+          left: 'Blogsue - 基于GitHub Issues的博客系统', 
+          right: '<a href="https://coderming.com" target="_blank">Link</a> ' + 
+                 '<a href="https://github.com/coderming/blogsue" target="_blank">Source</a>', 
           showDot: false,
           blod: true,
         },
         {
-          left: '16年12月起，开始以<em>coderming.com</em>搭建并维护个人技术博客（已转战至Github）。' + 
-                '利用<em>Nginx</em>反向代理实现了<em>https</em>站点。', 
+          left: '为了处理Github Issues做博客的诸多缺点（例如不能自定义界面）而开发的SPA。数据源自自定义配置的GitHub仓库的Issues。使用React全家桶和Gitalk。' + 
+                '实现了移动端适配、黑夜模式、<em>PWA</em>、<em>Docker构建</em>、配置文件抽离等功能。收获了<em>React</em>的项目开发经验。（Demo可以看我的博客）', 
           right: '', 
           showDot: true,
         },
@@ -182,20 +183,6 @@ const config = {
           showDot: true,
         },
         {
-          left: '重邮课表 - Übersicht插件',
-          right: '<a href="https://github.com/CoderMing/cqupt-class.widget" target="_blank">Source</a> ' +
-                 '<a href="http://tracesof.net/uebersicht-widgets/#cqupt-class_widget" target="_blank">Link</a>', 
-          showDot: false,
-          blod: true,
-        },
-        {
-          left: '为了方便地在电脑上查课表，我开发出了一个桌面插件。' + 
-                '初版完成后和使用的朋友进行沟通交流后逐步地完善，实现了课表显示、定时预报明日课表、缓存数据离线使用等功能。' +
-                '<strong>上线1个月后，在 Übersicht 官方插件库中拥有了120+次下载量。</strong>',
-          right: '', 
-          showDot: true,
-        },
-        {
           left: '短链接生成API工具', 
           right: '<a href="https://github.com/CoderMing/short-url-qrcode" target="_blank">Source</a> ',
           showDot: false,
@@ -208,15 +195,20 @@ const config = {
           showDot: true,
         },
         {
-          left: 'HTML简历生成模版', 
-          right: '<a href="https://github.com/CoderMing/resume" target="_blank">Source</a> ',
+          left: '其它作品', 
+          right: '',
           showDot: false,
           blod: true,
         },
         {
-          left: '为了让没学过前端的朋友也能做出自己的HTML简历，我开发出了这个模版。实现了填写配置文件即可生成对应简历。考虑到简历的多变性，我采用了基于<em>Vue</em>的组件化开发方式。' + 
-                '开发方面我尝试使用<em>Docker</em>自动构建，' +
-                '同时进行了移动端适配、打印样式适配、配色自定义、代码语义化。最终实现了两行代码即可部署。',
+          left: '<a href="https://github.com/CoderMing/cqupt-class.widget" target="_blank">重邮课表 - Übersicht插件</a> ' + 
+                '一个课表Mac桌面插件。具有课表显示、定时预报明日课表、缓存数据离线使用等功能。',
+          right: '', 
+          showDot: true,
+        },
+        {
+          left: '<a href="https://github.com/CoderMing/resume" target="_blank">HTML简历生成模版</a> ' + 
+                'Vue组件化开发，填写config即生成对应简历。进行了移动端适配、打印样式适配、配色自定义、代码语义化。（本简历就是一个Demo）',
           right: '', 
           showDot: true,
         },
@@ -293,7 +285,7 @@ const config = {
           showDot: true,
         },
         {
-          left: '<b>会使用各类工具，简单了解前端工程化。</b>写过<em>Webpack</em>、<em>Gulp</em>的插件。写过简单的前端自动化脚本。经常使用<em>CSS预处理器</em>、<em>babel</em>，尝试使用（仅使用）过<em>模版引擎</em>、<em>Lint</em>、<em>TypeScript</em>、<em>Docker</em>、<em>CI工具</em>。', 
+          left: '<b>会使用各类工具，简单了解前端工程化。</b>写过<em>Webpack</em>、<em>Gulp</em>的插件。写过简单的前端自动化脚本。经常使用<em>Babel</em>、<em>CSS预处理器(Stylus)</em>、<em>Lint (Prettier)</em>，尝试使用（仅使用）过<em>模版引擎</em>、<em>TypeScript</em>、<em>Docker</em>、<em>CI工具</em>。', 
           right: '', 
           showDot: true,
         },
@@ -303,12 +295,12 @@ const config = {
           showDot: true,
         },
         {
-          left: '<b>简单了解后端的基础知识。</b><em>HTTP(S)协议</em>、<em>DNS解析</em>，使用过<em>CDN</em>服务、写过入门级的<em>Shell脚本</em>、配置过简单的<em>Nginx服务器</em>，使用过<em>NodeJS</em>。',
+          left: '<b>简单了解后端的基础知识。</b><em>HTTP(S)协议</em>、<em>DNS解析</em>，使用过<em>CDN</em>服务、写过入门级的<em>Shell脚本</em>、配置过简单的<em>Nginx服务器</em>、简单地使用过<em>Docker</em>，使用过<em>NodeJS</em>。',
           right: '', 
           showDot: true,
         },
         {
-          left: '<b>简单了解当下热门的框架。</b>看过<em>Underscore</em>的源码，简单了解<em>MV*</em>框架，简单地使用过<em>Vue</em>，知道前端组件化的的概念及用法，写过<em>SPA</em>的demo。（最近在学习<em>React</em>）', 
+          left: '<b>简单了解当下热门的框架。</b>看过<em>Underscore</em>的源码，简单了解<em>MV*</em>框架，简单地使用过<em>Vue</em>，知道前端组件化的的概念及用法，写过<em>SPA</em>（Blogsue）。（最近在学习<em>React</em>）', 
           right: '', 
           showDot: true,
         },
