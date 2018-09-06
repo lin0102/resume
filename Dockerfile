@@ -16,4 +16,4 @@ RUN npm config set registry "https://registry.npm.taobao.org/" \
     
 EXPOSE 3000
 
-CMD node script/prod-serve.js
+CMD node prod-serve.js
