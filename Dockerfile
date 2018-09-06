@@ -3,7 +3,7 @@ FROM node
 WORKDIR /app
 COPY . /app
 
-ADD /script/crontab /etc/cron.d/corn
+ADD /script/crontab /etc/cron.d/cron
 RUN chmod 0644 /etc/cron.d/cron
 
 RUN apt-get update && apt-get -y install cron && service cron start 
