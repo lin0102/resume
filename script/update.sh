@@ -1,4 +1,6 @@
-# 自动拉取并更新脚本
+#!/bin/bash
+source /etc/profile
+
 touch /update.log
 cd /app
 echo "`date`: 开始拉取更新" >> /uptate.log
