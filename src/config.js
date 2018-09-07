@@ -305,7 +305,7 @@ const config = {
           showDot: true,
         },
         {
-          left: '喜欢探索新事物。默认<em>Google</em>，能够看懂基本的英文文档。', 
+          left: '有必要的英语基础。默认<em>Google</em>，能够看懂基本的英文文档，曾翻译过几篇文章。', 
           right: '', 
           showDot: true,
         },
