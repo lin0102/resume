@@ -9,7 +9,7 @@ RUN chmod 0644 /etc/cron.d/cron
 RUN apt-get update && apt-get -y install cron
 
 RUN git remote remove origin \
-    && git remote add https://github.com/coderming/resume.git
+    && git remote add origin https://github.com/coderming/resume.git
 
 RUN chmod +x /app/script/update.sh
 
