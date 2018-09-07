@@ -261,7 +261,7 @@ const config = {
         },
         {
           left: '此项目是一年一版，拥有完整开发流程的桌面端页面。' + 
-                '我为2017版主要负责人，负责技术选型和大体逻辑搭建。前端开发周期15天，为提高效率我使用了<em>LESS</em>+<em>Gulp</em>+<em>jQuery</em>。' + 
+                '我为2017版主要负责人，负责技术选型和大体逻辑搭建。' + 
                 '为了达到视觉的效果并保证性能，我大量使用了<em>CSS3</em>的特性并强制GPU渲染，并在开发过程与产品视觉进行沟通，对界面进行了精细的优化。' + 
                 '<strong>最终上线一个月UV<em>6k+</em>，PV<em>2W+</em>。', 
           right: '', 
@@ -300,7 +300,7 @@ const config = {
           showDot: true,
         },
         {
-          left: '<b>简单了解当下热门的框架。</b>看过<em>Underscore</em>的源码，简单了解<em>MV*</em>框架，简单地使用过<em>Vue</em>，知道前端组件化的的概念及用法，写过<em>SPA</em>（Blogsue）。（最近在学习<em>React</em>）', 
+          left: '<b>简单了解当下热门的框架。</b>看过<em>Underscore</em>的源码，简单了解<em>MV*</em>框架，简单地使用过<em>Vue</em>，知道前端组件化的的概念及用法。（最近在学习<em>React</em>）', 
           right: '', 
           showDot: true,
         },
