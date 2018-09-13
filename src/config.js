@@ -157,9 +157,20 @@ const config = {
       title: '个人作品',
       content: [
         {
-          left: 'Blogsue - 基于GitHub Issues的博客系统', 
-          right: '<a href="https://coderming.com" target="_blank">Link</a> ' + 
-                 '<a href="https://github.com/coderming/blogsue" target="_blank">Source</a>', 
+          left: '掘金翻译计划 - 前端方向志愿者',
+          right: '<a href="https://github.com/xitu/gold-miner" target="_blank">Link</a> ',
+          showDot: false,
+          blod: true,
+        },
+        {
+          left: '从2018年8月起，开始参与翻译社区内的英文文章。至今主持翻译文章4篇、参与校对9篇，内容涉及前端范围内的基础文档及前沿知识。学习知识贡献社区的同时也锻炼了英文阅读能力。',
+          right: '',
+          showDot: true,
+        },
+        {
+          left: 'Blogsue - 基于GitHub Issues的博客系统',
+          right: '<a href="https://coderming.com" target="_blank">Link</a> ' +
+            '<a href="https://github.com/coderming/blogsue" target="_blank">Source</a>',
           showDot: false,
           blod: true,
         },
@@ -274,11 +285,6 @@ const config = {
     {
       title: '专业技能',
       content: [
-        // {
-        //   left: '<b>良好的计算机基础</b>，了解<em>计算机网络</em>、<em>简单的算法</em>、<em>数据结构</em>、<em>操作系统</em>、<em>数据库</em>等。', 
-        //   right: '', 
-        //   showDot: true,
-        // },
         {
           left: '<b>熟练掌握基本技能。</b>熟悉<em>HTML5</em>、<em>CSS3</em>、<em>ES6+</em>、<em>正则</em>、<em>响应式布局</em>等，略懂<em>Canvas</em>。', 
           right: '', 
@@ -305,7 +311,7 @@ const config = {
           showDot: true,
         },
         {
-          left: '有必要的英语基础。默认<em>Google</em>，能够看懂基本的英文文档，曾翻译过几篇文章。', 
+          left: '有必要的英语基础。默认<em>Google</em>。', 
           right: '', 
           showDot: true,
         },
