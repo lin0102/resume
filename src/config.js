@@ -41,7 +41,7 @@ const config = {
    * 不同的是，顶部栏不会出现在打印页面以及pad和手机端
    */
   title: {
-    left: '最后更新时间：2018年8月',
+    left: '最后更新时间：2018年9月16日',
     right: ''
   },
   /**
@@ -97,7 +97,7 @@ const config = {
     /**
      * 是否在HTML文档页面显示二维码
      */
-    showWeChatQrCodeInHTML: false
+    showWeChatQrCodeInHTML: true
   },
 
   /**
@@ -145,7 +145,7 @@ const config = {
         },
         {
           left: '<strong>实验室成员</strong> 大一上和老师沟通加入的实验室。进入后参与开发前端4人后端10人的项目。使用<em>Git</em>进行版本控制，注重<em>代码可读性</em>。' + 
-                '当时资历尚浅况且任务大多是修bug，技术层面长进并不多，主要收获是对前端有了个更全面的认识，确定了自己的学习的路径，也简单了解了多人合作项目的开发流程与规范。', 
+                '当时资历尚浅况且任务大多是修 bug，技术层面长进并不多，主要收获是对前端有了个更全面的认识，确定了自己的学习的路径，也简单了解了多人合作项目的开发流程与规范。', 
           right: '', 
           showDot: true,
         },
@@ -163,20 +163,20 @@ const config = {
           blod: true,
         },
         {
-          left: '从2018年8月起，开始参与翻译社区内的英文文章。至今主持翻译文章4篇、参与校对9篇，内容涉及前端范围内的基础文档及前沿知识。学习知识贡献社区的同时也锻炼了英文阅读能力。',
+          left: '从2018年8月起，开始参与翻译社区内的英文文章。至今主持翻译文章 4 篇、参与校对 9 篇，内容涉及前端范围内的基础文档及前沿知识。学习知识贡献社区的同时也锻炼了英文阅读能力。',
           right: '',
           showDot: true,
         },
         {
-          left: 'Blogsue - 基于GitHub Issues的博客系统',
+          left: 'Blogsue - 基于 GitHub Issues 的博客系统',
           right: '<a href="https://coderming.com" target="_blank">Link</a> ' +
             '<a href="https://github.com/coderming/blogsue" target="_blank">Source</a>',
           showDot: false,
           blod: true,
         },
         {
-          left: '为了处理Github Issues做博客的诸多缺点（例如不能自定义界面）而开发的SPA。数据源自自定义配置的GitHub仓库的Issues。使用React全家桶和Gitalk。' + 
-                '实现了移动端适配、黑夜模式、<em>PWA</em>、<em>Docker构建</em>、配置文件抽离等功能。收获了<em>React</em>的项目开发经验。（Demo可以看我的博客）', 
+          left: '为了处理 Github Issues 做博客的诸多缺点（例如不能自定义界面）而开发的 SPA。数据源自自定义配置的 GitHub 仓库的 Issues。使用<em>React全家桶</em>和<em>Gitalk</em>。' + 
+                '实现了移动端适配、黑夜模式、<em>PWA</em>、<em>Docker构建</em>、配置文件抽离等功能。收获了<em>React</em>的项目开发经验。（Demo 可以看我的博客）', 
           right: '', 
           showDot: true,
         },
@@ -200,8 +200,8 @@ const config = {
           blod: true,
         },
         {
-          left: '为了学习<em>NodeJS</em>，制作了这个短链接生成API。' + 
-                '实现了短链接及其二维码的生成功能。期间踩了很多坑 (例如<em>CORS</em>)，学习到了一个简单的API后台是怎么运行的。',
+          left: '为了学习<em>NodeJS</em>，制作了这个短链接生成 API。' + 
+                '实现了短链接及其二维码的生成功能。期间踩了很多坑 (例如<em>CORS</em>)，学习到了一个简单的 NodeJS API 后台是怎么运行的。',
           right: '', 
           showDot: true,
         },
@@ -213,13 +213,13 @@ const config = {
         },
         {
           left: '<a href="https://github.com/CoderMing/cqupt-class.widget" target="_blank">重邮课表 - Übersicht插件</a> ' + 
-                '一个课表Mac桌面插件。具有课表显示、定时预报明日课表、缓存数据离线使用等功能。',
+                '一个课表 Mac 桌面插件。具有课表显示、定时预报明日课表、缓存数据离线使用等功能。',
           right: '', 
           showDot: true,
         },
         {
           left: '<a href="https://github.com/CoderMing/resume" target="_blank">HTML简历生成模版</a> ' + 
-                'Vue组件化开发，填写config即生成对应简历。进行了移动端适配、打印样式适配、配色自定义、代码语义化。（本简历就是一个Demo）',
+            'Vue 组件化开发，填写 config 即生成对应简历。进行了移动端适配、打印样式适配、配色自定义、代码语义化。（本简历就是一个 Demo）',
           right: '', 
           showDot: true,
         },
@@ -272,9 +272,9 @@ const config = {
         },
         {
           left: '此项目是一年一版，拥有完整开发流程的桌面端页面。' + 
-                '我为2017版负责人，负责技术选型和大体逻辑搭建。' + 
+                '我为 2017 版负责人，负责技术选型和大体逻辑搭建。' + 
                 '为了达到视觉的效果并保证性能，我大量使用了<em>CSS3</em>的特性并强制GPU渲染，同时在开发过程与产品视觉进行沟通，对界面进行了精细的优化。' + 
-                '<strong>最终上线一个月UV<em>6k+</em>，PV<em>2W+</em>。', 
+                '<strong>最终上线一个月UV<em>6k+</em>，PV<em>2w+</em>。', 
           right: '', 
           showDot: true,
         }
@@ -291,7 +291,7 @@ const config = {
           showDot: true,
         },
         {
-          left: '<b>会使用各类工具，简单了解前端工程化。</b>写过<em>Webpack</em>、<em>Gulp</em>的插件。写过简单的前端自动化脚本。经常使用<em>Babel</em>、<em>CSS预处理器(Stylus)</em>、<em>Lint (Prettier)</em>，尝试使用（仅使用）过<em>模版引擎</em>、<em>TypeScript</em>、<em>Docker</em>、<em>CI工具</em>。', 
+          left: '<b>会使用各类工具，简单了解前端工程化。</b>写过<em>Webpack</em>、<em>Gulp</em>的插件。写过简单的前端自动化脚本。经常使用<em>Babel</em>、<em>CSS 预处理器(Stylus)</em>、<em>Lint (Prettier)</em>，尝试使用（仅使用）过<em>模版引擎</em>、<em>TypeScript</em>、<em>Docker</em>、<em>CI 工具</em>。', 
           right: '', 
           showDot: true,
         },
@@ -301,12 +301,12 @@ const config = {
           showDot: true,
         },
         {
-          left: '<b>简单了解后端的基础知识。</b><em>HTTP(S)协议</em>、<em>DNS解析</em>，使用过<em>CDN</em>服务、写过入门级的<em>Shell脚本</em>、配置过简单的<em>Nginx服务器</em>、简单地使用过<em>Docker</em>，使用过<em>NodeJS</em>。',
+          left: '<b>简单了解后端的基础知识。</b><em>HTTP(S) 协议</em>、<em>DNS 解析</em>，使用过<em>CDN</em>服务、写过入门级的<em>Shell 脚本</em>、配置过简单的<em>Nginx 服务器</em>、简单地使用过<em>Docker</em>，使用过<em>NodeJS</em>。',
           right: '', 
           showDot: true,
         },
         {
-          left: '<b>简单了解当下热门的框架。</b>看过<em>Underscore</em>的源码，简单了解<em>MV*</em>框架，简单地使用过<em>Vue</em>，知道前端组件化的的概念及用法。（最近在学习<em>React</em>）', 
+          left: '<b>简单了解当下热门的框架。</b>看过<em>Underscore</em>的源码，简单了解<em>MV*</em>框架，了解<em>React</em>的基础知识和部分原理，简单地使用过<em>Vue</em>，知道前端组件化的的概念及用法。', 
           right: '', 
           showDot: true,
         },

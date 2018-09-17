@@ -32,9 +32,9 @@ export default {
       if (item.type === 'tell')
         return item.showAddr = 
         `${item.address.slice(0, 3)}
-         ${item.address.slice(3, -4)}
-         <span class="print-hide">****</span>
-         <span class="print-show">${item.address.slice(-4)}</span>`
+          ${item.address.slice(3, -4)}
+          <span class="print-hide">****</span>
+          <span class="print-show">${item.address.slice(-4)}</span>`
       else if (item.type === 'mail')
         return item.showAddr = 
         `${item.address.split('@')[0]}<span class="print-hide">[AT]</span>` + 
@@ -77,7 +77,7 @@ header
   background $mainColor
   border-radius 5px 5px 0 0
   box-sizing border-box
-  padding 25px 60px 25px
+  padding 25px 36px 25px
   overflow hidden
 
   .qrcode
@@ -145,13 +145,7 @@ header
 @media print
   header
     border-radius 0
-    background white
-    color $mainHeaderColor
     margin-bottom -10px
-    padding-top 45px
-    .tit-top
-      border-bottom-color $mainColor
-
 
 @media screen and (max-width 1024px)
   header
