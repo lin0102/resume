@@ -296,7 +296,7 @@ const config = {
           showDot: true,
         },
         {
-          left: '<b>了解基本的代码调试、优化、前端安全。</b>使用过性能监测工具，会使用<em>Chrome dev tools</em>的基本功能，进行过代码优化。了解常见的前端安全隐患及简单的防备措施。', 
+          left: '<b>了解基本的代码调试、优化、前端安全。</b>使用过性能监测工具，会使用<em>Chrome devTools</em>的基本功能，进行过代码优化。了解常见的前端安全隐患及简单的防备措施。', 
           right: '', 
           showDot: true,
         },
@@ -306,7 +306,7 @@ const config = {
           showDot: true,
         },
         {
-          left: '<b>简单了解当下热门的框架。</b>看过<em>Underscore</em>的源码，简单了解<em>MV*</em>框架，了解<em>React</em>的基础知识和部分原理（也是目前主要学习方向），简单地使用过<em>Vue</em>，知道前端组件化的的概念及用法。', 
+          left: '<b>简单了解当下热门的框架。</b>看过<em>Underscore</em>的源码，简单了解<em>MV*</em>框架，了解<em>React</em>的基础知识和部分原理（也是目前主要学习方向）。简单地使用过<em>Vue</em>，知道前端组件化的的概念及用法。', 
           right: '', 
           showDot: true,
         },
