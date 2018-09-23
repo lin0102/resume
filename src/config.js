@@ -291,32 +291,27 @@ const config = {
           showDot: true,
         },
         {
-          left: '<b>会使用各类工具，简单了解前端工程化。</b>写过<em>Webpack</em>、<em>Gulp</em>的插件。写过简单的前端自动化脚本。经常使用<em>Babel</em>、<em>CSS 预处理器(Stylus)</em>、<em>Lint (Prettier)</em>，尝试使用（仅使用）过<em>模版引擎</em>、<em>TypeScript</em>、<em>Docker</em>、<em>CI 工具</em>。', 
+          left: '<b>会使用各类工具，简单了解前端工程化。</b>写过<em>Webpack</em>、<em>Gulp</em>的插件。写过简单的前端自动化脚本。经常使用<em>Babel</em>、<em>CSS 预处理器 (Stylus)</em>、<em>Lint (Prettier)</em>，尝试使用（仅使用）过<em>模版引擎 (pug)</em>、<em>TypeScript</em>、<em>Docker</em>、<em>测试工具 (Jest)</em>。', 
           right: '', 
           showDot: true,
         },
         {
-          left: '<b>了解基本的代码调试、优化、前端安全。</b>使用过性能监测工具、打断点、查看调用栈等功能，进行过代码优化。了解常见的前端安全隐患及简单的防备措施。', 
+          left: '<b>了解基本的代码调试、优化、前端安全。</b>使用过性能监测工具，会使用<em>Chrome dev tools</em>的基本功能，进行过代码优化。了解常见的前端安全隐患及简单的防备措施。', 
           right: '', 
           showDot: true,
         },
         {
-          left: '<b>简单了解后端的基础知识。</b><em>HTTP(S) 协议</em>、<em>DNS 解析</em>，使用过<em>CDN</em>服务、写过入门级的<em>Shell 脚本</em>、配置过简单的<em>Nginx 服务器</em>、简单地使用过<em>Docker</em>，使用过<em>NodeJS</em>。',
+          left: '<b>简单了解后端的基础知识。</b>知道<em>HTTP(S) 协议</em>、<em>DNS 解析</em>相关基础知识，使用过<em>CDN</em>服务。写过入门级的<em>Shell 脚本</em>、配置过简单的<em>Nginx 服务器</em>，用过<em>NodeJS</em>、发布过<em>npm</em>包。',
           right: '', 
           showDot: true,
         },
         {
-          left: '<b>简单了解当下热门的框架。</b>看过<em>Underscore</em>的源码，简单了解<em>MV*</em>框架，了解<em>React</em>的基础知识和部分原理，简单地使用过<em>Vue</em>，知道前端组件化的的概念及用法。', 
+          left: '<b>简单了解当下热门的框架。</b>看过<em>Underscore</em>的源码，简单了解<em>MV*</em>框架，了解<em>React</em>的基础知识和部分原理（也是目前主要学习方向），简单地使用过<em>Vue</em>，知道前端组件化的的概念及用法。', 
           right: '', 
           showDot: true,
         },
         {
-          left: '有必要的英语基础。默认<em>Google</em>。', 
-          right: '', 
-          showDot: true,
-        },
-        {
-          left: '日常开发环境为<em>macOS</em>、<em>VS Code</em>，使用<em>Linux</em>、<em>Git</em>、<em>Markdown</em>，简单使用过<em>WorkFlow</em>类工具。', 
+          left: '日常开发环境为 macOS、 VS Code，使用<em>Linux</em>、<em>Git</em>、<em>Markdown</em>，默认 Google。', 
           right: '', 
           showDot: true,
         },
