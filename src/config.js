@@ -160,7 +160,9 @@ const config = {
       content: [
         {
           left: '掘金翻译计划 - 前端方向志愿者',
-          right: '<a href="https://github.com/xitu/gold-miner" target="_blank">Link</a> ',
+          right:
+            '<a href="https://www.coderming.com/label/%E7%BF%BB%E8%AF%91" target="_blank">Link</a> ' +
+            '<a href="https://github.com/xitu/gold-miner" target="_blank">Source</a> ',
           showDot: false,
           blod: true
         },
@@ -195,7 +197,7 @@ const config = {
           left:
             '一个叠箱子的游戏。基于<em>原生 Canvas API</em>开发，自行设计了运行逻辑，实现了低耦合和可拓展。' +
             '尝试着做<em>性能优化</em>、长宽比适配，中途针对性能和展示效果和产品视觉进行了很多沟通协调及权衡。在开发过程中同步更新踩坑文章。' +
-            '<strong>GitHub 上 60+ star、15+ watch，拥有软件著作权。</strong>同时让我熟悉了<em>性能调试</em>，并实践了部分<em>设计模式</em>。',
+            '<strong>GitHub 上 60+ star、15+ watch，拥有软件著作权。</strong>同时让我熟悉了<em>性能调试</em>，并实践了部分<em>设计模式</em>（由于某些原因，项目已下线无法使用）。',
           right: '',
           showDot: true
         },
@@ -266,7 +268,7 @@ const config = {
         {
           left:
             '我的第一个真正的作品。与老师合作开发，<em>Flex弹性布局</em>，' +
-            '代码模块化，接口为<em>Restful API</em>，在人性化操作上下了很多功夫。上线后进行后期维护及版本迭代。' +
+            '代码模块化，接口为<em>Rest API</em>，在人性化操作上下了很多功夫。上线后进行后期维护及版本迭代。' +
             '<strong>至今共有<em>5w+</em>用户、录取工作期间DAU<em>3.3k+</em>、总PV<em>410w+</em>，并成为“腾讯微校－高校微信排行榜西部明星”之一</strong>。这个项目技术实现并不难，但对我意义很大：它让我了解了完整项目的流程，更让我踏入了实践的大门。',
           right: '',
           showDot: true
@@ -326,7 +328,7 @@ const config = {
         },
         {
           left:
-            '<strong>非技术方面：</strong>喜欢看书（传记/历史类）、喜欢旅行、日常健身。经常在小团队中担任管理及决策者，喜欢与人交流，自认为有责任心。<b>对自己日后的发展有较明确的方向。</b>',
+            '<strong>非技术方面：</strong>喜欢看书（传记/纪实类）、喜欢旅行、日常健身 。经常在小团队中担任管理及决策者，喜欢与人交流，自认为有责任心。<b>对自己日后的发展有较明确的方向。</b>',
           right: '',
           showDot: true
         },
