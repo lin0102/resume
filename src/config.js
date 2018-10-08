@@ -328,7 +328,7 @@ const config = {
         },
         {
           left:
-            '<strong>非技术方面：</strong>喜欢看书（传记/纪实类）、喜欢旅行、日常健身 。喜欢与人交流、喜欢在不同领域折腾、经常在小团队中担任管理及决策者。<b>对自己日后的发展有较明确的方向。</b>',
+            '<strong>非技术方面：</strong>喜欢看书（传记/纪实类）、喜欢旅行、日常健身、呆过院辩论队。喜欢与人交流、喜欢在不同领域折腾、经常在小团队中担任管理及决策者。<b>对自己日后的发展有较明确的方向。</b>',
           right: '',
           showDot: true
         },
@@ -344,33 +344,22 @@ const config = {
     {
       title: '奖项证书',
       content: [
-        // {
-        //   left: '奖项',
-        //   right: '',
-        //   showDot: false,
-        //   blod: true,
-        // },
         {
-          left: '2018.5 &nbsp -&nbsp 蓝桥杯全国决赛C/C++ B组 · 优秀奖',
-          right: '国家级',
+          left: '<b>国家级：</b>2018.5 &nbsp -&nbsp 蓝桥杯全国决赛C/C++ B组优秀奖。',
+          right: '',
           showDot: true,
           blod: false
         },
         {
-          left: '2017.10 &nbsp-&nbsp 重庆邮电大学ACM校赛 · 二等奖',
-          right: '校级',
+          left:
+            '<b>校级：</b>2017.10 - 重庆邮电大学ACM校赛二等奖； 重庆邮电大学单项奖学金获得一次； 重庆邮电大学学业二等奖学金。',
+          right: '',
           showDot: true,
           blod: false
         },
         {
-          left: '重庆邮电大学单项奖学金 · 获得一次',
-          right: '校级',
-          showDot: true,
-          blod: false
-        },
-        {
-          left: '国家软件著作权证书',
-          right: '一份',
+          left: '<b>其它：</b>软著一份； 文体&双创类奖项省部级以上获奖6次。',
+          right: '',
           showDot: true,
           blod: false
         }
