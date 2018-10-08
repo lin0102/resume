@@ -358,7 +358,7 @@ const config = {
           blod: false
         },
         {
-          left: '<b>其它：</b>软著一份； 文体&双创类奖项省部级以上获奖6次。',
+          left: '<b>其它：</b>软著一份； 文体&双创类奖项校级及以上获奖6次。',
           right: '',
           showDot: true,
           blod: false
