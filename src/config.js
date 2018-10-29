@@ -32,7 +32,7 @@ const config = {
    * @param {[String]} 需要显示的内容
    */
   footer: {
-    left: '',
+    left: '页面中蓝色框均为可点击的链接',
     right:
       '<a href="https://coderming.com/resume" target="_blank">网页版简历（带作品链接）：coderming.com/resume</a>'
   },
