@@ -140,7 +140,7 @@ const config = {
           showDot: true
         },
         {
-          left: '重庆邮电大学 · 计算机通信重点实验室',
+          left: '重庆邮电大学 · 计算机通信实验室',
           right: '2017.1 - 2017.6',
           showDot: false,
           blod: true
@@ -168,12 +168,12 @@ const config = {
         },
         {
           left:
-            '从2018年8月起，开始参与翻译社区内的英文文章。至今主持翻译文章 4 篇、参与校对 9 篇，内容涉及前端范围内的基础文档及前沿知识。学习知识贡献社区的同时也锻炼了英文阅读能力。',
+            '从2018年8月起，开始参与翻译社区内的英文文章。至今主持翻译文章 6 篇、参与校对十余篇，内容涉及前端范围内的基础文档及前沿知识。学习知识贡献社区的同时也锻炼了英文阅读能力。',
           right: '',
           showDot: true
         },
         {
-          left: 'Blogsue - 基于 GitHub Issues 的博客系统',
+          left: 'Blogsue - GitHub Issues 的博客前端页面',
           right:
             '<a href="https://coderming.com" target="_blank">Link</a> ' +
             '<a href="https://github.com/coderming/blogsue" target="_blank">Source</a>',
@@ -182,8 +182,8 @@ const config = {
         },
         {
           left:
-            '为了处理 Github Issues 做博客的诸多缺点（例如不能自定义界面）而开发的 SPA。数据源自自定义配置的 GitHub 仓库的 Issues。使用<em>React全家桶</em>和<em>Gitalk</em>。' +
-            '实现了移动端适配、黑夜模式、<em>PWA</em>、<em>Docker构建</em>、配置文件抽离等功能。收获了<em>React</em>的项目开发经验。（Demo 可以看我的博客）',
+            '为了处理 Github Issues 做博客的诸多缺点（例如不能自定义界面）而开发的 SPA。数据源自自定义配置的 GitHub 仓库的 Issues，使用<em>React全家桶</em>。' +
+            '实现了移动端适配、黑夜模式、<em>PWA</em>、配置文件抽离等功能。收获了<em>React</em>的项目开发经验。（Demo 可以看我的博客）',
           right: '',
           showDot: true
         },
@@ -285,7 +285,7 @@ const config = {
           left:
             '此项目是一年一版，拥有完整开发流程的桌面端页面。' +
             '我为 2017 版负责人，负责技术选型和大体逻辑搭建。' +
-            '为了达到视觉的效果并保证性能，我大量使用了<em>CSS3</em>的特性并强制GPU渲染，同时在开发过程与产品视觉进行沟通，对界面进行了精细的优化。' +
+            '为了达到视觉的效果并保证性能，我使用了<em>CSS3</em>的特性并强制GPU渲染，同时在开发过程与产品视觉进行沟通，对界面进行了精细的优化。' +
             '<strong>最终上线一个月UV<em>6k+</em>，PV<em>2w+</em>。',
           right: '',
           showDot: true
@@ -328,7 +328,7 @@ const config = {
         },
         {
           left:
-            '<strong>非技术方面：</strong>喜欢看书（传记/纪实类）、喜欢旅行、日常健身、呆过院辩论队。喜欢与人交流、喜欢在不同领域折腾、经常在小团队中担任管理及决策者，对自己日后的发展有较明确的规划。',
+            '<b>非技术方面：</b>喜欢看书（传记/纪实类）、喜欢旅行、日常健身、呆过院辩论队。喜欢与人交流、喜欢在不同领域折腾、经常在小团队中担任管理及决策者，对自己日后的发展有较明确的规划。',
           right: '',
           showDot: true
         },
