@@ -304,7 +304,7 @@ const config = {
         },
         {
           left:
-            '<b>会使用各类工具，简单了解前端工程化。</b>写过<em>Webpack</em>、<em>Gulp</em>的插件。写过简单的前端自动化脚本。经常使用<em>Babel</em>、<em>CSS 预处理器 (Stylus)</em>、<em>Lint (Prettier)</em>，尝试使用（仅使用）过<em>模版引擎 (pug)</em>、<em>TypeScript</em>、<em>Docker</em>、<em>测试工具 (Jest)</em>。',
+            '<b>会使用各类工具，简单了解前端工程化。</b>写过<em>Webpack</em>、<em>Gulp</em>的插件。写过简单的前端自动化脚本。日常使用<em>Babel</em>、<em>CSS 预处理器 (Stylus)</em>、<em>Lint (Prettier)</em>。',
           right: '',
           showDot: true
         },
