@@ -322,7 +322,7 @@ const config = {
         },
         {
           left:
-            '<b>简单了解当下热门的框架，了解前端组件化。</b>看过<em>Underscore</em>的源码，简单了解<em>MV*</em>框架，了解<em>React</em>的基础知识和部分原理（也是目前主要学习方向）。简单地使用过<em>Vue</em>。',
+            '<b>简单了解当下热门的框架，了解前端组件化。</b>看过<em>Underscore</em>的源码，简单了解<em>MV*</em>框架，了解<em>React</em>的基础知识和部分原理（也是目前主要学习方向）。',
           right: '',
           showDot: true
         },
