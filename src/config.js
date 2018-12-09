@@ -83,9 +83,8 @@ const config = {
      * 请提issue
      */
     contacts: [
-      { address: 'coderming.com', type: 'blog' },
-      { address: 'github.com/coderming', type: 'github' },
       { address: 'coderming@foxmail.com', type: 'mail' },
+      { address: 'coderming.com', type: 'blog' },
       { address: '17323410086', type: 'tell' }
     ],
     /**

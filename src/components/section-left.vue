@@ -26,7 +26,7 @@ export default {
   float left
   margin-top 30px
   width 50%
-  height 1130px
+  height 1135px
   box-sizing border-box
   padding 0 20px 0 40px
   border-right 1px solid #EEEEEE

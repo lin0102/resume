@@ -77,7 +77,7 @@ export default {
 @import '../config.styl'
 
 header
-  size 100% 250px
+  size 100% 242px
   color white
   background $mainColor
   border-radius 5px 5px 0 0
@@ -155,7 +155,7 @@ header
         font-weight 400
         font-size 17px
         opacity .9
-        line-height 2.15em
+        line-height 2.05em
         &:first-child
           font-size 18px
         &:last-child
@@ -163,14 +163,14 @@ header
 
     .tb-right
       float right
-      margin-top -2px
+      margin-top -3px
       text-align center
       a.tbr-item
         display block
         white-space nowrap
         font-weight 400
-        font-size 15px
-        line-height 1.8em
+        font-size 17.5px
+        line-height 2.1em
         text-align right
         transition opacity .2s ease
         &:hover
