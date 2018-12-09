@@ -124,7 +124,7 @@ header
       small
         border-top 20px solid $mainColor + #0E0E0E
         border-bottom 20px solid $mainColor + #0E0E0E
-        border-right 20px solid transparent 
+        border-right 10px solid transparent 
         cursor pointer
         transition all .2s
         height 40px
