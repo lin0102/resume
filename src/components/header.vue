@@ -6,7 +6,12 @@ header
     img(src="../static/wechat.png")
   .tit-top
     h1.name {{name}}
-    small.nick(v-if="nickName") {{nickName}}
+    a.nick(
+      v-if="github"
+      :href="`https://github.com/${github}`"
+      target="_blank")
+      small
+        a.iconfont.icon-github  {{github}}
     h2.job {{job}}
   .tit-bottom
     .tb-left
@@ -94,11 +99,45 @@ header
     h1
       font-size 50px
       font-weight 500
+      line-height 1.35em
       float left
-    small
-      padding-left 20px
-      font-size 24px
+    a.nick
+      display inline-block
+      vertical-align middle
+      overflow hidden
+      font-size 20px
+      line-height 20px
+      border-left 3px solid $mainColor - #202020
       font-weight 400
+      margin 10px 0
+      margin-left 15px
+      height 40px
+      box-sizing border-box
+      overflow hidden
+      &:hover
+        border-left-color $mainColor
+        color $mainColor
+      small
+        border-top 20px solid $mainColor + #0E0E0E
+        border-bottom 20px solid $mainColor + #0E0E0E
+        border-right 20px solid transparent 
+        cursor pointer
+        transition all .2s
+        height 40px
+        display inline-block
+        box-sizing border-box
+        &:hover
+          border-top-color white
+          border-bottom-color white
+          color $mainColor
+        a
+          font-size 20px
+          line-height 0px
+          padding 10px
+          height 0px
+          box-sizing border-box
+          overflow hidden
+          vertical-align text-top
     h2
       float right
       font-weight 300

@@ -54,7 +54,7 @@ const config = {
     // 昵称
     // 会显示在姓名的右方
     // 在pad和手机上不会显示
-    nickName: '',
+    github: 'CoderMing',
     // 意向的工作
     // 建议不超过8个字
     job: 'Web前端开发工程师',
