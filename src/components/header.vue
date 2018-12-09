@@ -22,6 +22,10 @@ header
         :href="judjeLink(item) && judjeLink(item) + item.address")
         span(v-html="item.showAddr")
         span(:class="judjeIcon(item)" class="iconfont")
+      //- github 移动端logo
+      a(v-if="github"
+        class="iconfont tbr-item-mobile icon-github" 
+        :href="'https://github.com/' + github")
       a(:class="judjeIcon(item)" class="iconfont tbr-item-mobile" 
         v-for="item in contacts"
         :href="judjeLink(item) && judjeLink(item) + item.address")
