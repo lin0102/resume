@@ -1,25 +1,25 @@
 <template lang="pug">
-  header
-    .qrcode(
-      v-if="weChatQrCode"
-      :class="!showWeChatQrCodeInHTML ? 'print-show' : ''")
-      img(src="../static/wechat.png")
-    .tit-top
-      h1.name {{name}}
-      small.nick(v-if="nickName") {{nickName}}
-      h2.job {{job}}
-    .tit-bottom
-      .tb-left
-        h3.tbl-item(v-for="item in profiles") {{item}}
-      .tb-right
-        a(class="tbr-item"
-          v-for="item in contacts"
-          :href="judjeLink(item) && judjeLink(item) + item.address")
-          span(v-html="item.showAddr")
-          span(:class="judjeIcon(item)" class="iconfont")
-        a(:class="judjeIcon(item)" class="iconfont tbr-item-mobile" 
-          v-for="item in contacts"
-          :href="judjeLink(item) && judjeLink(item) + item.address")
+header
+  .qrcode(
+    v-if="weChatQrCode"
+    :class="!showWeChatQrCodeInHTML ? 'print-show' : ''")
+    img(src="../static/wechat.png")
+  .tit-top
+    h1.name {{name}}
+    small.nick(v-if="nickName") {{nickName}}
+    h2.job {{job}}
+  .tit-bottom
+    .tb-left
+      h3.tbl-item(v-for="item in profiles") {{item}}
+    .tb-right
+      a(class="tbr-item"
+        v-for="item in contacts"
+        :href="judjeLink(item) && judjeLink(item) + item.address")
+        span(v-html="item.showAddr")
+        span(:class="judjeIcon(item)" class="iconfont")
+      a(:class="judjeIcon(item)" class="iconfont tbr-item-mobile" 
+        v-for="item in contacts"
+        :href="judjeLink(item) && judjeLink(item) + item.address")
 </template>
 
 <script>

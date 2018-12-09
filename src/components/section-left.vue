@@ -1,13 +1,13 @@
 <template lang="pug">
-  section.s-left
-    .s-item(v-for="item in sectionLeft")
-      h3 {{item.title}}
-      div(:class="{'need-blod': para.blod, 'have-dot': para.showDot}"
-          class="si-p"
-          v-for="para in item.content")
-        span.sip-dot(v-if="para.showDot")  · 
-        span.sip-right(v-if="para.right" v-html="para.right")
-        span.sip-left(v-html="para.left")
+section.s-left
+  .s-item(v-for="item in sectionLeft")
+    h3 {{item.title}}
+    div(:class="{'need-blod': para.blod, 'have-dot': para.showDot}"
+        class="si-p"
+        v-for="para in item.content")
+      span.sip-dot(v-if="para.showDot")  · 
+      span.sip-right(v-if="para.right" v-html="para.right")
+      span.sip-left(v-html="para.left")
 </template>
 
 <script>

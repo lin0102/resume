@@ -1,7 +1,7 @@
 <template lang="pug">
-  #padi
-    span.pi-left(v-html="left")
-    span.pi-right(v-html="right")
+#padi
+  span.pi-left(v-html="left")
+  span.pi-right(v-html="right")
 </template>
 
 <script>

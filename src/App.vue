@@ -1,14 +1,14 @@
 <template lang="pug">
-  div#content
-    Header
-    //- 处理只想显示单列的情况
-    SectionLeft(:class="sectionRight ? '' : 'one-section'") 
-    SectionRight(v-if="sectionRight")
-    Print
-    Title
-    Footer
-    About(v-if="showAboutInfo")
-    Github(v-if="githubLogoLocation")
+div#content
+  Header
+  //- 处理只想显示单列的情况
+  SectionLeft(:class="sectionRight ? '' : 'one-section'") 
+  SectionRight(v-if="sectionRight")
+  Print
+  Title
+  Footer
+  About(v-if="showAboutInfo")
+  Github(v-if="githubLogoLocation")
 </template>
 
 <script>

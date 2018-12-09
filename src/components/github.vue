@@ -1,7 +1,7 @@
 <template lang="pug">
-  a#github(:href="githubLogoLocation" target="_blank")
-    span fork me on Github
-    img(src="../static/github.svg")
+a#github(:href="githubLogoLocation" target="_blank")
+  span fork me on Github
+  img(src="../static/github.svg")
 </template>
 
 <script>

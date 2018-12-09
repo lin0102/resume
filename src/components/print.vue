@@ -1,11 +1,11 @@
 <template lang="pug">
-  #print(@click="printPage")
-    #tips
-      span 请使用 Chrome
-      br
-      span 并设置为无边距
-    span.iconfont.icon-pdf
-    span 转为PDF
+#print(@click="printPage")
+  #tips
+    span 请使用 Chrome
+    br
+    span 并设置为无边距
+  span.iconfont.icon-pdf
+  span 转为PDF
 </template>
 
 <script>

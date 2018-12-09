@@ -1,6 +1,6 @@
 <template lang="pug">
-  a#about(href="https://github.com/coderming" target="_blank")
-    span @ CoderMing
+a#about(href="https://github.com/coderming" target="_blank")
+  span @ CoderMing
 </template>
 
 <script>
