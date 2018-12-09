@@ -42,7 +42,7 @@ const config = {
    * 不同的是，顶部栏不会出现在打印页面以及pad和手机端
    */
   title: {
-    left: '最后更新时间：2018年11月13日',
+    left: '最后更新时间：2018年12月9日',
     right: ''
   },
   /**
@@ -73,7 +73,7 @@ const config = {
     /**
      * 信息栏
      * @param {[Object]} 需要显示的信息
-     * 最多可显示4条
+     * 最多可显示3条
      * 在pad和手机上只会显示logo
      * address： 渲染出来的文本信息
      * 注意：请勿添加协议名，若添加，将会导致链接出错
@@ -127,7 +127,7 @@ const config = {
          */
         {
           left: '<strong>某大厂</strong>',
-          right: '2019.1 至今',
+          right: '将于 2019.1 开始',
           showDot: false,
           bold: true
         },
