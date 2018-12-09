@@ -122,14 +122,25 @@ const config = {
          * left, right: 需要显示的文字，支持 b, i, a 等一切html标签，请自由配置
          * 同时提供以下几种样式配置方法
          * showDot：是否展示该段文字左边的小点。如果显示的话，这段文字将会往右缩进一丢丢
-         * blod: 该段文字是否加粗。注意，加粗后会有一点点上边距（一般情况下blod的行用于小标题）
+         * bold: 该段文字是否加粗。注意，加粗后会有一点点上边距（一般情况下bold的行用于小标题）
          * 由于HTML的解析特性，如果想同时显示多个空格，请使用&nbsp
          */
+        {
+          left: '<strong>某大厂</strong>',
+          right: '2019.1 至今',
+          showDot: false,
+          bold: true
+        },
+        {
+          left: '<b>前端实习生</b>',
+          right: '',
+          showDot: true
+        },
         {
           left: '重庆邮电大学 · 红岩网校工作站',
           right: '2017.6 至今',
           showDot: false,
-          blod: true
+          bold: true
         },
         {
           left:
@@ -142,7 +153,7 @@ const config = {
           left: '重庆邮电大学 · 计算机通信实验室',
           right: '2017.1 - 2017.6',
           showDot: false,
-          blod: true
+          bold: true
         },
         {
           left:
@@ -163,7 +174,7 @@ const config = {
             '<a href="https://www.coderming.com/label/%E7%BF%BB%E8%AF%91" target="_blank">Link</a> ' +
             '<a href="https://github.com/xitu/gold-miner" target="_blank">Source</a> ',
           showDot: false,
-          blod: true
+          bold: true
         },
         {
           left:
@@ -177,7 +188,7 @@ const config = {
             '<a href="https://coderming.com" target="_blank">Link</a> ' +
             '<a href="https://github.com/coderming/blogsue" target="_blank">Source</a>',
           showDot: false,
-          blod: true
+          bold: true
         },
         {
           left:
@@ -190,7 +201,7 @@ const config = {
           left: 'StrongBox - 微信小游戏',
           right: '<a href="https://github.com/RedrockTeam/xyx" target="_blank">Source</a>',
           showDot: false,
-          blod: true
+          bold: true
         },
         {
           left:
@@ -205,7 +216,7 @@ const config = {
           right:
             '<a href="https://github.com/CoderMing/short-url-qrcode" target="_blank">Source</a> ',
           showDot: false,
-          blod: true
+          bold: true
         },
         {
           left:
@@ -218,19 +229,12 @@ const config = {
           left: '其它作品',
           right: '',
           showDot: false,
-          blod: true
+          bold: true
         },
         {
           left:
             '<a href="https://github.com/CoderMing/cqupt-class.widget" target="_blank">重邮课表 - Übersicht插件</a> ' +
             '一个课表 Mac 桌面插件。具有课表显示、定时预报明日课表、缓存数据离线使用等功能。',
-          right: '',
-          showDot: true
-        },
-        {
-          left:
-            '<a href="https://github.com/CoderMing/resume" target="_blank">HTML简历生成模版</a> ' +
-            'Vue 组件化开发，填写 config 即生成对应简历。进行了移动端适配、打印样式适配、配色自定义、代码语义化。（本简历就是一个 Demo）',
           right: '',
           showDot: true
         }
@@ -255,14 +259,14 @@ const config = {
          * article：需要显示的文字，支持 b, i, a 等一切html标签，请自由配置
          * 同时提供以下几种样式配置方法
          * showDot：是否展示该段文字左边的小点。如果显示的话，这段文字将会往右缩进一丢丢
-         * blod: 该段文字是否加粗。注意，加粗后会有一点点上边距（一般情况下blod的行用于小标题）
+         * bold: 该段文字是否加粗。注意，加粗后会有一点点上边距（一般情况下bold的行用于小标题）
          * 由于HTML的解析特性，如果想同时显示多个空格，请使用&nbsp
          */
         {
           left: '重庆邮电大学招生办公室 · 微信小程序',
           right: '2017.6',
           showDot: false,
-          blod: true
+          bold: true
         },
         {
           left:
@@ -278,7 +282,7 @@ const config = {
             '<a href="https://github.com/CoderMing/Welcome2017" target="_blank">Source</a> ' +
             '<a href="http://hongyan.cqupt.edu.cn/welcome/2017" target="_blank">Link</a> 2017.8',
           showDot: false,
-          blod: true
+          bold: true
         },
         {
           left:
@@ -347,20 +351,20 @@ const config = {
           left: '<b>国家级：</b>2018.5 &nbsp -&nbsp 蓝桥杯全国决赛C/C++ B组优秀奖。',
           right: '',
           showDot: true,
-          blod: false
+          bold: false
         },
         {
           left:
             '<b>校级：</b>2017.10 - 重庆邮电大学ACM校赛二等奖； 重庆邮电大学单项奖学金获得一次。',
           right: '',
           showDot: true,
-          blod: false
+          bold: false
         },
         {
           left: '<b>其它：</b>软著一份； 文体&双创类奖项校级及以上获奖6次。',
           right: '',
           showDot: true,
-          blod: false
+          bold: false
         }
       ]
     }
