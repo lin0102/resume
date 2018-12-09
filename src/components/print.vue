@@ -63,6 +63,10 @@ export default {
     #tips
       display none
 
+@media screen and (max-width 720px)
+  #print
+    display none
+
 @media print
   #print
     display none
