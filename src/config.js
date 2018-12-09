@@ -126,17 +126,6 @@ const config = {
          * 由于HTML的解析特性，如果想同时显示多个空格，请使用&nbsp
          */
         {
-          left: '<strong>某大厂</strong>',
-          right: '将于 2019.1 开始',
-          showDot: false,
-          bold: true
-        },
-        {
-          left: '<b>前端实习生</b>',
-          right: '',
-          showDot: true
-        },
-        {
           left: '重庆邮电大学 · 红岩网校工作站',
           right: '2017.6 至今',
           showDot: false,
