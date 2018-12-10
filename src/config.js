@@ -34,7 +34,7 @@ const config = {
   footer: {
     left: '页面中蓝色框均为可点击的链接',
     right:
-      '<a href="https://coderming.com/resume" target="_blank">网页版简历：coderming.com/resume</a>'
+      '<a href="https://resume.coderming.com" target="_blank">网页版简历：resume.coderming.com</a>'
   },
   /**
    * 顶部栏
