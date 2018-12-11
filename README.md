@@ -10,7 +10,7 @@
 
 
 
-线上demo： [简历 | 张德明](https://www.coderming.com/resume/)
+线上demo： [简历 | 张德明](https://resume.coderming.com)
 
  
 
