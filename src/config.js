@@ -132,7 +132,7 @@ const config = {
           bold: true
         },
         {
-          left: '<b>前端实习生</small></b> ...',
+          left: '<b>前端实习生</b> ...',
           right: '',
           showDot: true
         },
@@ -354,8 +354,7 @@ const config = {
           bold: false
         },
         {
-          left:
-            '<b>校级：</b>2017.10 - 重庆邮电大学ACM校赛二等奖； 重庆邮电大学单项奖学金获得一次。',
+          left: '<b>校级：</b>重庆邮电大学ACM校赛二等奖；先进个人称号；校级单项奖学金获得两次。',
           right: '',
           showDot: true,
           bold: false
