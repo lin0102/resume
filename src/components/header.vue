@@ -46,7 +46,7 @@ export default {
           <span class="print-show">${item.address.slice(-4)}</span>`
       else if (item.type === 'mail')
         return item.showAddr = 
-        `${item.address.split('@')[0]}<span class="print-hide">[AT]</span>` + 
+        `${item.address.split('@')[0]}<span class="print-hide">#</span>` + 
         `<span class="print-show">@</span>${item.address.split('@')[1]}`
       item.showAddr = item.address
     })
