@@ -11,14 +11,24 @@
 <script>
 import config from '../config.js'
 
+const evBeforePrint = () => {
+  window.document.title = config.printName || prevTitle.replace(/\ *\|\ */g, '-')
+}
+
+const evAfterPrint = () => {
+  window.document.title = config.docName
+}
+
+window.addEventListener('beforeprint', evBeforePrint)
+window.addEventListener('afterprint', evAfterPrint)
+
 export default {
   data: () => config,
   methods: {
     printPage() {
-      let prevTitle = window.document.title
-      window.document.title = config.printName || prevTitle.replace(/\ *\|\ */g, '-')
+      evBeforePrint.call(this)
       window.print()
-      window.document.title = prevTitle
+      evAfterPrint.call(this)
     }
   }
 }
