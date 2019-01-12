@@ -132,8 +132,7 @@ const config = {
           bold: true
         },
         {
-          left:
-            '<b>前端实习生</b> ...',
+          left: '<b>前端实习生</b> ...',
           right: '',
           showDot: true
         },
@@ -308,7 +307,7 @@ const config = {
         },
         {
           left:
-            '<b>会使用各类工具，简单了解前端工程化。</b>写过<em>Webpack</em>、<em>Gulp</em>的插件。写过简单的前端自动化脚本。日常使用<em>Babel</em>、<em>CSS 预处理器 (Stylus)</em>、<em>Lint (Prettier)</em>。',
+            '<b>简单了解并实践过前端工程化。</b>写过<em>Webpack</em>、<em>Gulp</em>的插件。写过简单的前端自动化脚本。日常使用<em>Babel</em>、<em>CSS 预处理器 (Stylus)</em>、<em>Lint (Prettier)</em>。',
           right: '',
           showDot: true
         },
@@ -326,13 +325,13 @@ const config = {
         },
         {
           left:
-            '<b>简单了解当下热门的框架，了解前端组件化。</b>看过<em>Underscore</em>的源码，简单了解<em>MV*</em>框架，了解<em>React</em>的基础知识和部分原理（也是目前主要学习方向）。',
+            '<b>简单了解当下热门的框架，了解前端组件化。</b>看过<em>Underscore</em>的源码，简单了解<em>MV*</em>框架，了解<em>React</em>的基础知识和部分原理。',
           right: '',
           showDot: true
         },
         {
           left:
-            '<b>软实力：</b>喜欢看书（主要为传记/纪实类，年阅读量约20本）、喜欢旅行（大学期间穷游了六个省）、待过院辩论队、负责管理过校园内几十人的团队。喜欢与人交流、乐意在不同领域折腾，对自己日后的发展有较明确的规划。',
+            '<b>其它：</b>非技术类书籍（主要为传记/纪实类）年阅读量约20本、大学期间穷游了六个省、待过院辩论队、负责管理过校园内几十人的团队。喜欢与人交流、乐意在不同领域折腾，对自己日后的发展有较明确的规划。',
           right: '',
           showDot: true
         },
