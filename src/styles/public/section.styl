@@ -39,11 +39,17 @@
       font-weight 900
     .sip-right
       float right
+      a
+        font-family "Museo Sans"
+        &::after
+          content ">"
     a
       font-size $articleSize
       padding 0 6px 1px
       margin-top 1px
-      border 1px solid $mainColor
+      // border-bottom .5px solid rgba($mainColor, .15)
+      background-color rgba($mainColor, .08)
+      text-decoration underline
       border-radius 3px
       font-weight 600
       color $mainColor
@@ -71,7 +77,3 @@
   .sip-right
     float none !important
     margin-right 5px
-
-// @media print
-//   .s-item .si-p a
-//     display none

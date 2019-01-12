@@ -11,7 +11,8 @@ header
       :href="`https://github.com/${github}`"
       target="_blank")
       small
-        a.iconfont.icon-github  {{github}}
+        a.iconfont.icon-github 
+          span {{github}}
     h2.job {{job}}
   .tit-bottom
     .tb-left
@@ -122,8 +123,8 @@ header
         border-left-color $mainColor
         color $mainColor
       small
-        border-top 20px solid $mainColor + #0E0E0E
-        border-bottom 20px solid $mainColor + #0E0E0E
+        border-top 20px solid transparent
+        border-bottom 20px solid transparent
         border-right 10px solid transparent 
         cursor pointer
         transition all .2s
@@ -135,13 +136,18 @@ header
           border-bottom-color white
           color $mainColor
         a
-          font-size 20px
+          font-size 24px
+          opacity .98
           line-height 0px
           padding 10px
           height 0px
-          box-sizing border-box
           overflow hidden
           vertical-align text-top
+          &:hover
+            opacity 1
+          span 
+            padding-left 3px
+            font-family "Museo Sans"
     h2
       float right
       font-weight 300

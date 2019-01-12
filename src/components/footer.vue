@@ -11,6 +11,10 @@ export default {
   data: () => {
     let data = config.footer
     
+    if (data.setDefaultRightUrl && !data.right && data.right.length === 0) {
+      let currentUrl = window.location.toString()
+      data.right = `<a href="${currentUrl}">网页版简历：${currentUrl}</a>`
+    }
     // config.footer.left = config.footer.left.replace(/\ /g, '&nbsp')
     // config.footer.right = config.footer.right.replace(/\ /g, '&nbsp')
 
