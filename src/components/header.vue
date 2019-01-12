@@ -92,10 +92,10 @@ header
 
   .qrcode
     float left
-    size 180px
-    margin 8px 25px 0 0
+    size 242px
+    margin -25px 25px 0 -36px
     overflow hidden
-    border-radius 3px
+    background white
     img
       size 100%
 
