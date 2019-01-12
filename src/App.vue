@@ -57,16 +57,12 @@ export default {
 
 @css {
   html, body, h1, h2, h3, h4, h5, h6, hr, p {
-    font-size: 50px;
-    font-family: -apple-system, BlinkMacSystemFont,
-      "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell",
-      "Fira Sans", "Droid Sans", "Helvetica Neue",
-      sans-serif;
+    font-size: 50px; 
     -webkit-font-smoothing: antialiased;
     -webkit-text-size-adjust: none;
   }
   h1 {
-    font-family: "Lucida Grande", "Hiragino Sans GB", "Hiragino Sans GB W3", $font-family
+    font-family: "Lucida Grande", "Hiragino Sans GB", "Hiragino Sans GB W3"
   }
 }
 html, body, h1, h2, h3, h4, h5, h6, hr, p, a

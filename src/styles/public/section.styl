@@ -23,7 +23,7 @@
   .si-p
     font-size $articleSize
     color #4A4A4A
-    line-height 1.6em
+    line-height 24px
     position relative
     padding-top .4em
     &.have-dot
@@ -37,10 +37,15 @@
       line-height $articleSize * 1.8
       top 3px
       font-weight 900
+      & + .sip-left
+        font-family $fontFamily
+    .sip-left
+      font-family "Museo Sans"
     .sip-right
       float right
       a
         font-family "Museo Sans"
+        font-weight 500
         &::after
           content ">"
     a
@@ -49,7 +54,6 @@
       margin-top 1px
       // border-bottom .5px solid rgba($mainColor, .15)
       background-color rgba($mainColor, .08)
-      text-decoration underline
       border-radius 3px
       font-weight 600
       color $mainColor
@@ -61,8 +65,7 @@
       padding 0 2px
       margin 0 2px
       font-size $articleSize
-      background #F5F5F5
-      border 1px solid #F0F0F0
+      background #F8F8F8
       border-radius 2px
       font-style normal
       color #333
