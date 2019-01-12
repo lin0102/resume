@@ -94,6 +94,8 @@ header
     float left
     size 180px
     margin 8px 25px 0 0
+    overflow hidden
+    border-radius 3px
     img
       size 100%
 
