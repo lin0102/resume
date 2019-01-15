@@ -29,7 +29,7 @@ export default {
   height 1135px
   box-sizing border-box
   padding 0 20px 0 40px
-  border-right 1px solid #EEEEEE
+  border-right 1px solid rgba($mainColor, .15)
 
 // @media print
 //   .s-left

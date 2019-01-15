@@ -114,7 +114,7 @@ header
       overflow hidden
       font-size 20px
       line-height 20px
-      border-left 3px solid $mainColor - #202020
+      border-left 3px solid rgba(0, 0, 0, .15)
       font-weight 400
       margin 10px 0
       margin-left 15px
