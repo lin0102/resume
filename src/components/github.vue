@@ -16,18 +16,17 @@ export default {
 @import '../config.styl'   
 
 #github
+  font-family 'Museo Sans', $fontFamily
   position fixed
   left calc(50vw - 650px)
-  bottom -25px
+  bottom -35px
   transition all .3s
   opacity .6
   &:hover
-    bottom -13px
+    bottom -20px
     opacity 1
     span 
       opacity 1
-    img
-      filter drop-shadow(0px 0px 1px #dddddd)
   img 
     size 50px
   span
@@ -35,7 +34,6 @@ export default {
     display block
     text-align center
     position relative 
-    width 140px
     margin-left -45px
     margin-bottom 5px
     background #d0d0d0

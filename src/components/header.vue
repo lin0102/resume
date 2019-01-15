@@ -149,7 +149,7 @@ header
             opacity 1
           span 
             padding-left 3px
-            font-family Museo Sans, $fontFamily
+            font-family 'Museo Sans', $fontFamily
     h2
       float right
       font-weight 300

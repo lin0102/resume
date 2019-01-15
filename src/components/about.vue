@@ -15,6 +15,7 @@ export default {
 @import '../config.styl'   
 
 #about
+  font-family 'Museo Sans', $fontFamily
   position absolute
   size 200px auto
   font-size 14px
