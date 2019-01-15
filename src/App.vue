@@ -65,10 +65,14 @@ export default {
     font-family: "Lucida Grande", "Hiragino Sans GB", "Hiragino Sans GB W3"
   }
 }
-html, body, h1, h2, h3, h4, h5, h6, hr, p, a
+html, body, h1, h2, h3, h4, h5, h6, hr, p
   margin 0
   padding 0
   font-family $fontFamily
+
+a
+  font-family 'Museo Sans', $fontFamily
+  
 
 body
   background $bgColor

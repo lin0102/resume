@@ -60,7 +60,7 @@ const config = {
     github: 'CoderMing',
     // 意向的工作
     // 建议不超过8个字
-    job: 'Web前端开发工程师',
+    job: '前端开发工程师',
     /**
      * 简介栏
      * 最多可以有三个

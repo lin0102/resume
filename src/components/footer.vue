@@ -15,8 +15,6 @@ export default {
       let currentUrl = window.location.toString()
       data.right = `<a href="${currentUrl}">网页版简历：${currentUrl}</a>`
     }
-    // config.footer.left = config.footer.left.replace(/\ /g, '&nbsp')
-    // config.footer.right = config.footer.right.replace(/\ /g, '&nbsp')
 
     return data
   }
@@ -25,6 +23,9 @@ export default {
 
 <style scoped lang="stylus">
 @import '../config.styl'
+
+a 
+  font-family "Museo Sans", $fontFamily !important
 
 #padi
   position absolute
@@ -37,6 +38,7 @@ export default {
   padding 0 10px
   top 1440px
   color #C0C0C0
+  font-family Museo Sans, $fontFamily !important
   span.pi-right
     float right
 
