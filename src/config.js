@@ -194,7 +194,7 @@ const config = {
         },
         {
           left:
-            '为了提升 Github Issues 做博客的体验而开发的 SPA。使用 React 全家桶，填写一份 conf 即可生成对应界面。' +
+            '为了提升 Github Issues 做博客的体验而开发的 SPA。使用 React 全家桶，填写 config 即可生成对应界面。' +
             '实现了移动端适配、黑夜模式、PWA、配置文件抽离等功能。收获了 React 的项目开发经验。（Demo 可以看我的博客）',
           right: '',
           showDot: true
@@ -223,7 +223,7 @@ const config = {
         {
           left:
             '为了学习NodeJS，制作了这个短链接生成 API。' +
-            '实现了短链接及其二维码的生成功能。期间踩了很多坑 (例如CORS)，学习到了一个简单的 NodeJS API 后台是怎么运行的。',
+            '实现了短链接及其二维码的生成功能。期间踩了很多坑 (例如 CORS)，学习到了一个简单的 NodeJS API 后台是怎么运行的。',
           right: '',
           showDot: true
         },
@@ -272,15 +272,15 @@ const config = {
         },
         {
           left:
-            '与老师合作开发，Flex弹性布局，' +
-            '代码模块化，接口为REST API，上线后进行后期维护及版本迭代。' +
-            '<strong>至今共有5w+用户、录取工作期间DAU3.3k+、总PV410w+，并成为“腾讯微校－高校微信排行榜西部明星”之一</strong>。' +
+            '与老师合作开发，Flex 弹性布局，' +
+            '代码模块化，接口为 REST API，上线后进行后期维护及版本迭代。' +
+            '<strong>至今共有 5w+ 用户、录取工作期间 DAU3.3k+、总 PV 410w+，并成为 “腾讯微校－高校微信排行榜西部明星” 之一</strong>。' +
             '这个项目技术实现并不难，但对我意义很大：它让我了解了完整项目的流程，更让我踏入了实践的大门。',
           right: '',
           showDot: true
         },
         {
-          left: '重邮新生专题网 · PC端网页',
+          left: '重邮新生专题网 · PC 端网页',
           right:
             '<a href="https://github.com/CoderMing/Welcome2017" target="_blank">Source</a> ' +
             '<a href="http://hongyan.cqupt.edu.cn/welcome/2017" target="_blank">Link</a> 2017.8',
@@ -292,7 +292,7 @@ const config = {
             '此项目是一年一版、拥有完整开发流程的桌面端页面。' +
             '我为 2017 版负责人，负责技术选型和大体逻辑搭建。' +
             '使用了很多 CSS3 的特性，同时在开发过程中与产品视觉进行沟通，对界面进行了精细的优化。' +
-            '<strong>最终上线一个月UV6k+，PV2w+。',
+            '<strong>最终上线一个月 UV 6k+，PV 2w+。',
           right: '',
           showDot: true
         }
