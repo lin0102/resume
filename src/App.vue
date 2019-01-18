@@ -73,8 +73,9 @@ html, body, h1, h2, h3, h4, h5, h6, hr, p
 body
   background $bgColor
 
+// 选择后文字的背景色，默认就会计算好与主色搭配的配色
 *::selection
-  background $selectionColor
+  background $mainColor + rgba(48, 48, 48, 0) - rgba(0, 0, 0, .6)
 
 a
   font-family 'Museo Sans', $fontFamily
