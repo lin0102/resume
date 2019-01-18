@@ -70,10 +70,6 @@ html, body, h1, h2, h3, h4, h5, h6, hr, p
   padding 0
   font-family $fontFamily
 
-a
-  font-family 'Museo Sans', $fontFamily
-  
-
 body
   background $bgColor
 
@@ -81,6 +77,7 @@ body
   background $selectionColor
 
 a
+  font-family 'Museo Sans', $fontFamily
   text-decoration none
   color inherit
 
