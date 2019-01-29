@@ -134,7 +134,7 @@ const config = {
           bold: true
         },
         {
-          left: '<b>前端实习生</b> ...',
+          left: '<b>实习生</b> ',
           right: '',
           showDot: true
         },
