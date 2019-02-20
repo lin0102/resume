@@ -254,7 +254,7 @@ const config = {
         {
           left: '写了点博文，翻译了些文章',
           right:
-            '<a href="https://www.coderming.com/label/%E7%BF%BB%E8%AF%91" target="_blank">Link</a> ',
+            '<a href="https://www.coderming.com/" target="_blank">Link</a> ',
           showDot: false,
           bold: true
         },
@@ -294,14 +294,14 @@ const config = {
           showDot: true
         },
         {
-          left: '其它作品',
-          right: '',
+          left: '重邮课表 - Übersicht插件',
+          right:
+            '<a href="https://github.com/CoderMing/cqupt-class.widget" target="_blank">Source</a> ',
           showDot: false,
           bold: true
         },
         {
           left:
-            '<a href="https://github.com/CoderMing/cqupt-class.widget" target="_blank">重邮课表 - Übersicht插件</a> ' +
             '一个课表 Mac 桌面插件。具有课表显示、定时预报明日课表、缓存数据离线使用等功能。',
           right: '',
           showDot: true
