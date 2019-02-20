@@ -320,7 +320,7 @@ const config = {
         },
         {
           left:
-            '<b>简单了解并实践过前端工程化。</b>写过 Webpack、Gulp 的插件。写过简单的前端自动化脚本。日常使用 Babel、CSS 预处理器 (Stylus)、Lint (Prettier)。',
+            '<b>简单了解并实践过前端工程化。</b>写过 Webpack、Gulp 的插件、写过简单的前端自动化脚本、发布过 npm 包。使用过 Babel、CSS 预处理器、Lint。',
           right: '',
           showDot: true
         },
@@ -332,7 +332,7 @@ const config = {
         },
         {
           left:
-            '<b>简单了解后端的基础知识。</b>知道 HTTP(S) 协议、DNS 解析相关基础知识，使用过 CDN 服务。写过入门级的 Shell 脚本、配置过简单的 Nginx 服务器，用过 NodeJS、发布过 npm 包。',
+            '<b>简单了解后端的基础知识。</b>知道 HTTP(S) 协议、DNS 解析相关基础知识，使用过 CDN 服务。写过简单的 NodeJS Server，写过入门级的 Shell 脚本、配置过简单的 Nginx 服务器。',
           right: '',
           showDot: true
         },
