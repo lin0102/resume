@@ -128,13 +128,25 @@ const config = {
          * 由于HTML的解析特性，如果想同时显示多个空格，请使用&nbsp
          */
         {
-          left: '<strong>腾讯（深圳）PCG · QQ支付联合产品部</strong>',
+          left: '<strong>腾讯（深圳）PCG · 社交娱乐产品部</strong>',
           right: '2019.1 至今',
           showDot: false,
           bold: true
         },
         {
-          left: '<b>实习生</b> ',
+          left: '<b>实习生</b> 十余人的纯前端组，技术栈涉及 Node 较多。最大收获是体验到了公司内的开发流程及规范，以及多人协作、需求评审等校内很难锻炼到的能力。截至目前参与了 2 个项目的开发：',
+          right: '',
+          showDot: false
+        },
+        {
+          left: '<b>内部运营系统：</b>Node 直出项目，MVC，我开发了配置系统中的一个页面。',
+          right: '',
+          showDot: true
+        },
+        {
+          left: '<b>手Q 某 DAU 2千万 H5 项目：</b>项目采用内部自研 NodeJS Server 并配有专门的配置平台。' +
+                '我负责开发了一个活动下线页中间件，可根据配置项识别 request URL 并跳转到过期页面。' +
+                '中途为了性能优化写了个配置项缓存类，后面经过近一步完善发布到了团队公共组件库中。',
           right: '',
           showDot: true
         },
@@ -150,11 +162,38 @@ const config = {
             '曾主持开发了网校内部前端项目通用的工具库以及 3 个完整项目，同时参与上线维护、重构代码、项目迁移/部署等任务。' +
             '',
           right: '',
+          false: true
+        },
+        {
+          left:
+            '<a href="https://github.com/CoderMing/Welcome2017" target="_blank">Source</a> ' +
+            '<a href="http://hongyan.cqupt.edu.cn/welcome/2017" target="_blank">Link</a>' + 
+            '<b>重邮新生专题网 · PC 端网页：</b>' +
+            '此项目是一年一版、拥有完整开发流程的桌面端页面。' +
+            '我为 2017 版负责人，负责技术选型和大体逻辑搭建。' +
+            '使用了很多 CSS3 的特性，同时在开发过程中与产品视觉进行沟通，对界面进行了精细的优化。' +
+            '<strong>最终上线一个月 UV 6k+，PV 2w+。',
+          right: '',
           showDot: true
         },
         {
+          left: '重庆邮电大学招生办公室',
+          right: '2017.5 至今',
+          showDot: false,
+          bold: true
+        },
+        {
+          left:
+            '<b>小程序开发者</b> 与老师合作开发了“重庆邮电大学招生办公室”小程序。采用 Flex 弹性布局，' +
+            '代码模块化，接口为 REST API。' +
+            '<strong>自 2017 年 6 月上线，至今共有 6w+ 用户、录取工作期间 DAU3.3k+、总 PV 520w+，并成为 “腾讯微校－高校微信西部明星” 之一</strong>。' +
+            '这个项目技术实现并不难，但对当时（大一）的我意义很大：它让我了解了完整项目的流程，更让我踏入了实践的大门。目前主要的任务为后期维护及版本迭代。',
+          right: '',
+          showDot: false
+        },
+        {
           left: '重庆邮电大学 · 计算机通信实验室',
-          right: '2017.1 - 2017.6',
+          right: '2016.12 - 2017.6',
           showDot: false,
           bold: true
         },
@@ -163,11 +202,52 @@ const config = {
             '<b>实验室成员</b> 参与开发前端 4 人后端 10 人的项目。使用 Git 进行版本控制。' +
             '当时资历尚浅只是打杂，技术层面长进并不多，主要收获是对前端有了更全面的认识、确定了自己的学习的路径。',
           right: '',
-          showDot: true
+          showDot: false
         }
       ]
     },
 
+    {
+      title: '奖项证书',
+      content: [
+        {
+          left: '18 年 5 月 · 蓝桥杯区域赛 C/C++ B 组一等奖',
+          right: '',
+          showDot: true,
+          bold: false
+        },
+        {
+          left: '18 年 12 月 · 腾讯WXG x SF 微信小程序 Hackathon 打杂奖',
+          right: '',
+          showDot: true,
+          bold: false
+        },
+        {
+          left: '校级单项奖学金获得两次、ACM 校赛二等奖、软著一份。',
+          right: '',
+          showDot: true,
+          bold: false
+        },
+        {
+          left: '文体、双创类比赛省奖 6 次。',
+          right: '',
+          showDot: true,
+          bold: false
+        }
+      ]
+    }
+
+  ],
+
+  /**
+   * 若想仅显示单行，请删除此属性
+   */
+  sectionRight: [
+    /**
+     * 每一个小模块，都有以下几个配置项：
+     * title： 顶部名称栏
+     * content: 里面的内容，需要注意的是每一条内容都会换行
+     */
     {
       title: '个人作品',
       content: [
@@ -214,20 +294,6 @@ const config = {
           showDot: true
         },
         {
-          left: '短链接生成API工具',
-          right:
-            '<a href="https://github.com/CoderMing/short-url-qrcode" target="_blank">Source</a> ',
-          showDot: false,
-          bold: true
-        },
-        {
-          left:
-            '为了学习NodeJS，制作了这个短链接生成 API。' +
-            '实现了短链接及其二维码的生成功能。期间踩了很多坑 (例如 CORS)，学习到了一个简单的 NodeJS API 后台是怎么运行的。',
-          right: '',
-          showDot: true
-        },
-        {
           left: '其它作品',
           right: '',
           showDot: false,
@@ -237,62 +303,6 @@ const config = {
           left:
             '<a href="https://github.com/CoderMing/cqupt-class.widget" target="_blank">重邮课表 - Übersicht插件</a> ' +
             '一个课表 Mac 桌面插件。具有课表显示、定时预报明日课表、缓存数据离线使用等功能。',
-          right: '',
-          showDot: true
-        }
-      ]
-    }
-  ],
-
-  /**
-   * 若想仅显示单行，请删除此属性
-   */
-  sectionRight: [
-    /**
-     * 每一个小模块，都有以下几个配置项：
-     * title： 顶部名称栏
-     * content: 里面的内容，需要注意的是每一条内容都会换行
-     */
-    {
-      title: '项目经验',
-      content: [
-        /**
-         * 文章正文部分
-         * article：需要显示的文字，支持 b, i, a 等一切html标签，请自由配置
-         * 同时提供以下几种样式配置方法
-         * showDot：是否展示该段文字左边的小点。如果显示的话，这段文字将会往右缩进一丢丢
-         * bold: 该段文字是否加粗。注意，加粗后会有一点点上边距（一般情况下bold的行用于小标题）
-         * 由于HTML的解析特性，如果想同时显示多个空格，请使用&nbsp
-         */
-        {
-          left: '重庆邮电大学招生办公室 · 微信小程序',
-          right: '2017.6',
-          showDot: false,
-          bold: true
-        },
-        {
-          left:
-            '与老师合作开发，Flex 弹性布局，' +
-            '代码模块化，接口为 REST API，上线后进行后期维护及版本迭代。' +
-            '<strong>至今共有 5w+ 用户、录取工作期间 DAU3.3k+、总 PV 410w+，并成为 “腾讯微校－高校微信排行榜西部明星” 之一</strong>。' +
-            '这个项目技术实现并不难，但对我意义很大：它让我了解了完整项目的流程，更让我踏入了实践的大门。',
-          right: '',
-          showDot: true
-        },
-        {
-          left: '重邮新生专题网 · PC 端网页',
-          right:
-            '<a href="https://github.com/CoderMing/Welcome2017" target="_blank">Source</a> ' +
-            '<a href="http://hongyan.cqupt.edu.cn/welcome/2017" target="_blank">Link</a> 2017.8',
-          showDot: false,
-          bold: true
-        },
-        {
-          left:
-            '此项目是一年一版、拥有完整开发流程的桌面端页面。' +
-            '我为 2017 版负责人，负责技术选型和大体逻辑搭建。' +
-            '使用了很多 CSS3 的特性，同时在开发过程中与产品视觉进行沟通，对界面进行了精细的优化。' +
-            '<strong>最终上线一个月 UV 6k+，PV 2w+。',
           right: '',
           showDot: true
         }
@@ -345,30 +355,6 @@ const config = {
         }
       ]
     },
-
-    {
-      title: '奖项证书',
-      content: [
-        {
-          left: '18 年 5 月 · 蓝桥杯区域赛 C/C++ B 组一等奖',
-          right: '',
-          showDot: true,
-          bold: false
-        },
-        {
-          left: '18 年 12 月 · 腾讯WXG x SF 微信小程序 Hackathon 打杂奖',
-          right: '',
-          showDot: true,
-          bold: false
-        },
-        {
-          left: '校级单项奖学金获得两次、ACM 校赛二等奖、软著一份。',
-          right: '',
-          showDot: true,
-          bold: false
-        }
-      ]
-    }
   ],
 
   /**
