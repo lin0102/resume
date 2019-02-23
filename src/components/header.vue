@@ -165,13 +165,13 @@ header
       float left
       h3.tbl-item
         font-weight 400
-        font-size 17px
+        font-size 18px
         opacity .9
         line-height 2.05em
-        &:first-child
-          font-size 18px
-        &:last-child
-          font-size 16px
+        // &:first-child
+        //   font-size 18px
+        // &:last-child
+        //   font-size 16px
 
     .tb-right
       float right
