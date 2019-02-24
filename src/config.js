@@ -167,7 +167,7 @@ const config = {
         {
           left:
             '<a href="https://github.com/CoderMing/Welcome2017" target="_blank">Source</a> ' +
-            '<a href="http://hongyan.cqupt.edu.cn/welcome/2017" target="_blank">Link</a>' + 
+            '<a href="http://hongyan.cqupt.edu.cn/welcome/2017" target="_blank">Link</a> ' + 
             '<b>重邮新生专题网 · PC 端网页：</b>' +
             '此项目是一年一版、拥有完整开发流程的桌面端页面。' +
             '我为 2017 版负责人，负责技术选型和大体逻辑搭建。' +
@@ -186,7 +186,7 @@ const config = {
           left:
             '<b>小程序开发者</b> 与老师合作开发了“重庆邮电大学招生办公室”小程序。采用 Flex 弹性布局，' +
             '代码模块化，接口为 REST API。' +
-            '<strong>自 2017 年 6 月上线，至今共有 6w+ 用户、录取工作期间 DAU3.3k+、总 PV 520w+，并成为 “腾讯微校－高校微信西部明星” 之一</strong>。' +
+            '<strong>自 2017 年 6 月上线，至今共有 6w+ 用户、录取工作期间 DAU 3.3k+、总 PV 520w+，并成为 “腾讯微校－高校微信西部明星” 之一</strong>。' +
             '这个项目技术实现并不难，但对当时（大一）的我意义很大：它让我了解了完整项目的流程，更让我踏入了实践的大门。目前主要的任务为后期维护及版本迭代。',
           right: '',
           showDot: false
@@ -252,7 +252,7 @@ const config = {
       title: '个人作品',
       content: [
         {
-          left: '写了点博文，翻译了些文章',
+          left: '博客 & 翻译',
           right:
             '<a href="https://www.coderming.com/" target="_blank">Link</a> ',
           showDot: false,
@@ -275,7 +275,7 @@ const config = {
         {
           left:
             '为了提升 Github Issues 做博客的体验而开发的 SPA。使用 React 全家桶，填写 config 即可生成对应界面。' +
-            '实现了移动端适配、黑夜模式、PWA、配置文件抽离等功能。收获了 React 的项目开发经验。（Demo 可以看我的博客）',
+            '实现了移动端适配、黑夜模式、PWA、配置文件抽离等功能。（Demo 可以看我的博客）',
           right: '',
           showDot: true
         },
@@ -294,7 +294,7 @@ const config = {
           showDot: true
         },
         {
-          left: '重邮课表 - Übersicht插件',
+          left: '重邮课表 - Übersicht 插件',
           right:
             '<a href="https://github.com/CoderMing/cqupt-class.widget" target="_blank">Source</a> ',
           showDot: false,
@@ -302,7 +302,7 @@ const config = {
         },
         {
           left:
-            '一个课表 Mac 桌面插件。具有课表显示、定时预报明日课表、缓存数据离线使用等功能。',
+            '一个课表 Mac 桌面插件。具有课表显示、定时预报明日课表、缓存数据离线使用等功能。目前已有 100+ 人使用。',
           right: '',
           showDot: true
         }
