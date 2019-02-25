@@ -45,7 +45,7 @@ const config = {
    * 不同的是，顶部栏不会出现在打印页面以及pad和手机端
    */
   title: {
-    left: '最后更新时间：2019年2月22日',
+    left: `最后更新时间：${process.env.BUILT_TIME}`,
     right: ''
   },
   /**
