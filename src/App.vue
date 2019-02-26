@@ -2,7 +2,7 @@
 div#content
   Header
   //- 处理只想显示单列的情况
-  SectionLeft(:class="sectionRight ? '' : 'one-section'") 
+  SectionLeft(:class="(sectionRight && sectionRight.length) ? '' : 'one-section'") 
   SectionRight(v-if="sectionRight")
   Print
   Title

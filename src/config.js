@@ -85,6 +85,7 @@ const config = {
      * 请提issue
      */
     contacts: [
+      
       { address: 'coderming@foxmail.com', type: 'mail' },
       { address: 'coderming.com', type: 'blog' },
       { address: '17323410086', type: 'tell' }
@@ -260,7 +261,7 @@ const config = {
         },
         {
           left:
-            '大二下开始写博文，内容比较杂，至今有十余篇。从 2018 年 8 月起，开始参与翻译社区内的英文文章。至今主持翻译文章 8 篇、参与校对十余篇，内容涉及前端范围内的基础文档及前沿知识。学习知识贡献社区的同时也锻炼了英文阅读能力。',
+            '大二下开始写博文，内容比较杂，至今有十余篇。从 2018 年 8 月起，开始参与翻译社区内的英文文章。',
           right: '',
           showDot: true
         },
@@ -310,7 +311,7 @@ const config = {
     },
 
     {
-      title: '专业技能',
+      title: '个人能力',
       content: [
         {
           left:
@@ -339,6 +340,12 @@ const config = {
         {
           left:
             '<b>简单了解当下热门的框架，了解前端组件化。</b>看过 Underscore 的源码，简单了解 MV* 框架，了解 React 的基础知识和部分原理。',
+          right: '',
+          showDot: true
+        },
+        {
+          left:
+            '<strong>弱项 & 弥补措施：</strong>1.英语——只有 CET4：参加了一个翻译志愿者团队，已参与翻译十余篇文章；2.算法——未拿过 ACM 省级及以上奖：大三开始每日刷 leetcode 中等及以上难度题目一道，至今已刷 100+ 题。',
           right: '',
           showDot: true
         },
