@@ -44,5 +44,6 @@ export default {
     float none
     clear both
     padding 0 20px
+    margin-top 0
 
 </style>

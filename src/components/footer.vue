@@ -51,7 +51,7 @@ a
 @media screen and (max-width 1024px)
   #padi
     position relative
-    top 80px
+    top 30px
     box-sizing border-box
     span
       display block

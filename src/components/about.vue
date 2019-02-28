@@ -50,5 +50,5 @@ export default {
     padding 0 0 10px
     margin-top -30px
     position relative
-    top 115px
+    top 65px
 </style>
