@@ -225,7 +225,7 @@ const config = {
           bold: false
         },
         {
-          left: '校级单项奖学金获得两次、ACM 校赛二等奖、软著一份。',
+          left: '校级单项奖学金获得两次、ACM 重庆市赛二等奖、软著一份。',
           right: '',
           showDot: true,
           bold: false
@@ -262,7 +262,7 @@ const config = {
         },
         {
           left:
-            '大二下开始写博文，内容比较杂，至今有十余篇。从 2018 年 8 月起，开始参与翻译社区内的英文文章。',
+            '大二下开始写博文，内容比较杂，至今有十余篇。从 2018 年 8 月起，参加了一个翻译志愿者团队，至今已参与翻译十余篇技术文章。',
           right: '',
           showDot: true
         },
@@ -316,7 +316,7 @@ const config = {
       content: [
         {
           left:
-            '<b>熟练掌握基本技能。</b>熟悉 HTML5、CSS3、ES6+、正则、响应式布局等，略懂 Canvas。',
+            '<b>熟练掌握基本技能。</b>熟悉 HTML5、CSS3、ES6+、正则、响应式布局等，略懂 Canvas，会基本的数据结构与算法。',
           right: '',
           showDot: true
         },
@@ -328,7 +328,7 @@ const config = {
         },
         {
           left:
-            '<b>了解基本的代码调试、优化、前端安全。</b>使用过性能监测工具、会使用 Chrome devTools 的基本功能、做过代理抓包调试、进行过代码优化。了解常见的前端安全隐患及简单的防备措施。',
+            '<b>了解基本的代码调试、优化、前端安全。</b>使用过性能监测工具、会使用 Chrome devTools 的基本功能、做过代理抓包调试、进行过代码优化。了解常见的前端安全隐患及防备措施。',
           right: '',
           showDot: true
         },
@@ -350,12 +350,13 @@ const config = {
           right: '',
           showDot: true
         },
-        {
-          left:
-            '<strong>弱项 & 弥补措施：</strong>1. 英语——只有 CET4：参加了一个翻译志愿者团队，已参与翻译十余篇文章；2. 算法——未拿过 ACM 省级及以上奖：大三开始每日刷 leetcode 中等及以上难度题目一道，至今已刷 100+ 题。',
-          right: '',
-          showDot: true
-        },
+        // {
+        //   left:
+        //     '<strong>弱项 & 弥补措施：</strong>1. 英语（CET4）：参加了一个翻译志愿者团队，已参与翻译十余篇技术文章。GitHub 上给英文项目提 issue 做交流无压力；' + 
+        //     '2. 算法（ACM 重庆市赛二等奖）：大三开始每日刷 leetcode 中等及以上难度题目一道，至今已刷 100+ 题。',
+        //   right: '',
+        //   showDot: true
+        // },
         {
           left: '日常开发环境为 macOS、VS Code，使用 Linux、Git、Markdown，默认 Google。',
           right: '',
