@@ -1,9 +1,10 @@
 <template lang="pug">
 div#content
   Header
-  //- 处理只想显示单列的情况
-  SectionLeft(:class="(sectionRight && sectionRight.length) ? '' : 'one-section'") 
-  SectionRight(v-if="sectionRight")
+  section
+    //- 处理只想显示单列的情况
+    SectionLeft(:class="(sectionRight && sectionRight.length) ? '' : 'one-section'") 
+    SectionRight(v-if="sectionRight")
   Print
   Title
   Footer

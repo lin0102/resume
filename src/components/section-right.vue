@@ -1,5 +1,5 @@
 <template lang="pug">
-section.s-right
+div.s-right
   .s-item(v-for="item in sectionRight")
     h3 {{item.title}}
     div(:class="(para.bold ? 'need-bold ' : '') + (para.showDot ? 'have-dot' : '')"
