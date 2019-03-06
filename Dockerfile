@@ -13,6 +13,9 @@ RUN git remote remove origin \
 
 RUN chmod +x /app/script/update.sh
 
+RUN echo "Asia/Shanghai" > /etc/timezone
+RUN dpkg-reconfigure -f noninteractive tzdata
+
 RUN npm config set registry "https://registry.npm.taobao.org/" \
     && npm install \
     && npm run build
