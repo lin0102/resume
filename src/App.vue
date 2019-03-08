@@ -95,13 +95,14 @@ a
   margin 55px auto 100px
   box-shadow 0 0 15px silver
   border-radius 5px
-  overflow hidden
   transition all .2s ease-out
 
 #main-in
   overflow hidden
   min-height 1188px
   background white
+  border-bottom-left-radius 5px
+  border-bottom-right-radius 5px
 
 @media print
   #content
