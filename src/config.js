@@ -175,7 +175,58 @@ const config = {
         {
           left:
             '<a href="https://github.com/CoderMing/Welcome2017" target="_blank">Source</a> ' +
-            '<a href="http://hongyan.cqupt.edu.cn/welcome/2017" target="_blank">Link</a> ' + 
+            '<a href="http://hongyan.cqupt.edu.cn/welcome/2017" target="_blank">Link</a> ' +
+            '<b>重邮新生专题网 · PC 端网页：</b>' +
+            '此项目是一年一版、拥有完整开发流程的桌面端页面，我为 2017 版负责人。' +
+            '开发中使用了很多 CSS3 的特性，同时在开发过程中与产品视觉进行沟通，对界面进行了精细的优化。' +
+            '<strong>最终上线一个月 UV 6k+，PV 2w+。',
+          right: '',
+          showDot: true
+        },
+        {
+          left: '重庆邮电大学 · 校招生办公室',
+          right: '2017.5 至今',
+          showDot: false,
+          bold: true
+        },
+        {
+          left:
+            '<a href="https://github.com/CoderMing/Welcome2017" target="_blank">Source</a> ' +
+            '<a href="http://hongyan.cqupt.edu.cn/welcome/2017" target="_blank">Link</a> ' +
+            '<b>重邮新生专题网 · PC 端网页：</b>' +
+            '此项目是一年一版、拥有完整开发流程的桌面端页面，我为 2017 版负责人。' +
+            '开发中使用了很多 CSS3 的特性，同时在开发过程中与产品视觉进行沟通，对界面进行了精细的优化。' +
+            '<strong>最终上线一个月 UV 6k+，PV 2w+。',
+          right: '',
+          showDot: true
+        },
+        {
+          left: '重庆邮电大学 · 校招生办公室',
+          right: '2017.5 至今',
+          showDot: false,
+          bold: true
+        },
+        {
+          left:
+            '<a href="https://github.com/CoderMing/Welcome2017" target="_blank">Source</a> ' +
+            '<a href="http://hongyan.cqupt.edu.cn/welcome/2017" target="_blank">Link</a> ' +
+            '<b>重邮新生专题网 · PC 端网页：</b>' +
+            '此项目是一年一版、拥有完整开发流程的桌面端页面，我为 2017 版负责人。' +
+            '开发中使用了很多 CSS3 的特性，同时在开发过程中与产品视觉进行沟通，对界面进行了精细的优化。' +
+            '<strong>最终上线一个月 UV 6k+，PV 2w+。',
+          right: '',
+          showDot: true
+        },
+        {
+          left: '重庆邮电大学 · 校招生办公室',
+          right: '2017.5 至今',
+          showDot: false,
+          bold: true
+        },
+        {
+          left:
+            '<a href="https://github.com/CoderMing/Welcome2017" target="_blank">Source</a> ' +
+            '<a href="http://hongyan.cqupt.edu.cn/welcome/2017" target="_blank">Link</a> ' +
             '<b>重邮新生专题网 · PC 端网页：</b>' +
             '此项目是一年一版、拥有完整开发流程的桌面端页面，我为 2017 版负责人。' +
             '开发中使用了很多 CSS3 的特性，同时在开发过程中与产品视觉进行沟通，对界面进行了精细的优化。' +
@@ -294,6 +345,18 @@ const config = {
     {
       title: '个人能力',
       content: [
+        {
+          left:
+            '<b>熟练掌握基本技能。</b>熟悉 HTML5、CSS3、ES6+、正则、响应式布局等，略懂 Canvas，会基本的数据结构与算法。',
+          right: '',
+          showDot: true
+        },
+        {
+          left:
+            '<b>熟练掌握基本技能。</b>熟悉 HTML5、CSS3、ES6+、正则、响应式布局等，略懂 Canvas，会基本的数据结构与算法。',
+          right: '',
+          showDot: true
+        },
         {
           left:
             '<b>熟练掌握基本技能。</b>熟悉 HTML5、CSS3、ES6+、正则、响应式布局等，略懂 Canvas，会基本的数据结构与算法。',

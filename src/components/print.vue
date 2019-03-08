@@ -42,6 +42,9 @@ export default {
   },
   methods: {
     printPage() {
+      if (!this.isPrintInOnePage) {
+        return
+      }
       evBeforePrint.call(this)
       window.print()
       evAfterPrint.call(this)
@@ -76,6 +79,7 @@ export default {
   cursor pointer
   &.disabled
     background gray
+    cursor not-allowed
     #tips
       color gray
   #tips
