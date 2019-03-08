@@ -37,7 +37,7 @@ a
 #padi
   position absolute
   left 0
-  bottom -30px
+  bottom -35px
   overflow hidden
   size 100vw auto
   max-width 1024px
