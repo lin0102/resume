@@ -16,7 +16,7 @@ export default {
       // 如果是根目录 那么就别显示‘/’
       if (pathname === '/') pathname = ''
       // 如果是80 or 443 就block掉端口
-      if (port === '80' || port === '443') port = ''
+      if (port === '80' || port === '443' || port === '') port = ''
       else port = ':' + port
 
       let currentUrl = hostname + port + pathname
