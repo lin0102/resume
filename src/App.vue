@@ -1,7 +1,7 @@
 <template lang="pug">
 div#content
   Header
-  section
+  section#main-in
     //- 处理只想显示单列的情况
     SectionLeft(:class="(sectionRight && sectionRight.length) ? '' : 'one-section'") 
     SectionRight(v-if="sectionRight")
@@ -90,14 +90,18 @@ a
 
 #content
   position relative
-  background white
-  size 1024px 1430px
+  size 1024px auto 
+  min-height 1430px
   margin 55px auto 100px
-  border-radius 5px
-  // overflow hidden
   box-shadow 0 0 15px silver
+  border-radius 5px
+  overflow hidden
   transition all .2s ease-out
 
+#main-in
+  overflow hidden
+  min-height 1188px
+  background white
 
 @media print
   #content
@@ -118,5 +122,6 @@ a
     margin 0
     border-radius 0
     min-width 320px
+    min-height 0
     box-shadow none
 </style>

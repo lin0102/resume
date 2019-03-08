@@ -1,11 +1,19 @@
 <template lang="pug">
-#print(@click="printPage")
-  #tips
-    span 请使用 Chrome
-    br
-    span 并设置为无边距
-  span.iconfont.icon-pdf
-  span 转为PDF
+#print(@click="printPage")(:class="isPrintInOnePage ? '' : 'disabled'")
+  div(v-if="isPrintInOnePage")
+    #tips
+      span 请使用 Chrome
+      br
+      span 并设置为无边距
+    span.iconfont.icon-pdf
+    span 转为PDF
+  div(v-if="!isPrintInOnePage")
+    #tips.disabled
+      span 当前内容高度大于可打印高度
+      br
+      span 请删除部分内容
+    span.iconfont.icon-pdf
+    span 转为PDF
 </template>
 
 <script>
@@ -22,14 +30,31 @@ const evAfterPrint = () => {
 window.addEventListener('beforeprint', evBeforePrint)
 window.addEventListener('afterprint', evAfterPrint)
 
+
+
 export default {
-  data: () => config,
+  data: () => {
+    return {
+      ...config, 
+      // 计算 #content 的高度是否大于1430
+      isPrintInOnePage: true
+    }
+  },
   methods: {
     printPage() {
       evBeforePrint.call(this)
       window.print()
       evAfterPrint.call(this)
     }
+  },
+  mounted() {
+    setTimeout(() => {
+      try {
+        this.isPrintInOnePage = parseInt(window.getComputedStyle(window.document.querySelector('#content')).height) <= 1430
+      } catch(err) {
+        return false
+      }
+    }, 500)
   }
 }
 </script>
@@ -49,6 +74,10 @@ export default {
   font-size 15px
   border-radius 3px
   cursor pointer
+  &.disabled
+    background gray
+    #tips
+      color gray
   #tips
     position absolute
     left 0
@@ -60,7 +89,8 @@ export default {
     size auto
     text-align center
     transition opacity .2s ease
-  &:hover>#tips
+      
+  &:hover #tips
     opacity 1
   span:last-child
     margin-left 4px

@@ -26,7 +26,7 @@ export default {
   float right
   margin-top 30px
   width 50%
-  height 1135px
+  min-height 1135px
   box-sizing border-box
   padding 0 40px 0 20px
 
@@ -45,5 +45,6 @@ export default {
     clear both
     padding 0 20px
     margin-top 0
+    min-height 0px
 
 </style>

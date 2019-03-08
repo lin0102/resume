@@ -36,6 +36,8 @@ a
 
 #padi
   position absolute
+  left 0
+  bottom -30px
   overflow hidden
   size 100vw auto
   max-width 1024px
@@ -43,7 +45,6 @@ a
   line-height 2em
   box-sizing border-box
   padding 0 10px
-  top 1440px
   color #C0C0C0
   font-family Museo Sans, $fontFamily !important
   span.pi-right

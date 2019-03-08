@@ -23,7 +23,7 @@ export default {
   box-sizing border-box
   text-align center
   padding 0 10px
-  top 1476px
+  bottom -60px
   left 50%
   margin-left -100px
   color #C8C8C8
