@@ -109,6 +109,8 @@ a
     border-radius 0
     margin 0
     height 1447px
+    overflow hidden
+    background white
   .print-hide
     display none
   .print-show

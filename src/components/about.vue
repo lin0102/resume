@@ -12,7 +12,7 @@ export default {
 </script>
 
 <style scoped lang="stylus">
-@import '../config.styl'   
+@import '../config.styl'
 
 #about
   font-family 'Museo Sans', $fontFamily
