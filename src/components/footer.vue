@@ -12,8 +12,15 @@ export default {
     let data = config.footer
     
     if (data.setDefaultRightUrl && !data.right && data.right.length === 0) {
-      let currentUrl = window.location.toString()
-      data.right = `<a href="${currentUrl}">网页版简历：${currentUrl}</a>`
+      let { hostname, pathname, port } = window.location
+      // 如果是根目录 那么就别显示‘/’
+      if (pathname === '/') pathname = ''
+      // 如果是80 or 443 就block掉端口
+      if (port === '80' || port === '443') port = ''
+      else port = ':' + port
+
+      let currentUrl = hostname + port + pathname
+      data.right = `<a href="${window.location.href}">网页版简历：${currentUrl}</a>`
     }
 
     return data
