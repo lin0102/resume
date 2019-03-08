@@ -353,18 +353,6 @@ const config = {
         },
         {
           left:
-            '<b>熟练掌握基本技能。</b>熟悉 HTML5、CSS3、ES6+、正则、响应式布局等，略懂 Canvas，会基本的数据结构与算法。',
-          right: '',
-          showDot: true
-        },
-        {
-          left:
-            '<b>熟练掌握基本技能。</b>熟悉 HTML5、CSS3、ES6+、正则、响应式布局等，略懂 Canvas，会基本的数据结构与算法。',
-          right: '',
-          showDot: true
-        },
-        {
-          left:
             '<b>简单了解并实践过前端工程化。</b>写过 Webpack、Gulp 的插件（自用）、写过简单的前端自动化脚本、发布过 npm 包。使用过 Babel、CSS 预处理器、Lint。',
           right: '',
           showDot: true
