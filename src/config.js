@@ -3,7 +3,7 @@
  * @author CoderMing
  * https://github.com/coderming
  * 若想修改样式的配置参数，请修改同目录下的 config.styl 文件
- * 
+ *
  * 全局变量（会在build时注入到dist中，可以在代码中直接使用）：
  * @param {[String]} process.env.BUILT_TIME 运行build task时的时间，格式：'xxxx年xx月xx日 xx:xx'
  */
@@ -86,7 +86,6 @@ const config = {
      * 请提issue
      */
     contacts: [
-
       { address: 'coderming@foxmail.com', type: 'mail' },
       { address: 'coderming.com', type: 'blog' },
       { address: '17323410086', type: 'tell' }
@@ -130,13 +129,26 @@ const config = {
          * 由于HTML的解析特性，如果想同时显示多个空格，请使用&nbsp
          */
         {
+          left: '<strong>阿里巴巴（杭州）· 淘宝前端团队（FED）</strong>',
+          right: '2019.4 至今',
+          showDot: false,
+          bold: true
+        },
+        {
+          left:
+            '<b>实习生</b> ...',
+          right: '',
+          showDot: false
+        },
+        {
           left: '<strong>腾讯（深圳）PCG · 社交娱乐产品部</strong>',
           right: '2019.1 - 2019.3',
           showDot: false,
           bold: true
         },
         {
-          left: '<b>实习生</b> 十余人的纯前端组，技术栈涉及 Node 较多。最大收获是体验到了公司内的开发流程及规范，以及多人协作、需求评审等校内很难锻炼到的能力。共参与了 3 个项目的开发：',
+          left:
+            '<b>实习生</b> 十余人的纯前端组，技术栈涉及 Node 较多。最大收获是体验到了公司内的开发流程及规范，以及多人协作、需求评审等校内很难锻炼到的能力。共参与了 3 个项目的开发：',
           right: '',
           showDot: false
         },
@@ -146,14 +158,16 @@ const config = {
           showDot: true
         },
         {
-          left: '<b>手Q 某 DAU 2000w H5 项目：</b>项目采用内部自研 NodeJS Server 并配有专门的配置平台。' +
+          left:
+            '<b>手Q 某 DAU 2000w H5 项目：</b>项目采用内部自研 NodeJS Server 并配有专门的配置平台。' +
             '我负责开发了一个活动下线页中间件，可根据配置项识别 Request URL 并跳转到指定页面。' +
             '中途为了性能优化写了个配置项缓存类，后面经过近一步完善（支持多进程复用）后发布到了团队公共组件库中。',
           right: '',
           showDot: true
         },
         {
-          left: '<b>企业微信机器人消息模块：</b><strong>个人独立负责。</strong>帮助管理人员在操作配置平台时周知其他成员，以及快捷查找组内文档。' +
+          left:
+            '<b>企业微信机器人消息模块：</b><strong>个人独立负责。</strong>帮助管理人员在操作配置平台时周知其他成员，以及快捷查找组内文档。' +
             '自己实现的订阅者模式，支持简易的自定义模版，支持简易的模糊搜索。',
           right: '',
           showDot: true
@@ -197,7 +211,7 @@ const config = {
         },
         {
           left:
-            '<strong>重庆邮电大学招生办公室 · 微信小程序：</strong>为提高高考填报志愿期间学校的服务质量，与老师合作开发了“重庆邮电大学招生办公室”小程序。采用 Flex 弹性布局，' +
+            '<strong>重庆邮电大学招生办公室 · 微信小程序：</strong>为提高高考填报志愿期间学校的服务质量，与老师合作开发的小程序。采用 Flex 弹性布局，' +
             '代码模块化，接口为 REST API。' +
             '<strong>2017 年 6 月上线至今共有 6w+ 用户、录取工作期间 DAU 3.3k+、总 PV 520w+，并成为 “腾讯微校－高校微信西部明星” 之一</strong>。' +
             '这个项目技术实现并不难，但它让当时（大一）的我学会如何制作一个完整的项目，让我踏入了实践的大门。目前主要的任务为后期维护。',
@@ -218,7 +232,7 @@ const config = {
           showDot: false
         }
       ]
-    },
+    }
   ],
 
   /**
@@ -235,8 +249,7 @@ const config = {
       content: [
         {
           left: '博客 & 翻译',
-          right:
-            '<a href="https://www.coderming.com/" target="_blank">Link</a> ',
+          right: '<a href="https://www.coderming.com/" target="_blank">Link</a> ',
           showDot: false,
           bold: true
         },
@@ -342,7 +355,7 @@ const config = {
           showDot: true
         }
       ]
-    },
+    }
   ],
 
   /**
