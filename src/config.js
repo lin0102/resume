@@ -130,7 +130,7 @@ const config = {
          */
         {
           left: '<strong>阿里巴巴（杭州）· 淘宝前端团队（FED）</strong>',
-          right: '2019.4 至今',
+          right: '2019.5 至今',
           showDot: false,
           bold: true
         },
