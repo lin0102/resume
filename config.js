@@ -1,3 +1,4 @@
+require('./env')
 /**
  * 简历内容配置文件
  * @author CoderMing
