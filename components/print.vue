@@ -1,5 +1,5 @@
 <template lang="pug">
-#print(@click="printPage")(:class="isPrintInOnePage ? '' : 'disabled'")
+#print(@click="printPage" :class="isPrintInOnePage ? '' : 'disabled'")
   div(v-if="isPrintInOnePage")
     #tips
       span 请使用 Chrome
@@ -27,15 +27,16 @@ const evAfterPrint = () => {
   window.document.title = config.docName
 }
 
-window.addEventListener('beforeprint', evBeforePrint)
-window.addEventListener('afterprint', evAfterPrint)
-
+if (process.client) {
+  window.addEventListener('beforeprint', evBeforePrint)
+  window.addEventListener('afterprint', evAfterPrint)
+}
 
 
 export default {
   data: () => {
     return {
-      ...config, 
+      ...config,
       // 计算 #content 的高度是否大于1430
       isPrintInOnePage: true
     }
@@ -93,7 +94,7 @@ export default {
     size auto
     text-align center
     transition opacity .2s ease
-      
+
   &:hover #tips
     opacity 1
   span:last-child
@@ -114,5 +115,5 @@ export default {
 @media print
   #print
     display none
-  
+
 </style>

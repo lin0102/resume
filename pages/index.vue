@@ -3,7 +3,7 @@ div#content
   Header
   section#main-in
     //- 处理只想显示单列的情况
-    SectionLeft(:class="(sectionRight && sectionRight.length) ? '' : 'one-section'") 
+    SectionLeft(:class="(sectionRight && sectionRight.length) ? '' : 'one-section'")
     SectionRight(v-if="sectionRight")
   Print
   Title
@@ -13,27 +13,29 @@ div#content
 </template>
 
 <script>
-import Print from './components/print.vue'
-import Header from './components/header.vue'
-import SectionLeft from './components/section-left.vue'
-import SectionRight from './components/section-right.vue'
-import Title from './components/title.vue'
-import Footer from './components/footer.vue'
-import About from './components/about.vue'
-import Github from './components/github.vue'
+import Print from '../components/print.vue'
+import Header from '../components/header.vue'
+import SectionLeft from '../components/section-left.vue'
+import SectionRight from '../components/section-right.vue'
+import Title from '../components/title.vue'
+import Footer from '../components/footer.vue'
+import About from '../components/about.vue'
+import Github from '../components/github.vue'
 
-import config from './config.js'
+import config from '../config.js'
 
-// 引入用户自定义网页标题
-if (config.title)
-  window.document.title = config.docName
-// 引入rel描述meta
-document.head.innerHTML += 
-`<meta \
-  name="description" \
-  content="${config.description
-            || (config.header.name + (config.header.nickName ? `（${config.header.nickName}）` : '') + 
-            `的个人简历 - ${config.header.job}`)}">`
+if (process.client) {
+  // 引入用户自定义网页标题
+  if (config.title)
+    window.document.title = config.docName
+  // 引入rel描述meta
+  document.head.innerHTML +=
+  `<meta \
+    name="description" \
+    content="${config.description
+              || (config.header.name + (config.header.nickName ? `（${config.header.nickName}）` : '') +
+              `的个人简历 - ${config.header.job}`)}">`
+}
 
 export default {
   name: 'resume',
@@ -52,13 +54,13 @@ export default {
 </script>
 
 <style lang="stylus">
-@import './config.styl'
-@import './styles/iconfont/iconfont.css'
-@import './styles/font/font.css'
+@import '../styles/iconfont/iconfont.css'
+@import '../styles/font/font.css'
+@import '../config.styl'
 
 @css {
   html, body, h1, h2, h3, h4, h5, h6, hr, p {
-    font-size: 50px; 
+    font-size: 50px;
     -webkit-font-smoothing: antialiased;
     -webkit-text-size-adjust: none;
   }
@@ -90,7 +92,7 @@ a
 
 #content
   position relative
-  size 1024px auto 
+  size 1024px auto
   min-height 1430px
   margin 55px auto 100px
   box-shadow 0 0 15px silver

@@ -13,7 +13,7 @@ export default {
 </script>
 
 <style scoped lang="stylus">
-@import '../config.styl'   
+@import '../config.styl'
 
 #github
   font-family 'Museo Sans', $fontFamily
@@ -25,15 +25,15 @@ export default {
   &:hover
     bottom -20px
     opacity 1
-    span 
+    span
       opacity 1
-  img 
+  img
     size 50px
   span
     font-size 15px
     display block
     text-align center
-    position relative 
+    position relative
     margin-left -45px
     margin-bottom 5px
     background #d0d0d0
@@ -43,7 +43,7 @@ export default {
     border-radius 5px
     transition all .3s
     opacity 0
-    
+
 @media screen and (max-width 1440px)
   #github
     display none
