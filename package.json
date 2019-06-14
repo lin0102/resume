@@ -1,7 +1,7 @@
 {
-  "name": "nuxt-test",
+  "name": "resume",
   "version": "1.0.0",
-  "description": "My superb Nuxt.js project",
+  "description": "张德明的个人简历",
   "author": "coderming",
   "private": true,
   "scripts": {
