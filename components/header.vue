@@ -33,11 +33,11 @@ header
 </template>
 
 <script>
-import config from '../config/index.js'
+import { HeaderConfig } from '../config/index.js'
 
 export default {
   data: () => {
-    let reData = config.header
+    let reData = HeaderConfig
     reData.contacts.forEach(item => {
       if (item.type === 'tell')
         return item.showAddr =

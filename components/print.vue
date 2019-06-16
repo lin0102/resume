@@ -17,14 +17,14 @@
 </template>
 
 <script>
-import config from '../config/index.js'
+import { OptionConfig } from '../config/index.js'
 
 const evBeforePrint = () => {
-  window.document.title = config.printName || prevTitle.replace(/\ *\|\ */g, '-')
+  window.document.title = OptionConfig.printName || prevTitle.replace(/\ *\|\ */g, '-')
 }
 
 const evAfterPrint = () => {
-  window.document.title = config.docName
+  window.document.title = OptionConfig.docName
 }
 
 if (process.client) {
@@ -36,7 +36,7 @@ if (process.client) {
 export default {
   data: () => {
     return {
-      ...config,
+      ...OptionConfig,
       // 计算 #content 的高度是否大于1430
       isPrintInOnePage: true
     }

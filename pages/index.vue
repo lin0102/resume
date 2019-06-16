@@ -22,24 +22,24 @@ import About from '../components/about.vue'
 import Github from '../components/github.vue'
 import Discuss from '../components/discuss.vue'
 
-import config from '../config/index.js'
+import { OptionConfig, HeaderConfig } from '../config/index.js'
 
 if (process.client) {
   // 引入用户自定义网页标题
-  if (config.title)
-    window.document.title = config.docName
+  if (OptionConfig.title)
+    window.document.title = OptionConfig.docName
   // 引入rel描述meta
   document.head.innerHTML +=
   `<meta \
     name="description" \
-    content="${config.description
-              || (config.header.name + (config.header.nickName ? `（${config.header.nickName}）` : '') +
-              `的个人简历 - ${config.header.job}`)}">`
+    content="${OptionConfig.description
+              || (HeaderConfig.name + (HeaderConfig.nickName ? `（${HeaderConfig.nickName}）` : '') +
+              `的个人简历 - ${HeaderConfig.job}`)}">`
 }
 
 export default {
   name: 'resume',
-  data: () => config,
+  data: () => OptionConfig,
   components: {
     Print,
     Header,

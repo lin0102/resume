@@ -5,10 +5,10 @@ a#github(:href="githubLogoLocation" target="_blank")
 </template>
 
 <script>
-import config from '../config/index.js'
+import { OptionConfig } from '../config/index.js'
 
 export default {
-  data: () => config
+  data: () => OptionConfig
 }
 </script>
 

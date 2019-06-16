@@ -5,11 +5,11 @@
 </template>
 
 <script>
-import config from '../config/index.js'
+import { FooterConfig } from '../config/index.js'
 
 export default {
   data: () => {
-    let data = config.footer
+    let data = FooterConfig
 
     if (process.client) {
       if (data.setDefaultRightUrl && !data.right && data.right.length === 0) {

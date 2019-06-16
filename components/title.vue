@@ -5,11 +5,11 @@
 </template>
 
 <script>
-import config from '../config/index.js'
+import { TitleConfig } from '../config/index.js'
 
 export default {
   data: () => {
-    let data = config.title
+    let data = TitleConfig
 
     // 如果需要空格转换，就取消注释掉下面这行代码
     // config.title.left = config.title.left.replace(/\ /g, '&nbsp')

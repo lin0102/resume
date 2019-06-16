@@ -4,10 +4,10 @@ a#about(href="https://github.com/coderming" target="_blank")
 </template>
 
 <script>
-import config from '../config/index.js'
+import { OptionConfig } from '../config/index.js'
 
 export default {
-  data: () => config
+  data: () => OptionConfig
 }
 </script>
 
