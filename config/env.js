@@ -8,6 +8,7 @@ const dayjs = require('dayjs')
  * 此处配置会同时注入到build runtime和node runtime
  * @param {[String]} process.env.BUILT_TIME 运行build task时的时间，格式：'xxxx年xx月xx日 xx:xx'
  */
+
 process.env.BUILT_TIME = dayjs().format('YYYY年MM月DD日 HH:mm')
 
-process.env.PORT = 4001
+process.env.PORT       = 4001
