@@ -1,5 +1,5 @@
 <template lang="pug">
-  div#gitalk-container
+  div#gitalk-container(v-if="{isShowContainer}")
 </template>
 
 <script>
@@ -7,12 +7,20 @@ import 'gitalk/dist/gitalk.css'
 import Gitalk from 'gitalk'
 import { GitalkConfig } from '../config/index.js'
 
+// 如果不使用，就不去渲染
+const isShowContainer = true
+if (GitalkConfig) isShowContainer = false
+
 export default {
   data () {
-    return {}
+    return {
+      isShowContainer
+    }
   },
 
   mounted() {
+    if (GitalkConfig) return void 0
+
     const gitalk = new Gitalk(GitalkConfig)
 
     gitalk.render('gitalk-container')
