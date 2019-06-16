@@ -5,7 +5,7 @@ a#github(:href="githubLogoLocation" target="_blank")
 </template>
 
 <script>
-import config from '../config.js'
+import config from '../config/index.js'
 
 export default {
   data: () => config
@@ -13,7 +13,7 @@ export default {
 </script>
 
 <style scoped lang="stylus">
-@import '../config.styl'
+@import '../config/index.styl'
 
 #github
   font-family 'Museo Sans', $fontFamily

@@ -5,21 +5,24 @@ div.s-right
     div(:class="(para.bold ? 'need-bold ' : '') + (para.showDot ? 'have-dot' : '')"
         class="si-p"
         v-for="para in item.content")
-      span.sip-dot(v-if="para.showDot")  · 
+      span.sip-dot(v-if="para.showDot")  ·
       span.sip-right(v-if="para.right" v-html="para.right")
       span.sip-left(v-html="para.left")
 </template>
 
 <script>
-import config from '../config.js'
+import { SectionConfig } from '../config/index.js'
+console.log(SectionConfig)
 
 export default {
-  data: () => config
+  data: () => {
+    return { SectionRight: SectionConfig.right }
+  }
 }
 </script>
 
 <style lang="stylus">
-@import '../config.styl'
+@import '../config/index.styl'
 @import '../styles/public/section.styl'
 
 .s-right
@@ -29,6 +32,7 @@ export default {
   min-height 1135px
   box-sizing border-box
   padding 0 40px 0 20px
+  column-count 2
 
 .one-section
   width 100%

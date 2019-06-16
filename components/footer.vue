@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import config from '../config.js'
+import config from '../config/index.js'
 
 export default {
   data: () => {
@@ -31,7 +31,7 @@ export default {
 </script>
 
 <style scoped lang="stylus">
-@import '../config.styl'
+@import '../config/index.styl'
 
 a
   font-family "Museo Sans", $fontFamily !important

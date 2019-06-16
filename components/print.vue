@@ -17,7 +17,7 @@
 </template>
 
 <script>
-import config from '../config.js'
+import config from '../config/index.js'
 
 const evBeforePrint = () => {
   window.document.title = config.printName || prevTitle.replace(/\ *\|\ */g, '-')
@@ -64,7 +64,7 @@ export default {
 </script>
 
 <style scoped lang="stylus">
-@import '../config.styl'
+@import '../config/index.styl'
 
 #print
   position fixed

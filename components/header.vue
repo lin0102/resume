@@ -11,7 +11,7 @@ header
       :href="`https://github.com/${github}`"
       target="_blank")
       small
-        a.iconfont.icon-github 
+        a.iconfont.icon-github
           span {{github}}
     h2.job {{job}}
   .tit-bottom
@@ -25,29 +25,29 @@ header
         span(:class="judjeIcon(item)" class="iconfont")
       //- github 移动端logo
       a(v-if="github"
-        class="iconfont tbr-item-mobile icon-github" 
+        class="iconfont tbr-item-mobile icon-github"
         :href="'https://github.com/' + github")
-      a(:class="judjeIcon(item)" class="iconfont tbr-item-mobile" 
+      a(:class="judjeIcon(item)" class="iconfont tbr-item-mobile"
         v-for="item in contacts"
         :href="judjeLink(item) && judjeLink(item) + item.address")
 </template>
 
 <script>
-import config from '../config.js'
+import config from '../config/index.js'
 
 export default {
   data: () => {
     let reData = config.header
     reData.contacts.forEach(item => {
       if (item.type === 'tell')
-        return item.showAddr = 
+        return item.showAddr =
         `${item.address.slice(0, 3)}
           ${item.address.slice(3, -4)}
           <span class="print-hide">****</span>
           <span class="print-show">${item.address.slice(-4)}</span>`
       else if (item.type === 'mail')
-        return item.showAddr = 
-        `${item.address.split('@')[0]}<span class="print-hide">#</span>` + 
+        return item.showAddr =
+        `${item.address.split('@')[0]}<span class="print-hide">#</span>` +
         `<span class="print-show">@</span>${item.address.split('@')[1]}`
       item.showAddr = item.address
     })
@@ -79,7 +79,7 @@ export default {
 </script>
 
 <style scoped lang="stylus">
-@import '../config.styl'
+@import '../config/index.styl'
 
 header
   size 100% 242px
@@ -127,7 +127,7 @@ header
       small
         border-top 20px solid transparent
         border-bottom 20px solid transparent
-        border-right 10px solid transparent 
+        border-right 10px solid transparent
         cursor pointer
         transition all .2s
         height 40px
@@ -147,7 +147,7 @@ header
           vertical-align text-top
           &:hover
             opacity 1
-          span 
+          span
             padding-left 3px
             font-family 'Museo Sans', $fontFamily
     h2
@@ -210,10 +210,10 @@ header
   header
     height auto
     padding 20px 30px
-  
+
   .nick, .tbr-item
     display none !important
-    
+
 
   h1, small, h2, h3, .tb-left
     display block
@@ -221,7 +221,7 @@ header
     float none !important
     margin 0 auto !important
     text-align center !important
-    
+
   .tbl-item
     text-align center !important
 
@@ -239,6 +239,6 @@ header
     size 100% auto
     .tbr-item-mobile
       display inline !important
-  
+
 
 </style>

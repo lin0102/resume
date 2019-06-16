@@ -5,12 +5,13 @@
 </template>
 
 <script>
-import config from '../config.js'
+import config from '../config/index.js'
 
 export default {
   data: () => {
     let data = config.title
-    
+
+    // 如果需要空格转换，就取消注释掉下面这行代码
     // config.title.left = config.title.left.replace(/\ /g, '&nbsp')
     // config.title.right = config.title.right.replace(/\ /g, '&nbsp')
 
@@ -20,7 +21,7 @@ export default {
 </script>
 
 <style scoped lang="stylus">
-@import '../config.styl'
+@import '../config/index.styl'
 
 #title
   position absolute

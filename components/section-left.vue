@@ -5,21 +5,24 @@ div.s-left
     div(:class="{'need-bold': para.bold, 'have-dot': para.showDot}"
         class="si-p"
         v-for="para in item.content")
-      span.sip-dot(v-if="para.showDot")  · 
+      span.sip-dot(v-if="para.showDot")  ·
       span.sip-right(v-if="para.right" v-html="para.right")
       span.sip-left(v-html="para.left")
 </template>
 
 <script>
-import config from '../config.js'
+import { SectionConfig } from '../config/index.js'
 
+console.log(SectionConfig.left)
 export default {
-  data: () => config
+  data: () => {
+    return { SectionLeft: SectionConfig.left }
+  }
 }
 </script>
 
 <style lang="stylus">
-@import '../config.styl'
+@import '../config/index.styl'
 @import '../styles/public/section.styl'
 
 .s-left
@@ -31,10 +34,6 @@ export default {
   padding 0 20px 0 40px
   border-right 1px solid rgba($mainColor, .15)
 
-// @media print
-//   .s-left
-//     padding-top 5px
-
 @media screen and (max-width 1024px)
   .s-left
     size 100% auto
@@ -43,6 +42,5 @@ export default {
     border none
     padding 0 20px
     min-height 0px
-
 
 </style>

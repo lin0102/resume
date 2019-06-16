@@ -1,15 +1,18 @@
 <template lang="pug">
-div#content
-  Header
-  section#main-in
-    //- 处理只想显示单列的情况
-    SectionLeft(:class="(sectionRight && sectionRight.length) ? '' : 'one-section'")
-    SectionRight(v-if="sectionRight")
-  Print
-  Title
-  Footer
-  About(v-if="showAboutInfo")
-  Github(v-if="githubLogoLocation")
+#body-container
+  div#content
+    Header
+    section#main-in
+      //- 处理只想显示单列的情况
+      SectionLeft
+      SectionRight
+    Print
+    Title
+    Footer
+    About(v-if="showAboutInfo")
+    Github(v-if="githubLogoLocation")
+  no-ssr
+    Discuss
 </template>
 
 <script>
@@ -21,8 +24,9 @@ import Title from '../components/title.vue'
 import Footer from '../components/footer.vue'
 import About from '../components/about.vue'
 import Github from '../components/github.vue'
+import Discuss from '../components/discuss.vue'
 
-import config from '../config.js'
+import config from '../config/index.js'
 
 if (process.client) {
   // 引入用户自定义网页标题
@@ -48,7 +52,8 @@ export default {
     Title,
     Footer,
     About,
-    Github
+    Github,
+    Discuss
   }
 }
 </script>
@@ -56,11 +61,10 @@ export default {
 <style lang="stylus">
 @import '../styles/iconfont/iconfont.css'
 @import '../styles/font/font.css'
-@import '../config.styl'
+@import '../config/index.styl'
 
 @css {
   html, body, h1, h2, h3, h4, h5, h6, hr, p {
-    font-size: 50px;
     -webkit-font-smoothing: antialiased;
     -webkit-text-size-adjust: none;
   }
