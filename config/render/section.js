@@ -1,9 +1,6 @@
 /**
  * 正文部分
- * 说明：本模版采用两栏式显示
- * 分别呢 sectionLeft 和 sectionRight
- * 两栏的东西不会合并显示
- * 如果你想只显示一栏，请删除sectionRight字段，会自动变为sectionLeft的单行显示
+ * 说明：本模版在pc端和打印端采用两栏式显示，手机端采用单栏
  * 请自己判断并适应页面尺寸
  */
 export default [

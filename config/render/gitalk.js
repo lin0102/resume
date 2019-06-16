@@ -1,3 +1,8 @@
+/**
+ * Gitalk 配置部分
+ * 具体可以参考 https://github.com/gitalk/gitalk/blob/master/readme-cn.md
+ * 请自己申请一个client ID
+ */
 export default {
   id: '__resume',
   owner: 'coderming', // GitHub ID
