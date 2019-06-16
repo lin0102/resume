@@ -7,9 +7,9 @@ import 'gitalk/dist/gitalk.css'
 import Gitalk from 'gitalk'
 import { GitalkConfig } from '../config/index.js'
 
+let isShowContainer = true
 // 如果不使用，就不去渲染
-const isShowContainer = true
-if (GitalkConfig) isShowContainer = false
+if (!GitalkConfig) isShowContainer = false
 
 export default {
   data () {
@@ -19,7 +19,7 @@ export default {
   },
 
   mounted() {
-    if (GitalkConfig) return void 0
+    if (!GitalkConfig) return void 0
 
     const gitalk = new Gitalk(GitalkConfig)
 
@@ -36,7 +36,7 @@ export default {
   height auto
   margin 0 auto
   color #666
-  margin-bottom 0
+  margin-bottom -20px
 
 @media print
   #gitalk-container
