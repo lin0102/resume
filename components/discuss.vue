@@ -27,8 +27,8 @@ export default {
   max-width 1024px
   height auto
   margin 0 auto
-  padding-bottom 50px
   color #666
+  margin-bottom 0
 
 @media print
   #gitalk-container
@@ -36,7 +36,7 @@ export default {
 
 @media (max-width 1024px)
   #gitalk-container
-    padding 20px
+    padding 20px 30px 0
     margin-top 50px
 
 

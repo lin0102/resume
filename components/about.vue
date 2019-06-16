@@ -22,8 +22,8 @@ export default {
   line-height 2em
   box-sizing border-box
   text-align center
-  padding 0 10px
-  bottom -70px
+  padding 20px 10px
+  bottom -60px
   left 50%
   margin-left -100px
   color #C8C8C8
@@ -47,8 +47,7 @@ export default {
     box-sizing border-box
     size 100% auto
     display block
-    padding 0 0 10px
-    margin-top -30px
+    margin-top -70px
     position relative
     top 65px
 </style>

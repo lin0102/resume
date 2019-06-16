@@ -235,7 +235,7 @@ header
     font-size 16px !important
 
   .tb-right
-    margin-top -10px !important
+    margin-top 10px !important
     size 100% auto
     .tbr-item-mobile
       display inline !important

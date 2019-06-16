@@ -1,13 +1,12 @@
-export default {
-  /**
-   * 正文部分
-   * 说明：本模版采用两栏式显示
-   * 分别呢 sectionLeft 和 sectionRight
-   * 两栏的东西不会合并显示
-   * 如果你想只显示一栏，请删除sectionRight字段，会自动变为sectionLeft的单行显示
-   * 请自己判断并适应页面尺寸
-   */
-  sectionLeft: [
+/**
+ * 正文部分
+ * 说明：本模版采用两栏式显示
+ * 分别呢 sectionLeft 和 sectionRight
+ * 两栏的东西不会合并显示
+ * 如果你想只显示一栏，请删除sectionRight字段，会自动变为sectionLeft的单行显示
+ * 请自己判断并适应页面尺寸
+ */
+export default [
     /**
      * 每一个小模块，都有以下几个配置项：
      * title： 顶部名称栏
@@ -128,13 +127,7 @@ export default {
           showDot: false
         }
       ]
-    }
-  ],
-
-  /**
-   * 若想仅显示单行，请删除此属性
-   */
-  sectionRight: [
+    },
     /**
      * 每一个小模块，都有以下几个配置项：
      * title： 顶部名称栏
@@ -253,4 +246,3 @@ export default {
       ]
     }
   ]
-}

@@ -6,10 +6,10 @@
     Print
     Title
     Footer
-    About(v-if="showAboutInfo")
-    Github(v-if="githubLogoLocation")
   no-ssr
     Discuss
+  About(v-if="showAboutInfo")
+  Github(v-if="githubLogoLocation")
 </template>
 
 <script>
@@ -89,11 +89,14 @@ a
 .print-hide
   display inherit
 
+#body-container
+  position relative
+
 #content
   position relative
   size 1024px auto
   min-height 1430px
-  margin 55px auto 100px
+  margin 55px auto
   box-shadow 0 0 15px silver
   border-radius 5px
   transition all .2s ease-out
