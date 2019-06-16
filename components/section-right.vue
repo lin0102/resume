@@ -12,12 +12,9 @@ div.s-right
 
 <script>
 import { SectionConfig } from '../config/index.js'
-console.log(SectionConfig)
 
 export default {
-  data: () => {
-    return { SectionRight: SectionConfig.right }
-  }
+  data: () => SectionConfig
 }
 </script>
 

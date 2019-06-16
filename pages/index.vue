@@ -2,10 +2,7 @@
 #body-container
   div#content
     Header
-    section#main-in
-      //- 处理只想显示单列的情况
-      SectionLeft
-      SectionRight
+    Section
     Print
     Title
     Footer
@@ -18,8 +15,7 @@
 <script>
 import Print from '../components/print.vue'
 import Header from '../components/header.vue'
-import SectionLeft from '../components/section-left.vue'
-import SectionRight from '../components/section-right.vue'
+import Section from '../components/section.vue'
 import Title from '../components/title.vue'
 import Footer from '../components/footer.vue'
 import About from '../components/about.vue'
@@ -47,8 +43,7 @@ export default {
   components: {
     Print,
     Header,
-    SectionLeft,
-    SectionRight,
+    Section,
     Title,
     Footer,
     About,
@@ -102,13 +97,6 @@ a
   box-shadow 0 0 15px silver
   border-radius 5px
   transition all .2s ease-out
-
-#main-in
-  overflow hidden
-  min-height 1188px
-  background white
-  border-bottom-left-radius 5px
-  border-bottom-right-radius 5px
 
 @media print
   #content

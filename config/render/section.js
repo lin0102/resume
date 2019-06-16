@@ -7,7 +7,7 @@ export default {
    * 如果你想只显示一栏，请删除sectionRight字段，会自动变为sectionLeft的单行显示
    * 请自己判断并适应页面尺寸
    */
-  left: [
+  sectionLeft: [
     /**
      * 每一个小模块，都有以下几个配置项：
      * title： 顶部名称栏
@@ -134,7 +134,7 @@ export default {
   /**
    * 若想仅显示单行，请删除此属性
    */
-  right: [
+  sectionRight: [
     /**
      * 每一个小模块，都有以下几个配置项：
      * title： 顶部名称栏
