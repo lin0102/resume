@@ -68,7 +68,7 @@ export default {
 
 #print
   position fixed
-  z-index 10
+  z-index 100
   left 50%
   bottom 5px
   margin-left 520px

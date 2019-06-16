@@ -36,7 +36,7 @@
     column-count 2
     column-gap 30px
     width 100%
-    padding 30px 40px 0
+    padding 30px 32px 0
 
   @media screen and (max-width 1024px)
     #main-in
