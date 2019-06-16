@@ -44,7 +44,7 @@ export default {
 
 @media (max-width 1024px)
   #gitalk-container
-    padding 20px 30px 0
+    padding 20px 20px 0
     margin-top 50px
 
 
