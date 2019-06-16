@@ -94,8 +94,8 @@ a
 
 #content
   position relative
+  display block
   size 1024px auto
-  min-height 1430px
   margin 55px auto
   box-shadow 0 0 15px silver
   border-radius 5px
@@ -107,6 +107,7 @@ a
     margin 0
     height 1447px
     overflow hidden
+    min-height 1430px
     background white
   .print-hide
     display none

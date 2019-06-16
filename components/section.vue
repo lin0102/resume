@@ -1,5 +1,5 @@
 <template lang="pug">
-  section#main-in.sec
+  section#main-in
     .s-item(v-for="item in SectionConfig")
       h3 {{item.title}}
       div(:class="{'need-bold': para.bold, 'have-dot': para.showDot}"
@@ -25,14 +25,11 @@
   @import '../styles/public/section.styl'
 
   #main-in
+    display block
     overflow hidden
-    min-height 1188px
     background white
     border-bottom-left-radius 5px
     border-bottom-right-radius 5px
-
-  .sec
-    float left
     min-height 1135px
     box-sizing border-box
     border-right 1px solid rgba($mainColor, .15)
@@ -42,7 +39,7 @@
     padding 30px 40px 0
 
   @media screen and (max-width 1024px)
-    .sec
+    #main-in
       size 100% auto
       float none
       clear both
