@@ -24,19 +24,6 @@ import Discuss from '../components/discuss.vue'
 
 import { OptionConfig, HeaderConfig } from '../config/index.js'
 
-if (process.client) {
-  // 引入用户自定义网页标题
-  if (OptionConfig.title)
-    window.document.title = OptionConfig.docName
-  // 引入rel描述meta
-  document.head.innerHTML +=
-  `<meta \
-    name="description" \
-    content="${OptionConfig.description
-              || (HeaderConfig.name + (HeaderConfig.nickName ? `（${HeaderConfig.nickName}）` : '') +
-              `的个人简历 - ${HeaderConfig.job}`)}">`
-}
-
 export default {
   name: 'resume',
   data: () => OptionConfig,
@@ -49,6 +36,18 @@ export default {
     About,
     Github,
     Discuss
+  },
+  head () {
+    return {
+      title: OptionConfig.docName,
+      meta: [
+        { hid: 'description',
+          name: 'description',
+          content: `${OptionConfig.description
+              || (HeaderConfig.name + (HeaderConfig.nickName ? `（${HeaderConfig.nickName}）` : '') +
+              `的个人简历 - ${HeaderConfig.job}`)}` }
+      ]
+    }
   }
 }
 </script>
