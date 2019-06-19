@@ -1,6 +1,6 @@
 <template lang="pug">
   section#main-in
-    .s-item(v-for="item in SectionConfig")
+    div.s-item(v-for="item in SectionConfig")
       h3 {{item.title}}
       div(:class="{'need-bold': para.bold, 'have-dot': para.showDot}"
           class="si-p"
@@ -35,6 +35,7 @@
     column-count 2
     column-gap 30px
     width 100%
+    column-break-inside avoid
     padding 30px 32px 0
 
   @media screen and (max-width 1024px)
