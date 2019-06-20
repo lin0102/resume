@@ -7,7 +7,7 @@
  * @param {[String]} 需要显示的内容
  */
 export const FooterConfig = {
-  left: '页面中蓝色框均为可点击的链接',
+  left: '',
   right: '',
   // 设置footer right字段是否默认为当前网页展示URL
   // 当right字段为空且此字段为true时，right部分会显示 "网页版简历：${location.url}"
