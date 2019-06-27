@@ -16,17 +16,21 @@
     "consola": "^2.7.1",
     "cross-env": "^5.2.0",
     "dayjs": "^1.8.14",
+    "fs": "^0.0.1-security",
     "gitalk": "^1.5.0",
     "gitment": "0.0.3",
     "koa": "^2.6.2",
+    "markdown-loader": "^5.0.0",
     "nuxt": "^2.0.0",
     "pug": "^2.0.3",
     "pug-plain-loader": "^1.0.0",
     "stylus": "^0.54.5",
     "stylus-loader": "^3.0.2",
-    "vssue": "^1.0.1"
+    "vssue": "^1.0.1",
+    "vue-markdown": "^2.2.4"
   },
   "devDependencies": {
-    "nodemon": "^1.18.9"
+    "nodemon": "^1.18.9",
+    "raw-loader": "^3.0.0"
   }
 }

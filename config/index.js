@@ -6,6 +6,8 @@
  * @param {[String]} process.env.BUILT_TIME 运行build task时的时间，格式：'xxxx年xx月xx日 xx:xx'
  */
 
+export { default as SectionContent } from 'raw-loader!./render/content.md'
+
 export { default as OptionConfig   } from './render/option'  // 总体配置
 
 export { default as HeaderConfig   } from './render/header'  // 主体头部内容
