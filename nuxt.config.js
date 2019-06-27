@@ -1,4 +1,6 @@
 
+const dayjs = require('dayjs')
+
 module.exports = {
   mode: 'universal',
   /*
@@ -14,6 +16,15 @@ module.exports = {
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
+  },
+  server: {
+    port: 4001 // 运行端口
+  },
+  /**
+   * 环境变量
+   */
+  env: {
+    BUILT_TIME: dayjs().format('YYYY年MM月DD日 HH:mm'), // 构建时间
   },
   /*
   ** Customize the progress-bar color

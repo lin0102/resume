@@ -1,5 +1,10 @@
-
-import './env' // 全局环境注入
+/**
+ * 简历内容配置文件
+ * @author CoderMing
+ * https://github.com/coderming/resume
+ *
+ * @param {[String]} process.env.BUILT_TIME 运行build task时的时间，格式：'xxxx年xx月xx日 xx:xx'
+ */
 
 export { default as OptionConfig   } from './render/option'  // 总体配置
 
