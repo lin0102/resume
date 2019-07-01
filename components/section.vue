@@ -6,16 +6,22 @@
           class="si-p"
           v-for="para in item.content")
         span.sip-dot(v-if="para.showDot")  ·
-        span.sip-right(v-if="para.right" v-html="para.right")
-        span.sip-left(v-html="para.left")
+        span.sip-right(v-if="para.right")
+          vue-markdown {{para.right}}
+        span.sip-left(v-if="para.left")
+          vue-markdown {{para.left}}
 </template>
 
 <script>
   import { SectionConfig } from '../config/index.js'
+  import VueMarkdown from 'vue-markdown'
 
   export default {
     data: () => {
       return { SectionConfig }
+    },
+    components: {
+      'vue-markdown': VueMarkdown
     }
   }
 </script>
@@ -37,6 +43,7 @@
     width 100%
     column-break-inside avoid
     padding 30px 32px 0
+
 
   @media screen and (max-width 1024px)
     #main-in
@@ -74,20 +81,8 @@
       line-height 1.56em
       position relative
       padding-top .4em
-      &.have-dot
-        padding-left 10px
-      span.sip-dot
-        position absolute
-        color $mainColor
-        padding 0 3px
-        left -4px
-        font-size 20px
-        line-height $articleSize * 1.8
-        top 3px
-        font-weight 900
-        & + .sip-left
-          // font-family $fontFamily
-          line-height: 1.5em
+      ul
+        padding-left 1em
       .sip-left
         font-family Museo Sans, $fontFamily
       .sip-right
@@ -112,14 +107,9 @@
           color white
           background $mainColor
       em
-        padding 0 2px
-        margin 0 2px
         font-size $articleSize
-        background #F8F8F8
-        border-radius 2px
         font-style normal
-        color #333
-      strong, b
+      strong, em
         font-weight 700
         em
           color inherit
