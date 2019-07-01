@@ -2,6 +2,10 @@ const p = (left = '', right = '') => {
   return { left, right }
 }
 
+const h = (left = '', right = '') => {
+  return { left: `#### ${left}`, right: `#### ${right}` }
+}
+
 /**
  * 正文部分
  * 说明：本模版在pc端和打印端采用两栏式显示，手机端采用单栏
