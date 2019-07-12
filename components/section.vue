@@ -5,11 +5,10 @@
       div(:class="{'need-bold': para.bold, 'have-dot': para.showDot}"
           class="si-p"
           v-for="para in item.content")
-        span.sip-dot(v-if="para.showDot")  ·
         span.sip-right(v-if="para.right")
-          vue-markdown {{para.right}}
+          vue-markdown(:source="para.right")
         span.sip-left(v-if="para.left")
-          vue-markdown {{para.left}}
+          vue-markdown(:source="para.left")
 </template>
 
 <script>
