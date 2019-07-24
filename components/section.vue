@@ -40,7 +40,6 @@
     column-count 2
     column-gap 30px
     width 100%
-    column-break-inside avoid
     padding 30px 32px 0
 
 
@@ -59,6 +58,7 @@
     overflow hidden
     color $mainFontColor
     padding-bottom 18px
+    break-inside avoid
     .need-bold
       font-weight 700
       font-size $articleSize + 1px !important
