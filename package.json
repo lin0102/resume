@@ -24,7 +24,8 @@
     "pug-plain-loader": "^1.0.0",
     "stylus": "^0.54.5",
     "stylus-loader": "^3.0.2",
-    "vssue": "^1.0.1"
+    "vssue": "^1.0.1",
+    "vue-markdown": "^2.2.4"
   },
   "devDependencies": {
     "nodemon": "^1.18.9"
