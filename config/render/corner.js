@@ -8,7 +8,7 @@
  */
 export const FooterConfig = {
   left: '',
-  right: '',
+  right: '[网页版简历：resume.coderming.com](https://resume.coderming.com)',
   // 设置footer right字段是否默认为当前网页展示URL
   // 当right字段为空且此字段为true时，right部分会显示 "网页版简历：${location.url}"
   setDefaultRightUrl: true

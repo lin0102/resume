@@ -1,13 +1,19 @@
 <template lang="pug">
 #padi
-  span.pi-left(v-html="left")
-  span.pi-right(v-html="right")
+  span.pi-left
+    vue-markdown(:source="left")
+  span.pi-right
+    vue-markdown(:source="right")
 </template>
 
 <script>
 import { FooterConfig } from '../config/index.js'
+import VueMarkdown from 'vue-markdown'
 
 export default {
+  components: {
+    VueMarkdown
+  },
   data: () => {
     let data = FooterConfig
 
