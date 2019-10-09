@@ -1,5 +1,12 @@
 export default {
   /**
+   * 屏蔽简历的文字显示
+   * 如果显示简历，直接设置成 false 即可
+   * 此处是方便直接隐藏简历
+   * 当内容为字符串时，将自动屏蔽简历，显示屏蔽后的文字
+   */
+  blockMsg: '有需要请联系 coderming@foxmail.com',
+  /**
    * HTML页面的title
    * @param {[String]}
    */

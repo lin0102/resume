@@ -1,5 +1,8 @@
 <template lang="pug">
-#body-container
+#body-blocked(v-if="blockMsg")
+  p 该简历被设置为不可见
+  p {{blockMsg}}
+#body-container(v-else)
   div#content
     Header
     Section
@@ -87,6 +90,15 @@ a
   display none
 .print-hide
   display inherit
+
+#body-blocked
+  padding 3em 1em 0
+  text-align center
+  color #999999
+  width 100%
+  box-sizing border-box
+  max-width 100%
+  line-height 2em
 
 #body-container
   position relative
