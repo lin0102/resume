@@ -2,6 +2,7 @@
 #body-blocked(v-if="blockMsg")
   p 该简历被设置为不可见
   p {{blockMsg}}
+  About(v-if="showAboutInfo")
 #body-container(v-else)
   div#content
     Header
