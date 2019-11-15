@@ -5,16 +5,15 @@
 - 一键生成PDF
 
 - 可选插入微信二维码
-
 - 全响应式
 
 - 参数全在配置文件里，易于修改编辑
 
-- 集成Gitalk评论系统
+- 集成Gitalk评论系统（可选激活）
 
-  
 
-  线上demo： [简历 | 张德明](https://resume.coderming.com/)
+
+  线上demo： [简历 | 牛奥林](https://resume.nalgd.top)
 
 使用方式
 
@@ -43,7 +42,7 @@ $ npm start
 ├── assets
 ├── components // 组件存放处
 ├── config // 配置文件存放处
-├── layouts 
+├── layouts
 ├── middleware
 ├── nuxt.config.js
 ├── package.json
@@ -51,7 +50,7 @@ $ npm start
 ├── plugins
 ├── server // server代码
 ├── static // 静态文件
-├── store 
+├── store
 └── styles // 样式文件
 ```
 
@@ -59,4 +58,4 @@ $ npm start
 
 ## 联系交流
 
-如果有各种需求，请在本仓库提 issue 或者在简历的讨论区进行讨论。
+本仓库fork自https://github.com/coderming/resume

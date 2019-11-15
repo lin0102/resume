@@ -3,11 +3,11 @@
  */
 export default {
   // 姓名
-  name: '张德明',
+  name: '牛奥林',
   // GitHub地址
   // 会显示在姓名的右方
   // 在手机上会显示成小logo
-  github: 'CoderMing',
+  github: 'lin0102',
   // 意向的工作
   // 建议不超过8个字
   job: '前端开发工程师',
@@ -17,9 +17,9 @@ export default {
    * 建议区分各种信息的层级
    */
   profiles: [
-    '男 · 2020届本科 · 大一开始自学前端',
+    '男 · 2021届本科 · 大一开始自学前端',
     '重庆邮电大学 · 计算机科学与技术',
-    '校级先进个人 · 综合成绩前 10%（18/278）'
+    '绩点3.42 · 综合成绩前 10%（30/305）'
   ],
   /**
    * 信息栏
@@ -34,9 +34,9 @@ export default {
    * 请提issue
    */
   contacts: [
-    { address: 'coderming@foxmail.com', type: 'mail' },
-    { address: 'coderming.com', type: 'blog' },
-    { address: '17323410086', type: 'tell' }
+    { address: 'gdnal@outlook.com', type: 'mail' },
+    { address: 'nalgd.top', type: 'blog' },
+    { address: '15518652827', type: 'tell' }
   ],
   /**
    * @param {[Boolean]} 是否显示微信二维码
@@ -44,7 +44,7 @@ export default {
    * 如果为true，将自动加载 项目根目录/static/wechat.png 这个路径的图片
    * 注意是png格式，长宽比应为1:1
    */
-  weChatQrCode: true,
+  weChatQrCode: false,
   /**
    * 是否在HTML文档页面显示二维码
    * 若为false，则只在打印PDF时显示二维码

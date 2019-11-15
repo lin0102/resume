@@ -3,7 +3,6 @@ header
   .qrcode(
     v-if="weChatQrCode"
     :class="!showWeChatQrCodeInHTML ? 'print-show' : ''")
-    img(src="../static/wechat.png")
   .tit-top
     h1.name {{name}}
     a.nick(

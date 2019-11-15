@@ -11,7 +11,6 @@
     Title
     Footer
   no-ssr
-    Discuss
   About(v-if="showAboutInfo")
   Github(v-if="githubLogoLocation")
 </template>
@@ -24,7 +23,6 @@ import Title from '../components/title.vue'
 import Footer from '../components/footer.vue'
 import About from '../components/about.vue'
 import Github from '../components/github.vue'
-import Discuss from '../components/discuss.vue'
 
 import { OptionConfig, HeaderConfig } from '../config/index.js'
 
@@ -39,7 +37,6 @@ export default {
     Footer,
     About,
     Github,
-    Discuss
   },
   head () {
     return {
