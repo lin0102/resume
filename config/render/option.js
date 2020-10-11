@@ -5,7 +5,7 @@ export default {
    * 此处是方便直接隐藏简历
    * 当内容为字符串时，将自动屏蔽简历，显示屏蔽后的文字
    */
-  blockMsg: false,
+  blockMsg: true,
   /**
    * HTML页面的title
    * @param {[String]}
